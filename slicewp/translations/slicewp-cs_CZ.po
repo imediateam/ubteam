@@ -1,0 +1,3278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SliceWP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-03 13:10+0000\n"
+"PO-Revision-Date: 2020-10-12 18:27+0300\n"
+"Last-Translator: \n"
+"Language-Team: Čeština\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1\n"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:205
+msgid ""
+"\" id=\"slicewp-link-approve-email-notification\">[edit email notification]</"
+"a>"
+msgstr ""
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:206
+msgid ""
+"\" id=\"slicewp-link-reject-email-notification\" style=\"display:none;"
+"\">[edit email notification]</a>"
+msgstr ""
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:419
+#, php-format
+msgid "%1$s Commission Settings"
+msgstr "%1$s nastavení provizí"
+
+#: includes/users/shortcodes/functions-shortcodes.php:129
+#, php-format
+msgid "%1$sClick here if you wish to logout.%2$s"
+msgstr "%1$sKlikněte pro odhlášení.%2$s"
+
+#: includes/admin/setup-wizard/views/view-step-setup.php:33
+#, php-format
+msgid "%s Commission Rate"
+msgstr "%s provizní sazba"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:176
+#, php-format
+msgid "%s days"
+msgstr "%s dnů"
+
+#: includes/admin/setup-wizard/views/view-step-emails.php:34
+#, php-format
+msgid "%s Notification"
+msgstr "%s upozornění"
+
+#: includes/admin/settings/views/view-settings.php:257
+#, php-format
+msgid "%s Rate"
+msgstr "%s sazba"
+
+#: includes/admin/functions-promo.php:236
+#, php-format
+msgid "%s rate"
+msgstr "%s sazba"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:154
+#, php-format
+msgid "%s rate: %s"
+msgstr "%s sazba: %s"
+
+#: includes/admin/payouts/views/view-payout.php:116
+msgid "(inexistent admin)"
+msgstr "(neexistující administrátor)"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:219
+#: includes/admin/commissions/class-list-table-commissions.php:240
+#: includes/admin/visits/class-list-table-visits.php:235
+#: includes/admin/payouts/class-list-table-payout-payments.php:242
+#: includes/admin/payouts/class-list-table-payout-payments-preview.php:255
+#: includes/admin/payouts/class-list-table-payments.php:254
+#: includes/admin/commissions/views/view-edit-commission.php:62
+#: includes/admin/payouts/views/view-review-payment.php:66
+msgid "(inexistent affiliate)"
+msgstr "(neexistující affiliate partner)"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:670
+#, php-format
+msgid "<a href=\"%s\">view</a>"
+msgstr "<a href=\"%s\">vidět</a>"
+
+#: includes/admin/setup-wizard/views/view-step-setup.php:14
+msgid "A few essential things we need to set up"
+msgstr "Pár nezbytných věcí, které musíme nastavit"
+
+#: index.php:323
+msgid ""
+"A new commission was generated for your affiliate partner "
+"{{affiliate_first_name}} {{affiliate_last_name}} ({{affiliate_email}})."
+msgstr ""
+"Nové provize byly vygenerovány pro affiliate partnera "
+"{{affiliate_first_name}} {{affiliate_last_name}} ({{affiliate_email}})."
+
+#: includes/admin/settings/emails/email-notifications/affiliate-account-approved/functions.php:18
+msgid "Account Approved"
+msgstr "Účet byl schválen"
+
+#: includes/admin/settings/emails/email-notifications/affiliate-account-registration/functions.php:18
+msgid "Account Registration"
+msgstr "Registrace účtu"
+
+#: includes/admin/settings/emails/email-notifications/affiliate-account-rejected/functions.php:18
+msgid "Account Rejected"
+msgstr "Účet zamítnut"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:649
+msgid "Action"
+msgstr "Akce"
+
+#: includes/base/affiliate/functions.php:319
+#: includes/base/creative/functions.php:140
+msgid "Active"
+msgstr "Aktivní"
+
+#: includes/admin/affiliates/views/view-add-affiliate.php:13
+msgid "Add a New Affiliate"
+msgstr "Přidat nového partnera"
+
+#: includes/admin/commissions/views/view-add-commission.php:13
+msgid "Add a New Commission"
+msgstr "Přidat novou provizi"
+
+#: includes/admin/creatives/views/view-add-creative.php:13
+msgid "Add a New Creative"
+msgstr "Přidej novou kampaň"
+
+#: includes/admin/affiliates/views/view-add-affiliate.php:142
+msgid "Add Affiliate"
+msgstr "Přidat partnera"
+
+#: includes/admin/commissions/views/view-add-commission.php:179
+msgid "Add Commission"
+msgstr "Přidat provizi"
+
+#: includes/admin/creatives/views/view-add-creative.php:171
+msgid "Add Creative"
+msgstr "Přidat kampaň"
+
+#: includes/admin/affiliates/views/view-affiliates.php:14
+msgid "Add New Affiliate"
+msgstr "Přidat nového partnera"
+
+#: includes/admin/commissions/views/view-commissions.php:14
+msgid "Add New Commission"
+msgstr "Přidat novou provizi"
+
+#: includes/admin/creatives/views/view-creatives.php:14
+msgid "Add New Creative"
+msgstr "Přidat novou kampaň"
+
+#: includes/base/notes/class-outputter-notes.php:103
+msgid "Add note"
+msgstr "Přidat poznámku"
+
+#: includes/admin/add-ons/functions.php:36
+#: includes/admin/add-ons/functions.php:37
+#: includes/admin/add-ons/views/view-add-ons.php:11
+msgid "Add-ons"
+msgstr "Doplňky"
+
+#: includes/admin/settings/views/view-settings.php:889
+msgid "Admin"
+msgstr "Administrátor"
+
+#: includes/admin/settings/views/view-settings.php:849
+msgid "Admin Emails"
+msgstr "Email administrátora"
+
+#: includes/admin/commissions/class-list-table-commissions.php:77
+#: includes/admin/visits/class-list-table-visits.php:77
+#: includes/admin/payouts/class-list-table-payout-payments.php:68
+#: includes/admin/payouts/class-list-table-payout-payments-preview.php:67
+#: includes/admin/payouts/class-list-table-payments.php:78
+#: includes/base/affiliate/functions.php:564
+#: includes/admin/commissions/views/view-add-commission.php:35
+#: includes/admin/commissions/views/view-edit-commission.php:56
+#: includes/admin/payouts/views/view-review-payment.php:60
+#: includes/admin/settings/views/view-settings.php:902
+msgid "Affiliate"
+msgstr "Affiliate partner"
+
+#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:118
+msgid "Affiliate Account"
+msgstr "Účet partnera"
+
+#: index.php:331
+msgid "Affiliate Account Approved"
+msgstr "Potvrzení affiliate účtu"
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:253
+msgid "Affiliate account could not be created!"
+msgstr "Ůčet affiliate partnera nemohl být vytvořen!"
+
+#: includes/admin/settings/views/view-settings.php:535
+#: includes/admin/setup-wizard/views/view-step-pages.php:67
+msgid "Affiliate Account Page"
+msgstr "Stránka affiliate účtu"
+
+#: index.php:327
+msgid "Affiliate Account Registration"
+msgstr "Registrace affiliate účtu"
+
+#: index.php:335
+msgid "Affiliate Account Rejected"
+msgstr "Affiliate účet byl zamítnut"
+
+#: includes/admin/affiliates/class-submenu-page-affiliates.php:30
+msgid "Affiliate added successfully."
+msgstr "Affiliate partner byl úspěšně přidán."
+
+#: includes/admin/affiliates/class-submenu-page-affiliates.php:42
+msgid "Affiliate application approved successfully."
+msgstr "Žádost o affiliate program byla úspěšně schválena."
+
+#: includes/admin/affiliates/class-submenu-page-affiliates.php:45
+msgid "Affiliate application rejected successfully."
+msgstr "Žádost o affiliate program byla úspěšně zamítnuta."
+
+#: includes/admin/functions-promo.php:192
+msgid "Affiliate Commission Rates"
+msgstr "Sazby provize affiliate partnerů"
+
+#: includes/admin/affiliates/class-submenu-page-affiliates.php:39
+msgid "Affiliate deleted successfully."
+msgstr "Partner byl úspěšně smazán."
+
+#: includes/admin/affiliates/views/view-add-affiliate.php:25
+#: includes/admin/affiliates/views/view-edit-affiliate.php:42
+msgid "Affiliate Details"
+msgstr "Affiliate detaily"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:105
+msgid "Affiliate Email"
+msgstr "Affiliate email"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:116
+#: includes/admin/affiliates/views/view-edit-affiliate.php:75
+msgid "Affiliate ID"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:412
+msgid "Affiliate Keyword"
+msgstr "Affiliate označení odkazu"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:12
+msgid "Affiliate Links"
+msgstr "Affiliate odkazy"
+
+#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:126
+msgid "Affiliate Login"
+msgstr "Přihlášení affiliate partnerů"
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:47
+msgid "Affiliate Login Page"
+msgstr "Stránka pro přihlášení partnerů"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:171
+msgid "Affiliate Message"
+msgstr "Affiliate zprávy"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:93
+#: includes/admin/affiliates/views/view-edit-affiliate.php:52
+#: includes/admin/payouts/views/view-create-payout.php:26
+#: includes/admin/payouts/views/view-preview-payout.php:42
+msgid "Affiliate Name"
+msgstr "Affiliate jméno"
+
+#: includes/admin/commissions/class-list-table-commissions.php:368
+#: includes/admin/visits/class-list-table-visits.php:306
+#: includes/admin/payouts/class-list-table-payments.php:349
+msgid "Affiliate name"
+msgstr "Affiliate jméno"
+
+#: includes/admin/settings/views/view-settings.php:378
+msgid "Affiliate Own Commissions"
+msgstr "Vlastní provize"
+
+#: includes/admin/setup-wizard/class-dashboard-page-setup-wizard.php:64
+msgid "Affiliate Pages"
+msgstr "Affiliate stránky"
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:27
+msgid "Affiliate Register Page"
+msgstr "Affiliate stránka pro registraci"
+
+#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:122
+msgid "Affiliate Registration"
+msgstr "Affiliate registrace"
+
+#: includes/admin/affiliates/class-submenu-page-affiliates.php:33
+msgid "Affiliate updated successfully."
+msgstr "Affiliate partnerství bylo úspěšně aktualizováno."
+
+#: includes/admin/settings/views/view-settings.php:402
+msgid "Affiliate URL Settings"
+msgstr "Nastavení partnerova odkazu"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:82
+msgid "Affiliate Username"
+msgstr "Uživatelské jméno affiliate partnera"
+
+#: includes/admin/affiliates/functions.php:48
+#: includes/admin/affiliates/functions.php:49
+#: includes/admin/affiliates/views/view-affiliates.php:13
+msgid "Affiliates"
+msgstr "Affiliate partneři"
+
+#: includes/admin/settings/views/view-settings.php:481
+msgid "After amount"
+msgstr "Po částce"
+
+#: includes/admin/settings/views/view-settings.php:483
+msgid "After amount with space"
+msgstr "Po částce s mezerou"
+
+#: includes/users/shortcodes/templates/template-register.php:125
+msgid "Agree to Our Terms and Conditions"
+msgstr "Souhlas s podmínkami služby"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:127
+#: includes/admin/commissions/class-list-table-commissions.php:139
+#: includes/admin/visits/class-list-table-visits.php:136
+#: includes/admin/creatives/class-list-table-creatives.php:125
+#: includes/admin/payouts/class-list-table-payout-payments.php:124
+#: includes/admin/payouts/class-list-table-payments.php:137
+msgid "All"
+msgstr "Všechno"
+
+#: includes/admin/payouts/views/view-payout.php:45
+#: includes/admin/payouts/views/view-payouts.php:15
+msgid "All Payments"
+msgstr "Všechny platby"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:254
+#: includes/users/shortcodes/templates/template-affiliate-account.php:332
+#: includes/users/shortcodes/templates/template-affiliate-account.php:400
+msgid "All Time"
+msgstr "Za celou dobu"
+
+#: includes/admin/settings/views/view-settings.php:141
+#: includes/admin/setup-wizard/views/view-step-setup.php:88
+msgid "Allow Affiliate Registration"
+msgstr "Povolit registraci affiliate partnera"
+
+#: includes/admin/settings/views/view-settings.php:389
+msgid "Allow affiliates to earn commissions for their own orders."
+msgstr "Povolit partnerovi zvolit si provizi dle vlastní volby."
+
+#: includes/base/class-plugin-usage-tracker.php:272
+#: includes/admin/settings/views/view-settings.php:1206
+msgid ""
+"Allow SliceWP to anonymously track the plugin's usage. The collected data "
+"can help us improve the plugin and provide better features. Sensitive data "
+"will not be tracked."
+msgstr ""
+"Povolte SliceWP anonymně sledovat využití pluginu. Shromážděná data nám "
+"mohou pomoci vylepšit plugin a poskytnout lepší funkce. Citlivá data nebudou "
+"sledována."
+
+#: includes/admin/settings/views/view-settings.php:1195
+msgid "Allow Tracking"
+msgstr "Povolit sledování"
+
+#: includes/base/class-plugin-usage-tracker.php:272
+msgid "Allow tracking"
+msgstr "Povolit sledování"
+
+#: includes/admin/settings/views/view-settings.php:152
+#: includes/admin/setup-wizard/views/view-step-setup.php:99
+msgid "Allow visitors to register as affiliates."
+msgstr "Povolit návštěvníkům registraci jako affiliate partneři."
+
+#: includes/admin/creatives/views/view-edit-creative.php:112
+#: includes/admin/creatives/views/view-add-creative.php:90
+msgid "Alternative Text"
+msgstr "Alternativní text"
+
+#: includes/admin/commissions/class-list-table-commissions.php:78
+#: includes/admin/payouts/class-list-table-payment-commissions.php:92
+#: includes/admin/payouts/class-list-table-payout-payments.php:69
+#: includes/admin/payouts/class-list-table-payout-payments-preview.php:68
+#: includes/admin/payouts/class-list-table-payments.php:77
+#: includes/users/shortcodes/templates/template-affiliate-account.php:456
+#: includes/users/shortcodes/templates/template-affiliate-account.php:647
+#: includes/admin/commissions/views/view-add-commission.php:50
+#: includes/admin/commissions/views/view-edit-commission.php:75
+#: includes/admin/payouts/views/view-payout.php:78
+#: includes/admin/payouts/views/view-review-payment.php:78
+msgid "Amount"
+msgstr "Částka"
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:32
+msgid "An affiliate attached to the selected user already exists."
+msgstr "Partner přidružený k vybranému uživateli již existuje."
+
+#: includes/admin/functions-promo.php:98
+msgid "Analyze extensive reports"
+msgstr "Analyzujte širší spektrum dat"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:182
+msgid "Application Status"
+msgstr "Stav registrace"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:234
+msgid "Approve"
+msgstr "Potvrdit"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:186
+msgid "Approved"
+msgstr "Potvrzeno"
+
+#: includes/admin/settings/views/view-settings.php:1062
+msgid ""
+"Are you sure you want to add the user role Affiliate to all users that are "
+"also affiliates in SliceWP?"
+msgstr ""
+"Opravdu chcete přidat uživatelskou roli Affiliate všem uživatelům, kteří "
+"jsou také uživateli v SliceWP?"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:234
+msgid "Are you sure you want to Approve the affiliate submission?"
+msgstr "Opravdu chcete schválit zrušení affiliate účtu?"
+
+#: includes/admin/settings/views/view-settings.php:1115
+msgid "Are you sure you want to clear the debug log?"
+msgstr "Opravdu chcete vymazat protokol o sledování?"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:340
+#: includes/admin/affiliates/views/view-edit-affiliate.php:205
+msgid "Are you sure you want to delete this affiliate?"
+msgstr "Opravdu chcete vymazat tohoto affiliate partnera?"
+
+#: includes/admin/commissions/class-list-table-commissions.php:337
+#: includes/admin/commissions/views/view-edit-commission.php:220
+msgid "Are you sure you want to delete this commission?"
+msgstr "Opravdu chcete vymazat tuto provizi?"
+
+#: includes/admin/creatives/class-list-table-creatives.php:304
+#: includes/admin/creatives/views/view-edit-creative.php:211
+msgid "Are you sure you want to delete this creative?"
+msgstr "Opravdu chcete vymazat tuto kampaň?"
+
+#: includes/base/notes/class-outputter-notes.php:146
+msgid "Are you sure you want to delete this note?"
+msgstr "Opravdu chcete vymazat tuto poznámku?"
+
+#: includes/admin/payouts/class-list-table-payout-payments.php:306
+#: includes/admin/payouts/class-list-table-payments.php:318
+msgid "Are you sure you want to delete this payment?"
+msgstr "Opravdu chcete vymazat tuto platbu?"
+
+#: includes/admin/payouts/class-list-table-payouts.php:272
+msgid ""
+"Are you sure you want to delete this payout? All the contained payments will "
+"be also deleted!"
+msgstr ""
+"Opravdu chcete vymazat tuto výplatu? Všechny obsažené platby budou také "
+"vymazány!"
+
+#: includes/admin/payouts/views/view-review-payment.php:171
+#, php-format
+msgid "Are you sure you want to mark the payment as %s?"
+msgstr "Opravdu chcete označit platbu jako %s?"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:235
+msgid "Are you sure you want to Reject the affiliate submission?"
+msgstr "Opravdu chcete odmítnout přidání affiliate partnera?"
+
+#: includes/admin/settings/views/view-settings.php:1063
+msgid "Are you sure you want to remove the user role Affiliate from all users?"
+msgstr "Opravdu chcete odebrat affiliate roli všem uživatelům?"
+
+#: includes/admin/payouts/class-list-table-payment-commissions.php:268
+msgid "Are you sure you want to remove this commission?"
+msgstr "Opravdu chcete odebrat tuto provizi?"
+
+#: includes/base/functions-currency.php:59
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/admin/functions-promo.php:77
+msgid ""
+"Associate coupon codes to affiliates and reward commissions to your "
+"affiliate partners whenever customers use the codes when purchasing."
+msgstr ""
+"Přiřaďte kupónové kódy přidruženým partnerům a odměňte je provizemi, kdykoli "
+"zákazníci tyto kódy použijí při nákupu."
+
+#: includes/base/functions-currency.php:51
+msgid "Australian Dollar"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:181
+msgid "Auto Register Affiliates"
+msgstr "Automaticky registrovaný affiliate partneři"
+
+#: includes/admin/settings/views/view-settings.php:192
+msgid "Automatically register new user accounts as affiliates."
+msgstr "Automaticky registrovat nového uživatele jako affiliate partnera."
+
+#: includes/admin/payouts/views/view-payments.php:14
+msgid "Back to Payouts"
+msgstr "Zpátky k výplatám"
+
+#: includes/admin/settings/views/view-settings.php:480
+msgid "Before amount"
+msgstr "Před částkou"
+
+#: includes/admin/settings/views/view-settings.php:482
+msgid "Before amount with space"
+msgstr "Před částkou s mezerou"
+
+#: includes/base/functions-currency.php:67
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/admin/creatives/views/view-edit-creative.php:104
+#: includes/admin/creatives/views/view-add-creative.php:82
+#: includes/admin/settings/views/view-settings.php:839
+msgid "Browse"
+msgstr "Vyhledat"
+
+#: includes/base/functions-currency.php:75
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1062
+msgid "Bulk Add Affiliate User Role"
+msgstr "Hromadně přidat roli affiliate uživatele"
+
+#: includes/admin/settings/views/view-settings.php:1063
+msgid "Bulk Remove Affiliate User Role"
+msgstr "Hromadně odebrat roli affiliate partnera"
+
+#: includes/base/functions-currency.php:43
+msgid "Canadian Dollar"
+msgstr ""
+
+#: includes/admin/payouts/views/view-review-payment.php:111
+msgid ""
+"Changing the Payment status will also update the attached commissions "
+"statuses."
+msgstr "Změnou stavu platby se také aktualizují připojené stavy provizí."
+
+#: includes/admin/commissions/class-list-table-commissions.php:396
+#: includes/admin/visits/class-list-table-visits.php:339
+#: includes/admin/payouts/class-list-table-payments.php:386
+msgid "Clear"
+msgstr "Vymazat"
+
+#: includes/admin/settings/views/view-settings.php:1115
+msgid "Clear Debug Log"
+msgstr "Vymazat protokol o sledování"
+
+#: includes/admin/settings/views/view-settings.php:203
+#: includes/admin/settings/views/view-settings.php:413
+#: includes/admin/settings/views/view-settings.php:536
+msgid "Click here to learn more"
+msgstr "Dozvědět se více"
+
+#: includes/admin/settings/views/view-settings.php:1147
+msgid "Click to enable the System Status Report."
+msgstr "Kliknutím povolíte hlášení o stavu systému."
+
+#: includes/admin/commissions/class-submenu-page-commissions.php:30
+msgid "Commission added successfully."
+msgstr "Úspěšně přidané provize."
+
+#: index.php:340
+#: includes/admin/settings/emails/email-notifications/affiliate-commission-approved/functions.php:18
+msgid "Commission Approved"
+msgstr "Schválené provize"
+
+#: includes/admin/commissions/class-submenu-page-commissions.php:39
+msgid "Commission deleted successfully."
+msgstr "Úspěšně vymazané provize."
+
+#: includes/admin/commissions/views/view-add-commission.php:25
+#: includes/admin/commissions/views/view-edit-commission.php:35
+msgid "Commission Details"
+msgstr "Detaily provizí"
+
+#: includes/admin/commissions/views/view-edit-commission.php:45
+msgid "Commission ID"
+msgstr "ID provize"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:144
+msgid "Commission Rate"
+msgstr "Provizní sazba"
+
+#: includes/admin/functions-promo.php:202
+#: includes/users/shortcodes/templates/template-affiliate-account.php:142
+msgid "Commission Rates"
+msgstr "Provizní sazby"
+
+#: includes/admin/settings/emails/email-notifications/admin-commission-registered/functions.php:18
+msgid "Commission Registered"
+msgstr "Registrované provize"
+
+#: includes/admin/payouts/class-submenu-page-payouts.php:30
+msgid "Commission removed successfully from payment."
+msgstr "Provize byly úspěšně odebrány z platby."
+
+#: includes/admin/commissions/class-submenu-page-commissions.php:33
+msgid "Commission updated successfully."
+msgstr "Provize byly úspěšně aktualizovány."
+
+#: includes/admin/commissions/functions.php:44
+#: includes/admin/commissions/functions.php:45
+#: includes/admin/payouts/class-list-table-payout-payments-preview.php:69
+#: includes/users/shortcodes/templates/template-affiliate-account.php:16
+#: includes/admin/commissions/views/view-commissions.php:13
+msgid "Commissions"
+msgstr "Provize"
+
+#: includes/admin/settings/views/view-settings.php:234
+msgid "Commissions Settings"
+msgstr "Nastavení provize"
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:90
+#: includes/admin/setup-wizard/views/view-step-integrations.php:51
+#: includes/admin/setup-wizard/views/view-step-setup.php:111
+#: includes/admin/setup-wizard/views/view-step-emails.php:59
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:59
+msgid "Continue setting up SliceWP"
+msgstr "Pokračovat v nastavení se SliceWP"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:71
+msgid "Continue to your admin dashboard"
+msgstr "Pokračovat na nástěnku administrátora"
+
+#: includes/admin/visits/class-list-table-visits.php:82
+#: includes/admin/visits/class-list-table-visits.php:140
+msgid "Converted"
+msgstr "Proměněno"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:172
+#: includes/admin/settings/views/view-settings.php:202
+#: includes/admin/setup-wizard/views/view-step-setup.php:74
+msgid "Cookie Duration"
+msgstr "Uchování cookie souborů"
+
+#: includes/users/shortcodes/templates/template-creative.php:25
+#: includes/users/shortcodes/templates/template-affiliate-account.php:603
+#: includes/users/shortcodes/templates/template-affiliate-account.php:763
+#: includes/users/shortcodes/templates/template-affiliate-account.php:795
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: includes/admin/class-deactivation.php:55
+msgid "Could you share with us the reason you are deactivating SliceWP?"
+msgstr "Můžete s námi sdílet důvod, proč deaktivujete SliceWP?"
+
+#: includes/admin/payouts/views/view-payout.php:44
+#: includes/admin/payouts/views/view-create-payout.php:13
+#: includes/admin/payouts/views/view-preview-payout.php:130
+#: includes/admin/payouts/views/view-payouts.php:14
+msgid "Create Payout"
+msgstr "Vytvořit výplatu"
+
+#: includes/admin/creatives/class-submenu-page-creatives.php:30
+msgid "Creative added successfully."
+msgstr "Kampaň byla úspěšně přidána."
+
+#: includes/admin/creatives/class-submenu-page-creatives.php:39
+msgid "Creative deleted successfully."
+msgstr "Kampaň byla úspěšně vymazána."
+
+#: includes/admin/creatives/views/view-edit-creative.php:35
+#: includes/admin/creatives/views/view-add-creative.php:25
+msgid "Creative Details"
+msgstr "Detaily kampaně"
+
+#: includes/admin/creatives/views/view-edit-creative.php:45
+msgid "Creative ID"
+msgstr "ID kampaně"
+
+#: includes/admin/creatives/views/view-edit-creative.php:169
+msgid "Creative Shortcode"
+msgstr "Krátký kód kampaně"
+
+#: includes/admin/creatives/class-submenu-page-creatives.php:33
+msgid "Creative updated successfully."
+msgstr "Aktualizace kampaně úspěšně proběhla."
+
+#: includes/users/shortcodes/templates/template-creative.php:11
+#, php-format
+msgid "Creative: %s"
+msgstr "Kampaň: %s"
+
+#: includes/admin/creatives/functions.php:44
+#: includes/admin/creatives/functions.php:45
+#: includes/users/shortcodes/templates/template-affiliate-account.php:24
+#: includes/admin/creatives/views/view-creatives.php:13
+msgid "Creatives"
+msgstr "Kampaně"
+
+#: includes/admin/settings/views/view-settings.php:426
+msgid "Credit First/Last Affiliate"
+msgstr "Jak přiřadit partnera"
+
+#: includes/base/functions-currency.php:83
+msgid "Croatian Kuna"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:456
+#: includes/admin/setup-wizard/views/view-step-setup.php:56
+msgid "Currency"
+msgstr "Měna"
+
+#: includes/admin/settings/views/view-settings.php:446
+msgid "Currency Settings"
+msgstr "Nastavení měny"
+
+#: includes/admin/settings/views/view-settings.php:474
+msgid "Currency Symbol Position"
+msgstr "Pozice zkratky měny"
+
+#: includes/base/functions-currency.php:91
+msgid "Czech Koruna"
+msgstr "Česká koruna"
+
+#: includes/base/functions-currency.php:99
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:8
+msgid "Dashboard"
+msgstr "Nástěnka"
+
+#: includes/admin/commissions/class-list-table-commissions.php:81
+#: includes/admin/visits/class-list-table-visits.php:78
+#: includes/admin/payouts/class-list-table-payment-commissions.php:94
+#: includes/admin/payouts/class-list-table-payments.php:80
+#: includes/admin/payouts/class-list-table-payouts.php:72
+#: includes/users/shortcodes/templates/template-affiliate-account.php:454
+#: includes/users/shortcodes/templates/template-affiliate-account.php:516
+#: includes/users/shortcodes/templates/template-affiliate-account.php:646
+#: includes/admin/commissions/views/view-add-commission.php:96
+#: includes/admin/commissions/views/view-edit-commission.php:130
+msgid "Date"
+msgstr "Datum"
+
+#: includes/admin/payouts/views/view-payout.php:100
+#: includes/admin/payouts/views/view-review-payment.php:100
+msgid "Date Created"
+msgstr "Vytvořeno"
+
+#: includes/admin/settings/views/view-settings.php:1074
+msgid "Debug Log"
+msgstr "Sledovací protokol"
+
+#: includes/admin/settings/class-submenu-page-settings.php:33
+msgid "Debug log cleared successfully."
+msgstr "Sledovací protokol úspěšně vymazán."
+
+#: includes/admin/settings/views/view-settings.php:507
+msgid "Decimal Separator"
+msgstr "Oddělovač desítek"
+
+#: includes/admin/settings/functions.php:64
+msgid "Default Template"
+msgstr "Výchozí šablona"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:340
+#: includes/admin/commissions/class-list-table-commissions.php:337
+#: includes/admin/creatives/class-list-table-creatives.php:304
+#: includes/admin/payouts/class-list-table-payout-payments.php:306
+#: includes/admin/payouts/class-list-table-payments.php:318
+#: includes/admin/payouts/class-list-table-payouts.php:267
+#: includes/admin/payouts/class-list-table-payouts.php:272
+msgid "Delete"
+msgstr "Vymazat"
+
+#: includes/admin/affiliates/views/view-edit-affiliate.php:205
+msgid "Delete affiliate"
+msgstr "Vymazat affiliate partnera"
+
+#: includes/admin/commissions/views/view-edit-commission.php:220
+msgid "Delete commission"
+msgstr "Vymazat provize"
+
+#: includes/admin/creatives/views/view-edit-creative.php:211
+msgid "Delete creative"
+msgstr "Vymazat kampaň"
+
+#: includes/base/notes/class-outputter-notes.php:146
+msgid "Delete note"
+msgstr "Vymazat poznámku"
+
+#: includes/admin/settings/views/view-settings.php:110
+msgid "Deregister"
+msgstr "Odregistrovat"
+
+#: includes/admin/creatives/views/view-edit-creative.php:68
+#: includes/admin/creatives/views/view-add-creative.php:46
+msgid "Description"
+msgstr "Popis"
+
+#: includes/base/integrations/paid-member-subscriptions/functions-hooks-integration-paid-member-subscriptions.php:451
+msgid "Disable all commissions for this subscription plan."
+msgstr "Zakázat všechny provize pro tento plán předplatného."
+
+#: includes/base/integrations/paid-member-subscriptions/functions-hooks-integration-paid-member-subscriptions.php:448
+#: includes/base/integrations/paid-memberships-pro/functions-hooks-integration-paid-memberships-pro.php:431
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:564
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:602
+msgid "Disable Commissions"
+msgstr "Zakázat provize"
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:585
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:815
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:853
+msgid "Disable commissions"
+msgstr "Zakázat provize"
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:477
+#, php-format
+msgid "Disable commissions for this %s"
+msgstr "Zakázat provize pro %s"
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:729
+msgid "Disable commissions for this product variation"
+msgstr "Zakázat provize pro tuto variantu produktů"
+
+#: includes/base/integrations/memberpress/functions-hooks-integration-memberpress.php:413
+msgid "Disable commissions for this subscription"
+msgstr "Zakázat provize pro toto předplatné"
+
+#: includes/base/integrations/paid-memberships-pro/functions-hooks-integration-paid-memberships-pro.php:435
+msgid "Disable commissions for this subscription."
+msgstr "Zakázat provize pro toto předplatné."
+
+#: includes/admin/class-deactivation.php:93
+msgid "Do not deactivate"
+msgstr "Nedovolit deaktivaci"
+
+#: index.php:672
+msgid "Docs"
+msgstr "Dokumentace"
+
+#: includes/admin/functions.php:198
+#: includes/admin/setup-wizard/views/view-step-finished.php:51
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: includes/base/class-plugin-usage-tracker.php:272
+msgid "Don't allow"
+msgstr "Nepovolit"
+
+#: includes/admin/settings/views/view-settings.php:1114
+msgid "Download Debug Log"
+msgstr "Stáhnout sledovací protokol"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:336
+#: includes/admin/commissions/class-list-table-commissions.php:336
+#: includes/admin/creatives/class-list-table-creatives.php:303
+#: includes/admin/payouts/class-list-table-payment-commissions.php:265
+msgid "Edit"
+msgstr "Upravit"
+
+#: includes/admin/affiliates/views/view-edit-affiliate.php:30
+msgid "Edit Affiliate"
+msgstr "Upravit partnery"
+
+#: includes/admin/commissions/views/view-edit-commission.php:23
+msgid "Edit Commission"
+msgstr "Upravit provize"
+
+#: includes/admin/creatives/views/view-edit-creative.php:23
+msgid "Edit Creative"
+msgstr "Upravit kampaň"
+
+#: includes/base/functions-currency.php:107
+msgid "Egyptian Pound"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-register.php:52
+#: includes/admin/affiliates/views/view-edit-affiliate.php:64
+msgid "Email"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:977
+msgid "Email Content"
+msgstr "Předmět emailu"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:196
+#: includes/admin/settings/views/view-settings.php:879
+msgid "Email Notification"
+msgstr "Upozornění emailem"
+
+#: includes/admin/settings/views/view-settings.php:16
+#: includes/admin/settings/views/view-settings.php:866
+msgid "Email Notifications"
+msgstr "Emailová upozornění"
+
+#: includes/admin/setup-wizard/views/view-step-emails.php:14
+msgid "Email notifications. Which ones do you want activated to start with?"
+msgstr "Emailová upozornění. Který chcete aktivovat?"
+
+#: includes/admin/settings/views/view-settings.php:964
+msgid "Email Subject"
+msgstr "Předmět emailu"
+
+#: includes/base/commission/functions.php:277
+msgid "Email Subscribe"
+msgstr "Popis emailu"
+
+#: includes/admin/settings/views/view-settings.php:812
+msgid "Email Template"
+msgstr "Šablona emailu"
+
+#: includes/admin/setup-wizard/class-dashboard-page-setup-wizard.php:65
+msgid "Emails"
+msgstr "Emaily"
+
+#: includes/admin/functions-promo.php:212
+msgid "Enable custom commission rates for this affiliate."
+msgstr "Povolit vlastní sazby provizí pro tohoto affiliate partnera."
+
+#: includes/admin/settings/views/view-settings.php:670
+msgid "Enable Google reCAPTCHA on the affiliate registration form."
+msgstr "Povolte Google reCAPTCHA v registračním formuláři affiliate partnera."
+
+#: includes/admin/settings/views/view-settings.php:1084
+msgid "Enable Logging"
+msgstr "Povolit přihlášení"
+
+#: includes/admin/settings/views/view-settings.php:659
+msgid "Enable reCAPTCHA"
+msgstr "Povolit reCAPTCHA"
+
+#: includes/admin/settings/views/view-settings.php:1095
+msgid "Enable system logging for debugging purposes."
+msgstr "Povolit protokolování systému pro účely sledování."
+
+#: includes/admin/settings/views/view-settings.php:1136
+msgid "Enable System Status"
+msgstr "Povolit stav systému"
+
+#: includes/admin/settings/views/view-settings.php:358
+msgid ""
+"Enable the registration of commisions that have the total amount equal to "
+"zero. This is useful if you want to track conversions for fully discounted "
+"products."
+msgstr ""
+"Povolte registraci provizí, jejichž celková částka se rovná nule. To je "
+"užitečné, pokud chcete sledovat převody u plně zlevněných produktů."
+
+#: includes/admin/settings/views/view-settings.php:369
+msgid "Enable the registration of zero sum commisions."
+msgstr "Povolit registraci provizí s nulovou částkou."
+
+#: includes/admin/payouts/views/view-create-payout.php:52
+#: includes/admin/payouts/views/view-preview-payout.php:68
+msgid "End Date"
+msgstr "Poslední datum"
+
+#: includes/admin/payouts/views/view-create-payout.php:27
+msgid ""
+"Entering an affiliate name will create a payment only for the selected "
+"affiliate. Leaving it blank will create payments for all the affiliates."
+msgstr ""
+"Zadáním jména affiliate partnera se vytvoří platba pouze pro vybraného "
+"affiliate partnera. Ponecháte-li toto pole prázdné, budou vytvořeny platby "
+"pro všechny affiliate partnery."
+
+#: includes/base/functions-currency.php:27
+msgid "Euro"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:297
+msgid "Exclude Shipping"
+msgstr "Bez poštovného"
+
+#: includes/admin/settings/views/view-settings.php:308
+msgid "Exclude shipping costs from commission calculations."
+msgstr "Do výpočtů provizí nezahrnujte náklady na dopravu."
+
+#: includes/admin/settings/views/view-settings.php:317
+msgid "Exclude Taxes"
+msgstr "Bez daně"
+
+#: includes/admin/settings/views/view-settings.php:328
+msgid "Exclude taxes from commission calculations."
+msgstr "Do výpočtů provizí nezahrnujte daně."
+
+#: includes/base/payment/functions.php:215
+msgid "Failed"
+msgstr "Nezdařilo se"
+
+#: includes/admin/commissions/class-list-table-commissions.php:393
+#: includes/admin/visits/class-list-table-visits.php:336
+#: includes/admin/payouts/class-list-table-payments.php:374
+msgid "Filter"
+msgstr "Filtrovat"
+
+#: includes/admin/settings/views/view-settings.php:431
+msgid "First Affiliate"
+msgstr "Nejdříve partner"
+
+#: includes/users/shortcodes/templates/template-register.php:30
+msgid "First Name"
+msgstr "Jméno"
+
+#: includes/admin/setup-wizard/views/view-step-integrations.php:16
+msgid ""
+"First things first, please select the eCommerce plugin that powers your "
+"business."
+msgstr "Nejdříve si vyberte plugin eCommerce."
+
+#: includes/admin/functions-promo.php:244
+#: includes/admin/settings/views/view-settings.php:266
+#: includes/admin/setup-wizard/views/view-step-setup.php:42
+msgid "Fixed Amount"
+msgstr "Fixní výše"
+
+#: includes/base/commission/functions.php:307
+msgid "Fixed amount"
+msgstr "Fixní výše"
+
+#: includes/admin/settings/views/view-settings.php:286
+msgid "Fixed amount per order"
+msgstr "Fixní částka za objednávku"
+
+#: includes/admin/settings/views/view-settings.php:285
+msgid "Fixed amount per product"
+msgstr "Fixní částka za produkt"
+
+#: includes/admin/commissions/class-list-table-commissions.php:378
+#: includes/admin/visits/class-list-table-visits.php:316
+#: includes/admin/payouts/class-list-table-payments.php:359
+msgid "From"
+msgstr "Od"
+
+#: includes/admin/settings/views/view-settings.php:784
+msgid "From Email"
+msgstr "Z emailu"
+
+#: includes/admin/settings/views/view-settings.php:798
+msgid "From Name"
+msgstr "Od"
+
+#: includes/admin/settings/views/view-settings.php:8
+msgid "General"
+msgstr "Obecné"
+
+#: includes/admin/settings/views/view-settings.php:131
+#: includes/admin/settings/views/view-settings.php:774
+msgid "General Settings"
+msgstr "Obecné nastavení"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:786
+msgid "Generate"
+msgstr "Generovat"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:781
+msgid "Generate Affiliate Link"
+msgstr "Generovat affiliate odkaz"
+
+#: includes/admin/payouts/class-list-table-payouts.php:255
+#: includes/admin/payouts/class-list-table-payouts.php:257
+msgid "Generate CSV"
+msgstr "Generovat CSV"
+
+#: includes/admin/payouts/views/view-payout.php:111
+msgid "Generated By"
+msgstr "Vygenerováno od"
+
+#: includes/admin/functions-promo.php:133
+msgid "Get immediate assistance"
+msgstr "Získejte okamžitou pomoc"
+
+#: includes/admin/functions-promo.php:149
+msgid "Get started"
+msgstr "Začít"
+
+#: includes/admin/add-ons/views/view-add-ons.php:44
+msgid "Get this add-on"
+msgstr "Získat toto rozšíření"
+
+#: includes/base/class-plugin-usage-tracker.php:272
+msgid "Help us improve SliceWP"
+msgstr "Pomozte nám vylepšit SliceWP"
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:560
+msgid ""
+"Here you can make commission customizations for this product. These settings "
+"will be used to calculate the commissions for this product."
+msgstr ""
+"Zde můžete provést upravení provize pro tento produkt. Tato nastavení budou "
+"použita k výpočtu provizí pro tento produkt."
+
+#: index.php:328 index.php:332 index.php:336 index.php:341
+msgid "Hey {{affiliate_first_name}},"
+msgstr "Zdravíme Tě {{affiliate_first_name}},"
+
+#: includes/base/functions-currency.php:115
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-register.php:109
+#: includes/admin/settings/views/view-settings.php:634
+msgid "How will you promote us?"
+msgstr "Jakým způsobem nás budete propagovat?"
+
+#. URI of the plugin
+msgid "https://slicewp.com/"
+msgstr ""
+
+#: includes/base/functions-currency.php:123
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/admin/functions-promo.php:23
+msgid "I'm interested"
+msgstr "Mám zájem"
+
+#: includes/base/functions-currency.php:131
+msgid "Icelandic Króna"
+msgstr ""
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:69
+#: includes/admin/commissions/class-list-table-commissions.php:76
+#: includes/admin/visits/class-list-table-visits.php:76
+#: includes/admin/creatives/class-list-table-creatives.php:69
+#: includes/admin/payouts/class-list-table-payment-commissions.php:91
+#: includes/admin/payouts/class-list-table-payout-payments.php:67
+#: includes/admin/payouts/class-list-table-payments.php:76
+#: includes/admin/payouts/class-list-table-payouts.php:69
+#: includes/users/shortcodes/templates/template-affiliate-account.php:453
+#: includes/users/shortcodes/templates/template-affiliate-account.php:515
+#: includes/users/shortcodes/templates/template-affiliate-account.php:645
+msgid "ID"
+msgstr ""
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:72
+msgid ""
+"If all looks good here, head over to your admin dashboard to continue "
+"managing your website."
+msgstr ""
+"Pokud zde vše vypadá dobře, přejděte na administrátorský řídicí panel a "
+"pokračujte ve správě svého webu."
+
+#: includes/admin/creatives/views/view-edit-creative.php:150
+#: includes/admin/creatives/views/view-add-creative.php:128
+msgid ""
+"If set to 'Active', your affiliates will see the creative in their account."
+msgstr "Je-li nastaveno na „Aktivní“, uvidí vaši partneři kampaň ve svém účtu."
+
+#: includes/admin/creatives/views/view-edit-creative.php:113
+#: includes/admin/creatives/views/view-add-creative.php:91
+msgid ""
+"If the image can't be displayed for a reason, this text will be shown "
+"instead."
+msgstr ""
+"Pokud obrázek nelze z nějakého důvodu zobrazit, zobrazí se místo toho tento "
+"text."
+
+#: includes/admin/settings/views/view-settings.php:1173
+msgid ""
+"If you need to run the setup wizard again, please click the button below."
+msgstr ""
+"Pokud potřebujete znovu spustit průvodce nastavením, klikněte na tlačítko "
+"níže."
+
+#: includes/admin/settings/views/view-settings.php:1060
+msgid ""
+"If you want to add or remove the Affiliate user role in bulk, to or from all "
+"affiliates, please click the corresponding button below."
+msgstr ""
+"Chcete-li hromadně přidat nebo odebrat roli affiliate partnera, nebo ze "
+"všech partnerů, klikněte na odpovídající tlačítko níže."
+
+#: includes/base/creative/functions.php:165
+msgid "Image"
+msgstr "Obrázek"
+
+#: includes/admin/creatives/class-list-table-creatives.php:73
+msgid "Image Preview"
+msgstr "Náhled obrázku"
+
+#: includes/admin/creatives/views/view-edit-creative.php:99
+#: includes/admin/creatives/views/view-add-creative.php:77
+msgid "Image URL"
+msgstr "URL obrázku"
+
+#: includes/base/affiliate/functions.php:320
+#: includes/base/creative/functions.php:141
+msgid "Inactive"
+msgstr "Neaktivní"
+
+#: includes/base/functions-currency.php:147
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/base/functions-currency.php:155
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/admin/setup-wizard/class-dashboard-page-setup-wizard.php:62
+#: includes/admin/settings/views/view-settings.php:12
+msgid "Integrations"
+msgstr "Integrace"
+
+#: includes/admin/visits/class-list-table-visits.php:79
+msgid "IP Address"
+msgstr "IP adresa"
+
+#: includes/base/functions-currency.php:139
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: includes/base/functions-currency.php:163
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/admin/payouts/views/view-create-payout.php:30
+msgid "John Doe"
+msgstr "Petr Novák"
+
+#: includes/admin/visits/class-list-table-visits.php:80
+#: includes/admin/creatives/class-list-table-creatives.php:74
+#: includes/users/shortcodes/templates/template-affiliate-account.php:517
+#: includes/admin/creatives/views/view-edit-creative.php:137
+#: includes/admin/creatives/views/view-add-creative.php:115
+msgid "Landing URL"
+msgstr "Přistávací odkaz stránky"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:218
+#: includes/users/shortcodes/templates/template-affiliate-account.php:296
+#: includes/users/shortcodes/templates/template-affiliate-account.php:369
+msgid "Last 30 Days"
+msgstr "Posledních 30 dní"
+
+#: includes/admin/settings/views/view-settings.php:432
+msgid "Last Affiliate"
+msgstr "Nakonec partner"
+
+#: includes/users/shortcodes/templates/template-register.php:41
+msgid "Last Name"
+msgstr "Příjmení"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:47
+msgid "Learn how to use SliceWP"
+msgstr "Jak používat SliceWP"
+
+#: includes/base/class-plugin-usage-tracker.php:272
+#: includes/admin/settings/views/view-settings.php:1208
+msgid "Learn more about what we track and what we don't."
+msgstr "Zjistěte více o tom, co sledujeme a co ne."
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:48
+msgid ""
+"Learn the ins and outs of SliceWP to set up your affiliate program exactly "
+"how you want it."
+msgstr ""
+"Naučte se vstupy a výstupy SliceWP a nastavte svůj affiliate program přesně "
+"tak, jak chcete."
+
+#: includes/admin/settings/views/view-settings.php:101
+msgid "License Key"
+msgstr "Licenční klíč"
+
+#: includes/users/shortcodes/templates/template-login.php:42
+msgid "Login"
+msgstr "Přihlášení"
+
+#: includes/admin/settings/views/view-settings.php:834
+msgid "Logo"
+msgstr ""
+
+#: includes/base/creative/functions.php:167
+msgid "Long Text"
+msgstr "Dlouhý text"
+
+#: includes/base/functions-currency.php:171
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: includes/base/payout/payout-methods/manual/functions.php:21
+msgid "Manual"
+msgstr "Návod"
+
+#: includes/admin/payouts/views/view-payout.php:172
+msgid "Mark as Paid"
+msgstr "Označit jako zaplacené"
+
+#: includes/admin/settings/views/view-settings.php:348
+msgid ""
+"Mark unpaid commissions as rejected if the originating purchase is refunded."
+msgstr ""
+"Pokud budou vráceny původní objednávky, označte nevyplacené provize jako "
+"odmítnuté."
+
+#: includes/base/functions-currency.php:179
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/base/abstracts/abstract-class-migration.php:197
+msgid "Migrate"
+msgstr "Přemístit"
+
+#: includes/admin/payouts/views/view-preview-payout.php:80
+msgid "Minimum Amount"
+msgstr "Minimální částka"
+
+#: includes/admin/functions-promo.php:22
+msgid ""
+"Missing anything? Discover more powerful features in the premium version now!"
+msgstr "Chybí vám něco? Objevte nyní výkonnější funkce v prémiové verzi!"
+
+#: includes/admin/class-deactivation.php:71
+msgid "Missing features I need"
+msgstr "Chybějící funkce, které potřebuji"
+
+#: includes/base/functions-currency.php:187
+msgid "Moldovan Leu"
+msgstr ""
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:70
+#: includes/admin/creatives/class-list-table-creatives.php:70
+#: includes/admin/creatives/views/view-edit-creative.php:56
+#: includes/admin/creatives/views/view-add-creative.php:35
+msgid "Name"
+msgstr "Jméno"
+
+#: includes/admin/settings/views/view-settings.php:172
+msgid "New affiliate accounts will be created with Active status."
+msgstr "Nový účet bude vytvořen hned jako schválený."
+
+#: index.php:317
+#: includes/admin/settings/emails/email-notifications/admin-new-affiliate-registration/functions.php:18
+msgid "New Affiliate Registration"
+msgstr "Registrace nového affiliate partnera"
+
+#: index.php:322
+msgid "New Commission Registered"
+msgstr "Zadání nové provize"
+
+#: includes/base/functions-currency.php:203
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:43
+msgid "Next steps"
+msgstr "Další krok"
+
+#: includes/base/functions-currency.php:195
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/admin/visits/class-list-table-visits.php:273
+msgid "no"
+msgstr "ne"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:354
+msgid "No affiliates found."
+msgstr "Nejsou zde žádní affiliate partneři."
+
+#: includes/admin/commissions/class-list-table-commissions.php:350
+#: includes/admin/payouts/class-list-table-payment-commissions.php:283
+#: includes/admin/payouts/functions-actions-payouts.php:63
+#: includes/admin/payouts/functions-actions-payouts.php:174
+msgid "No commissions found."
+msgstr "Žádné provize."
+
+#: includes/admin/creatives/class-list-table-creatives.php:318
+msgid "No creatives found."
+msgstr "Nyní nejsou žádné kampaně."
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:29
+msgid "No message provided."
+msgstr "Žádné zprávy."
+
+#: includes/admin/payouts/class-list-table-payout-payments.php:320
+#: includes/admin/payouts/class-list-table-payout-payments-preview.php:305
+#: includes/admin/payouts/class-list-table-payments.php:332
+msgid "No payments found."
+msgstr "Žádné platby."
+
+#: includes/admin/payouts/class-list-table-payouts.php:304
+msgid "No payouts found."
+msgstr "Žádné peníze k proplacení."
+
+#: includes/admin/visits/class-list-table-visits.php:288
+msgid "No visits found."
+msgstr "Žádné návštěvy."
+
+#: includes/base/abstracts/abstract-class-migration.php:200
+msgid "No, thank you"
+msgstr "Ne, děkuji"
+
+#: includes/base/functions-currency.php:211
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/admin/visits/class-list-table-visits.php:141
+msgid "Not Converted"
+msgstr "Neproměněno"
+
+#: includes/admin/payouts/functions-actions-payouts.php:118
+#: includes/admin/payouts/functions-actions-payouts.php:244
+msgid "Not enough commissions to generate a payment."
+msgstr "Není dostatečná výše provize na to, abychom vygenerovali platbu."
+
+#: includes/base/notes/class-outputter-notes.php:70
+msgid "Notes"
+msgstr "Poznámky"
+
+#: includes/admin/commissions/views/view-add-commission.php:77
+#: includes/admin/commissions/views/view-edit-commission.php:102
+msgid "Origin"
+msgstr "Původ"
+
+#: includes/admin/class-deactivation.php:80
+msgid "Other reason"
+msgstr "Další důvod"
+
+#: includes/admin/functions-promo.php:90
+msgid ""
+"Overwrite global commission rates with custom rates for each individual "
+"product or subscription."
+msgstr ""
+"Přepsat globální sazby provizí vlastními sazbami pro každý jednotlivý "
+"produkt nebo předplatné."
+
+#: includes/admin/settings/views/view-settings.php:525
+msgid "Pages Settings"
+msgstr "Nastavení stránek"
+
+#: includes/base/payment/functions.php:212
+#: includes/base/commission/functions.php:236
+msgid "Paid"
+msgstr "Zaplaceno"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:73
+#: includes/users/shortcodes/templates/template-affiliate-account.php:271
+#: includes/users/shortcodes/templates/template-affiliate-account.php:309
+msgid "Paid Commissions"
+msgstr "Proplacené provize"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:71
+msgid "Paid Earnings"
+msgstr "Vyplacené výdělky"
+
+#: includes/users/shortcodes/templates/template-login.php:28
+#: includes/users/shortcodes/templates/template-register.php:63
+msgid "Password"
+msgstr "Heslo"
+
+#: includes/users/shortcodes/templates/template-register.php:74
+msgid "Password Confirmation"
+msgstr "Potvrzení hesla"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:784
+msgid "Paste the link here"
+msgstr "Vložte odkaz sem"
+
+#: includes/admin/payouts/views/view-payout.php:173
+msgid "Pay Affiliates"
+msgstr "Vyplatit affiliate partnery"
+
+#: includes/admin/functions-promo.php:112
+msgid ""
+"Pay affiliates in bulk directly from your WordPress administrator interface "
+"through PayPal's Payouts feature."
+msgstr ""
+"Plaťte affiliate partnerům hromadně přímo z vašeho administrátorského "
+"rozhraní WordPress prostřednictvím funkce PayPal Payouts."
+
+#: includes/admin/functions-promo.php:111
+msgid "Pay your affiliates with PayPal Payouts"
+msgstr "Vyplať svoje partnery přes PayPal"
+
+#: includes/admin/payouts/class-submenu-page-payouts.php:39
+msgid "Payment deleted succesfully."
+msgstr "Platby úspěšně vymazány."
+
+#: includes/admin/payouts/views/view-review-payment.php:39
+msgid "Payment Details"
+msgstr "Detaily plateb"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:714
+#: includes/users/shortcodes/templates/template-register.php:87
+#: includes/admin/affiliates/views/view-add-affiliate.php:60
+#: includes/admin/affiliates/views/view-review-affiliate.php:160
+#: includes/admin/affiliates/views/view-edit-affiliate.php:119
+#: includes/admin/settings/views/view-settings.php:608
+msgid "Payment Email"
+msgstr "PayPal email"
+
+#: includes/admin/payouts/views/view-review-payment.php:49
+msgid "Payment ID"
+msgstr "ID platby"
+
+#: includes/admin/payouts/class-submenu-page-payouts.php:36
+msgid "Payment successfully updated."
+msgstr "Platby úspěšně aktualizovány."
+
+#: includes/admin/payouts/class-list-table-payouts.php:71
+#: includes/admin/payouts/views/view-payout.php:89
+#: includes/admin/payouts/views/view-payments.php:13
+msgid "Payments"
+msgstr "Platby"
+
+#: includes/admin/payouts/views/view-preview-payout.php:104
+msgid "Payments Count"
+msgstr "Počet plateb"
+
+#: includes/admin/payouts/class-submenu-page-payouts.php:33
+#, php-format
+msgid "Payments for %d affiliates have been generated succesfully."
+msgstr "Platby pro affiliate partnery % d byly úspěšně vygenerovány."
+
+#: includes/admin/payouts/views/view-create-payout.php:63
+#: includes/admin/settings/views/view-settings.php:216
+msgid "Payments Minimum Amount"
+msgstr "Minimální částka pro provizi"
+
+#: includes/admin/payouts/views/view-payout.php:43
+#, php-format
+msgid "Payout #%s"
+msgstr "Vyplatit #%s"
+
+#: includes/admin/payouts/functions-actions-payouts.php:475
+#, php-format
+msgid ""
+"Payout #%s was not deleted because the contained payment #%s could not be "
+"deleted."
+msgstr ""
+"Výplata #%s nemohla být smazána protože obsahuje platby #%s, které nemohly "
+"být smazány."
+
+#: includes/admin/payouts/views/view-preview-payout.php:92
+msgid "Payout Amount"
+msgstr "Částka k výplatě"
+
+#: includes/admin/payouts/class-submenu-page-payouts.php:42
+msgid "Payout deleted succesfully."
+msgstr "Výplaty úspěšně vymazány."
+
+#: includes/admin/payouts/views/view-payout.php:57
+msgid "Payout Details"
+msgstr "Detaily výplat"
+
+#: includes/admin/payouts/views/view-payout.php:67
+msgid "Payout ID"
+msgstr "ID výplat"
+
+#: includes/admin/payouts/class-list-table-payments.php:79
+#: includes/admin/payouts/views/view-review-payment.php:89
+msgid "Payout Method"
+msgstr "Způsob výplaty"
+
+#: includes/admin/payouts/views/view-payout.php:134
+msgid "Payout Progress"
+msgstr "Průběh"
+
+#: includes/admin/payouts/functions.php:64
+#: includes/admin/payouts/functions.php:65
+#: includes/users/shortcodes/templates/template-affiliate-account.php:28
+#: includes/admin/payouts/views/view-payouts.php:13
+msgid "Payouts"
+msgstr "Výplaty"
+
+#: includes/base/affiliate/functions.php:321
+#: includes/base/commission/functions.php:238
+msgid "Pending"
+msgstr "Čekající"
+
+#: includes/admin/functions-promo.php:244
+#: includes/base/commission/functions.php:306
+#: includes/admin/settings/views/view-settings.php:266
+#: includes/admin/setup-wizard/views/view-step-setup.php:42
+msgid "Percentage (%)"
+msgstr "Procent (%)"
+
+#: includes/base/functions-currency.php:219
+msgid "Philippine Peso"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:818
+msgid "Plain Text"
+msgstr "Jednoduchý text"
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:78
+msgid "Please choose a Password."
+msgstr "Prosím zvolte si heslo."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:188
+msgid "Please complete the reCAPTCHA."
+msgstr "Vyplňte prosím reCAPTCHA."
+
+#: includes/admin/class-deactivation.php:72
+#, php-format
+msgid ""
+"Please describe the feature you need or %scontact us directly here%s. This "
+"will help us prioritize our tasks and work on the most requested features."
+msgstr ""
+"Popište prosím funkci, kterou potřebujete, nebo %s kontaktujte nás přímo zde "
+"%s. To nám pomůže upřednostnit naše úkoly a pracovat na nejžádanějších "
+"funkcích."
+
+#: includes/admin/class-deactivation.php:63
+#, php-format
+msgid ""
+"Please describe the issues below or %scontact us directly here%s. This will "
+"help us test and solve these problems in a timely manner."
+msgstr ""
+"Popište níže uvedené problémy nebo nás %s kontaktujte přímo zde %s. To nám "
+"pomůže tyto problémy včas otestovat a vyřešit."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:160
+msgid "Please fill how you will promote us."
+msgstr "Prosím napište nám, jakým způsobem nás budete propagovat."
+
+#: includes/admin/payouts/functions-actions-payouts.php:35
+#: includes/admin/settings/functions-actions-settings.php:30
+msgid "Please fill in a Payments Minimum Amount equal or greater than 0."
+msgstr "Vyplňte minimální částku plateb rovnou nebo větší než 0."
+
+#: includes/admin/settings/functions-actions-settings.php:49
+msgid "Please fill in a valid email address for From Email."
+msgstr "Prosím v políčku Z emailu vyplňte platnou emailovou adresu."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:68
+msgid "Please fill in a valid Email."
+msgstr "Prosím napište správný email."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:130
+#: includes/users/shortcodes/functions-actions-shortcodes.php:398
+#: includes/admin/affiliates/functions-actions-affiliates.php:52
+#: includes/admin/affiliates/functions-actions-affiliates.php:147
+msgid "Please fill in a valid Payment Email."
+msgstr "Prosím napište správný email."
+
+#: includes/admin/payouts/functions-actions-payouts.php:25
+msgid "Please fill in an End Date greater than Start Date."
+msgstr "Prosím napište konečné datum vyšší než počáteční datum."
+
+#: includes/admin/settings/functions-actions-settings.php:58
+msgid "Please fill in From Name."
+msgstr "Prosím vyplňte kolonku Od koho."
+
+#: includes/admin/settings/functions-actions-settings.php:108
+#, php-format
+msgid "Please fill in the \"%s\" Email Notification content."
+msgstr "Vyplňte prosím text „% s“ emailu."
+
+#: includes/admin/settings/functions-actions-settings.php:99
+#, php-format
+msgid "Please fill in the \"%s\" Email Notification subject."
+msgstr "Vyplňte předmět „% s“ emailu."
+
+#: includes/admin/payouts/functions-actions-payouts.php:146
+msgid "Please fill in the \"Start Date\" and \"End Date\" fields."
+msgstr "Vyplňte pole „Datum zahájení“ a „Datum ukončení“."
+
+#: includes/admin/settings/functions-actions-settings.php:214
+msgid "Please fill in the Admin Emails field."
+msgstr "Vyplňte pole Admin."
+
+#: includes/admin/settings/functions-actions-settings.php:68
+msgid "Please fill in the Admin Emails."
+msgstr "Vyplňte prosím emaily správce."
+
+#: includes/admin/settings/functions-actions-settings.php:40
+msgid "Please fill in the Affiliate Keyword."
+msgstr "Vyplňte prosím klíčové slovo affiliate partnera."
+
+#: includes/admin/settings/functions-actions-settings.php:235
+msgid "Please fill in the Email Content."
+msgstr "Napište něco do obsahu emailu."
+
+#: includes/admin/settings/functions-actions-settings.php:226
+msgid "Please fill in the Email Subject."
+msgstr "Vyplňte předmět emailu."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:42
+#: includes/admin/affiliates/functions-actions-affiliates.php:137
+msgid "Please fill in the Payment Email."
+msgstr "Napište email pro platby."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:310
+msgid "Please fill in the Reject Reason field."
+msgstr "Vyplňte prosím pole Důvod zamítnutí."
+
+#: includes/admin/payouts/functions-actions-payouts.php:15
+msgid "Please fill in the Start Date and End Date fields."
+msgstr "Vyplňte počáteční a koncové datum."
+
+#: includes/admin/settings/functions-actions-settings.php:81
+msgid "Please fill in valid Admin Emails."
+msgstr "Vyplňte platný email administrátora."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:58
+msgid "Please fill in your Email."
+msgstr "Prosím napište váš email."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:38
+msgid "Please fill in your First Name."
+msgstr "Prosím napište vaše jméno."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:48
+msgid "Please fill in your Last Name."
+msgstr "Prosím napište vaše příjmení."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:311
+msgid "Please fill in your Password."
+msgstr "Prosím napište vaše heslo."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:120
+#: includes/users/shortcodes/functions-actions-shortcodes.php:388
+msgid "Please fill in your Payment Email."
+msgstr "Prosím napište váš email."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:301
+msgid "Please fill in your Username / Email address."
+msgstr "Prosím napište vaše přihlašovací jméno nebo email."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:28
+msgid "Please fill in your Username."
+msgstr "Prosím napište vaše přihlašovací jméno."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:140
+#: includes/users/shortcodes/functions-actions-shortcodes.php:408
+msgid "Please fill in your Website."
+msgstr "Prosím napište vaše webové stránky."
+
+#: includes/admin/creatives/functions-actions-creatives.php:171
+msgid "Please fill the name of your creative."
+msgstr "Napište jméno vaší kampaně."
+
+#: includes/admin/creatives/functions-actions-creatives.php:20
+msgid "Please fill the name of your new creative."
+msgstr "Napište jméno vaší nové kampaně."
+
+#: includes/admin/settings/functions-actions-settings.php:20
+msgid "Please insert a Cookie Duration greater than 0."
+msgstr "Vyplňte počet dnů pro shromažďování informací větší než nula."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:777
+msgid "Please provide a link!"
+msgstr "Zadejte odkaz!"
+
+#: includes/admin/creatives/functions-actions-creatives.php:69
+#: includes/admin/creatives/functions-actions-creatives.php:220
+msgid "Please provide a valid Landing URL."
+msgstr "Napište platnou adresu přistávací stránky."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:150
+#: includes/users/shortcodes/functions-actions-shortcodes.php:418
+msgid "Please provide a valid Website URL."
+msgstr "Napište platnou adresu webové stránky (včetně https)"
+
+#: includes/admin/creatives/functions-actions-creatives.php:52
+#: includes/admin/creatives/functions-actions-creatives.php:203
+msgid "Please select an image for your creative."
+msgstr "Vyberte obrázek pro svoji kampaň."
+
+#: includes/admin/commissions/functions-actions-commissions.php:20
+msgid "Please select the affiliate you wish to assign this commission to."
+msgstr "Vyberte partnera, kterému chcete připsat provize."
+
+#: includes/admin/commissions/functions-actions-commissions.php:60
+msgid "Please select the status of the new commission."
+msgstr "Zvolte stav nové provize."
+
+#: includes/admin/payouts/functions-actions-payments.php:121
+msgid "Please select the status of the payment."
+msgstr "Zvolte stav nové platby."
+
+#: includes/admin/creatives/functions-actions-creatives.php:230
+msgid "Please select the status of your creative."
+msgstr "Zvolte stav nové kampaně."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:62
+#: includes/admin/affiliates/functions-actions-affiliates.php:170
+msgid "Please select the status of your new affiliate."
+msgstr "Zvolte stav nového affiliate partnera."
+
+#: includes/admin/commissions/functions-actions-commissions.php:151
+msgid "Please select the status of your new commission."
+msgstr "Zvolte stav nové provize."
+
+#: includes/admin/creatives/functions-actions-creatives.php:79
+msgid "Please select the status of your new creative."
+msgstr "Zvolte stav nové kampaně."
+
+#: includes/admin/commissions/functions-actions-commissions.php:50
+msgid "Please select the type of the new commission."
+msgstr "Zvolte typ nové provize."
+
+#: includes/admin/creatives/functions-actions-creatives.php:181
+msgid "Please select the type of your creative."
+msgstr "Zvolte typ nové kampaně."
+
+#: includes/admin/creatives/functions-actions-creatives.php:30
+msgid "Please select the type of your new creative."
+msgstr "Zvolte typ vaší nové kampaně."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:20
+msgid "Please select the user you wish to add as an affiliate."
+msgstr "Vyberte uživatele, kterého chcete přidat jako affiliate partnera."
+
+#: includes/admin/commissions/functions-actions-commissions.php:30
+msgid "Please set the date for the commission."
+msgstr "Vyberte datum provize."
+
+#: includes/admin/setup-wizard/views/view-step-setup.php:16
+msgid ""
+"Please set up the following options that are at the core of the affiliate "
+"program. If you're not quite sure how you want these options set don't "
+"worry, you can change them later."
+msgstr ""
+"Nastavte prosím následující možnosti, které jsou základní pro affiliate "
+"program. Pokud si nejste zcela jisti, jak chcete tyto možnosti nastavit, "
+"nebojte se, můžete je později změnit."
+
+#: includes/admin/creatives/functions-actions-creatives.php:59
+#: includes/admin/creatives/functions-actions-creatives.php:210
+msgid "Please write the text for your creative."
+msgstr "Prosím popiš svoji kampaň."
+
+#: includes/base/functions-currency.php:227
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/base/functions-currency.php:35
+msgid "Pound Sterling"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1019
+msgid "Preview Email"
+msgstr "Náhled emailu"
+
+#: includes/admin/payouts/views/view-create-payout.php:82
+#: includes/admin/payouts/views/view-preview-payout.php:27
+msgid "Preview Payout"
+msgstr "Náhled výplaty"
+
+#: includes/admin/functions-promo.php:150
+msgid "Prices starting from $79"
+msgstr "Ceny začínají od 79 dolarů"
+
+#: includes/admin/functions-promo.php:193
+msgid "Pro Feature"
+msgstr "Pro"
+
+#: includes/base/payment/functions.php:214
+msgid "Processing"
+msgstr "Probíhá"
+
+#: includes/admin/setup-wizard/class-dashboard-page-setup-wizard.php:63
+msgid "Program Basics"
+msgstr ""
+
+#: includes/admin/payouts/class-list-table-payouts.php:73
+msgid "Progress"
+msgstr "Průběh"
+
+#: includes/admin/functions-promo.php:148
+msgid "Ready to take full advantage of the premium version?"
+msgstr ""
+
+#: includes/admin/setup-wizard/class-dashboard-page-setup-wizard.php:66
+msgid "Ready!"
+msgstr "Připraveno!"
+
+#: includes/admin/settings/views/view-settings.php:649
+msgid "reCAPTCHA"
+msgstr ""
+
+#: includes/admin/commissions/class-list-table-commissions.php:79
+#: includes/admin/payouts/class-list-table-payment-commissions.php:93
+#: includes/admin/commissions/views/view-add-commission.php:66
+#: includes/admin/commissions/views/view-edit-commission.php:91
+msgid "Reference"
+msgstr ""
+
+#: includes/admin/visits/class-list-table-visits.php:81
+#: includes/users/shortcodes/templates/template-affiliate-account.php:518
+msgid "Referrer URL"
+msgstr "Ze stránky"
+
+#: includes/users/shortcodes/templates/template-register.php:156
+#: includes/admin/settings/views/view-settings.php:109
+msgid "Register"
+msgstr "Registrovat"
+
+#: includes/admin/settings/views/view-settings.php:161
+msgid "Register Affiliates as Active"
+msgstr "Registrace partnera jako schváleného"
+
+#: includes/admin/affiliates/functions.php:80
+msgid "Register User as Affiliate"
+msgstr "Registrovat uživatele jako partnera"
+
+#: includes/admin/settings/views/view-settings.php:91
+msgid "Register Website"
+msgstr "Registrace webové stránky"
+
+#: includes/admin/affiliates/functions.php:83
+msgid "Registers the new user as a new affiliate into SliceWP."
+msgstr "Registrace nového uživatele jako affiliate partnera v SliceWP."
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:138
+#: includes/admin/affiliates/views/view-edit-affiliate.php:97
+msgid "Registration Date"
+msgstr "Datum registrace"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:235
+msgid "Reject"
+msgstr "Odmítnout"
+
+#: includes/admin/settings/views/view-settings.php:337
+msgid "Reject Commissions on Refund"
+msgstr "Storno objednávky"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:214
+#: includes/admin/affiliates/views/view-edit-affiliate.php:151
+msgid "Reject Reason"
+msgstr "Důvod odmítnutí"
+
+#: includes/base/affiliate/functions.php:322
+#: includes/base/commission/functions.php:239
+#: includes/admin/affiliates/views/view-review-affiliate.php:187
+msgid "Rejected"
+msgstr "Odmítnutí"
+
+#: includes/admin/payouts/class-list-table-payment-commissions.php:268
+msgid "Remove"
+msgstr "Odstranit"
+
+#: includes/base/class-merge-tags.php:71
+msgid "Replaces the tag with affiliate's id"
+msgstr "Nahradí značku partnerovým ID"
+
+#: includes/base/class-merge-tags.php:99
+msgid "Replaces the tag with the affiliate application promotional methods"
+msgstr "Nahradí značku propagačními metodami affiliate aplikace"
+
+#: includes/base/class-merge-tags.php:103
+msgid "Replaces the tag with the affiliate application reject reason"
+msgstr "Nahradí značku důvodem odmítnutí affiliate aplikace"
+
+#: includes/base/class-merge-tags.php:79
+msgid "Replaces the tag with the affiliate's email"
+msgstr "Nahradí značku emailem přidruženého subjektu"
+
+#: includes/base/class-merge-tags.php:83
+msgid "replaces the tag with the affiliate's first name"
+msgstr "nahradí značku křestním jménem affiliate partnera"
+
+#: includes/base/class-merge-tags.php:87
+msgid "Replaces the tag with the affiliate's last name"
+msgstr "Nahradí značku příjmením affiliate partnera"
+
+#: includes/base/class-merge-tags.php:95
+msgid "Replaces the tag with the affiliate's status"
+msgstr "Nahradí značku stavem affiliate partnera"
+
+#: includes/base/class-merge-tags.php:75
+msgid "Replaces the tag with the affiliate's username"
+msgstr "Nahradí značku uživatelským jménem affiliate partnera"
+
+#: includes/base/class-merge-tags.php:91
+msgid "Replaces the tag with the affiliate's website"
+msgstr "Nahradí značku webem affiliate partnera"
+
+#: includes/base/class-merge-tags.php:107
+msgid "Replaces the tag with the commission amount"
+msgstr "Nahradí značku částkou provize"
+
+#: includes/base/class-merge-tags.php:115
+msgid "Replaces the tag with the link to the Affiliate Account Page"
+msgstr "Nahradí značku odkazem na stránku affiliate účtu"
+
+#: includes/base/class-merge-tags.php:111
+msgid "Replaces the tag with your site name"
+msgstr "Přepiš tag jménem své webové stránky"
+
+#: includes/admin/settings/views/view-settings.php:594
+msgid "Required Affiliate Fields"
+msgstr "Pole, která jsou vyžadována"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:338
+#: includes/admin/payouts/class-list-table-payments.php:317
+msgid "Review"
+msgstr "Kontrola"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:49
+msgid "Review Affiliate Registration"
+msgstr "Kontrola registrace partnera"
+
+#: includes/admin/payouts/views/view-review-payment.php:27
+msgid "Review Payment"
+msgstr "Kontrola platby"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:63
+msgid "Review Settings"
+msgstr "Kontrola nastavení"
+
+#: includes/admin/functions-promo.php:76
+msgid "Reward commissions with affiliate coupons"
+msgstr "Provizní odměny s affiliate kupóny"
+
+#: includes/base/functions-currency.php:235
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/base/functions-currency.php:243
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/base/commission/functions.php:265
+msgid "Sale"
+msgstr "Prodejní"
+
+#: includes/admin/settings/views/view-settings.php:280
+msgid "Sale Commission Basis"
+msgstr "Základ provize z prodeje"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:741
+msgid "Save"
+msgstr "Uložit"
+
+#: includes/admin/payouts/views/view-review-payment.php:171
+msgid "Save Payment"
+msgstr "Uložit platby"
+
+#: includes/admin/settings/views/view-settings.php:725
+#: includes/admin/settings/views/view-settings.php:762
+#: includes/admin/settings/views/view-settings.php:1033
+#: includes/admin/settings/views/view-settings.php:1227
+msgid "Save Settings"
+msgstr "Uložit nastavení"
+
+#: includes/admin/affiliates/views/view-affiliates.php:21
+msgid "Search Affiliates"
+msgstr "Vyhledat partnery"
+
+#: includes/admin/commissions/views/view-commissions.php:21
+msgid "Search Commissions"
+msgstr "Vyhledat provize"
+
+#: includes/admin/creatives/views/view-creatives.php:21
+msgid "Search Creatives"
+msgstr "Vyhledat kampaň"
+
+#: includes/admin/visits/views/view-visits.php:20
+msgid "Search Visits"
+msgstr "Vyhledat návštěvy"
+
+#: includes/admin/settings/views/view-settings.php:692
+msgid "Secret Key"
+msgstr "Tajný klíč"
+
+#: includes/admin/settings/views/view-settings.php:835
+msgid ""
+"Select an image logo if you'd like to place it in the header of your email "
+"notifications."
+msgstr ""
+"Vyberte logo obrázku, pokud jej chcete umístit do záhlaví emailových "
+"oznámení."
+
+#: includes/admin/creatives/views/view-edit-creative.php:100
+#: includes/admin/creatives/views/view-add-creative.php:78
+msgid "Select an image or fill with the URL of the creative's image."
+msgstr "Vyberte obrázek nebo vyplňte adresu URL obrázku kampaně."
+
+#: includes/admin/payouts/views/view-payout.php:159
+msgid "Select payout method..."
+msgstr "Vyberte metodu výplaty..."
+
+#: includes/admin/settings/views/view-settings.php:880
+msgid "Select the email notification you want to modify"
+msgstr "Vyberte emailové oznámení, které chcete upravit"
+
+#: includes/admin/settings/views/view-settings.php:536
+msgid "Select the page you wish to be your affiliates' private area."
+msgstr "Vyberte stránku, kterou chcete mít jako soukromou."
+
+#: includes/admin/settings/views/view-settings.php:541
+#: includes/admin/settings/views/view-settings.php:563
+msgid "Select..."
+msgstr "Vyberte..."
+
+#: includes/admin/affiliates/functions.php:90
+#: includes/admin/affiliates/views/view-add-affiliate.php:100
+msgid "Send a welcome email to your new affiliate after registration."
+msgstr "Zaslat uvítací email novému affiliate partnerovi po registraci."
+
+#: includes/admin/affiliates/functions.php:87
+msgid "Send Affiliate Welcome Email"
+msgstr "Poslat partnerovi uvítací email"
+
+#: includes/admin/settings/views/view-settings.php:1020
+msgid "Send Test Email"
+msgstr "Poslat testovací email"
+
+#: includes/admin/settings/views/view-settings.php:946
+msgid "Send the email?"
+msgstr "Chcete poslat email?"
+
+#: includes/admin/affiliates/views/view-add-affiliate.php:90
+msgid "Send Welcome Email"
+msgstr "Poslat uvítací email"
+
+#: includes/base/functions-currency.php:251
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/admin/functions-promo.php:121
+msgid ""
+"Set custom commission rates for recurring payments and reward your "
+"affiliates for any new subscription payments."
+msgstr ""
+"Stanovte si vlastní sazby provizí za opakované platby a odměňte své "
+"affiliate partnery za jakékoli nové transakce."
+
+#: includes/admin/functions-promo.php:67
+msgid "Set custom commission rates per affiliate"
+msgstr "Nastavte vlastní sazby provizí pro každého affiliate partnera"
+
+#: includes/admin/functions-promo.php:89
+msgid "Set custom commission rates per individual product"
+msgstr "Nastavte vlastní sazby provizí pro jednotlivé produkty"
+
+#: includes/admin/functions-promo.php:68
+msgid ""
+"Set custom percentage or fixed amount commission rates for each individual "
+"affiliate, to overwrite the default ones from general settings."
+msgstr ""
+"Nastavit vlastní procentní sazby nebo sazby provize s pevnou částkou pro "
+"každou jednotlivou pobočku, přepsat výchozí sazby z původního nastavení."
+
+#: includes/admin/functions-promo.php:120
+msgid "Set recurring commission rates for subscriptions"
+msgstr "Nastavte opakované sazby provizí za předplatné"
+
+#: includes/admin/settings/views/view-settings.php:595
+msgid ""
+"Set which fields should be required for the affiliate to complete on the "
+"registration and affiliate account pages."
+msgstr ""
+"Na stránkách registrace a účtu nastavte, která pole mají být pro affiliate "
+"partnery vyplněna."
+
+#: index.php:671 includes/admin/settings/functions.php:40
+#: includes/admin/settings/functions.php:41
+#: includes/users/shortcodes/templates/template-affiliate-account.php:32
+#: includes/admin/settings/views/view-settings.php:62
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/admin/settings/class-submenu-page-settings.php:30
+msgid "Settings saved successfully."
+msgstr "Nastavení je úspěšně uloženo."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:450
+msgid "Settings saved!"
+msgstr "Nastavení uloženo!"
+
+#: includes/admin/settings/views/view-settings.php:1168
+#: includes/admin/settings/views/view-settings.php:1175
+msgid "Setup Wizard"
+msgstr "Průvodce nastavením"
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:431
+#, php-format
+msgid ""
+"Showing all the commissions from Payout #%d.<br><a href=\"%s\">View all "
+"commissions.</a><br><br>"
+msgstr ""
+"Zobrazeny všechny provize z Výplaty #% d. <br> <a href=\"%s\"> Zobrazit "
+"všechny provize. </a> <br> <br>"
+
+#: includes/base/functions-currency.php:259
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:679
+msgid "Site Key"
+msgstr "Kód stránky"
+
+#: includes/admin/setup-wizard/views/view-page-setup-wizard.php:82
+msgid "Skip setup wizard"
+msgstr "Přeskočit průvodce nastavením"
+
+#: includes/admin/setup-wizard/views/view-page-setup-wizard.php:84
+msgid "Skip step"
+msgstr "Přeskoč krok"
+
+#. Name of the plugin
+#. Author of the plugin
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:525
+msgid "SliceWP"
+msgstr ""
+
+#: includes/admin/setup-wizard/views/view-page-setup-wizard.php:14
+msgid "SliceWP &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:685
+msgid "SliceWP Commission Settings"
+msgstr "SliceWP nastavení provizí"
+
+#: includes/base/migrations/class-migration-1-0-17.php:83
+msgid "SliceWP Important Notice"
+msgstr "SliceWP důležitá upozornění"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:16
+msgid ""
+"SliceWP is ready to run your affiliate program. Remember that you can always "
+"go to the plugin's settings page to modify the settings covered by the setup "
+"wizard."
+msgstr ""
+"SliceWP je připraven spustit váš affiliate program. Nezapomeňte, že můžete "
+"kdykoli přejít na stránku nastavení pluginu a upravit nastavení, na které se "
+"vztahuje průvodce nastavením."
+
+#: includes/admin/setup-wizard/views/view-step-integrations.php:18
+msgid ""
+"SliceWP will integrate seamlessly with any of these options, to track visits "
+"and generate commissions for orders referred by your affiliates."
+msgstr ""
+"SliceWP se bezproblémově integruje s jakoukoli z těchto možností, aby "
+"sledoval návštěvy a generoval provize za objednávky odkázané z partnerských "
+"stránek."
+
+#: includes/base/functions-actions-ajax.php:113
+#: includes/base/functions-actions-ajax.php:173
+#: includes/base/functions-utils.php:268 includes/base/functions-utils.php:273
+msgid "Something went wrong. Could not activate the website. Please try again."
+msgstr "Něco se pokazilo. Web se nepodařilo aktivovat. Prosím zkuste to znovu."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:99
+msgid "Something went wrong. Could not add the affiliate. Please try again."
+msgstr ""
+"Něco se pokazilo. Affiliate partnera nelze přidat. Prosím zkuste to znovu."
+
+#: includes/admin/commissions/functions-actions-commissions.php:100
+msgid "Something went wrong. Could not add the commission. Please try again."
+msgstr ""
+"Něco se pokazilo. Provizi se nepodařilo přidat. Prosím zkuste to znovu."
+
+#: includes/admin/creatives/functions-actions-creatives.php:120
+msgid "Something went wrong. Could not add the creative. Please try again."
+msgstr "Něco se pokazilo. Kampaň se nepodařilo přidat. Prosím zkuste to znovu."
+
+#: includes/admin/payouts/functions-actions-payouts.php:264
+msgid "Something went wrong. Could not add the payout. Please try again."
+msgstr ""
+"Něco se pokazilo. Výplatu se nepodařilo přidat. Prosím zkuste to znovu."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:341
+msgid ""
+"Something went wrong. Could not Approve the affiliate application. Please "
+"try again."
+msgstr ""
+"Něco se pokazilo. Nelze schválit affiliate aplikaci. Prosím zkuste to znovu."
+
+#: includes/admin/add-ons/views/view-add-ons.php:16
+msgid ""
+"Something went wrong. Could not connect to the server to retrieve the add-"
+"ons. Please refresh the page to try again."
+msgstr ""
+"Něco se pokazilo. Nelze se připojit k serveru a načíst doplňky. Obnovte "
+"stránku a zkuste to znovu."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:246
+msgid "Something went wrong. Could not delete the affiliate. Please try again."
+msgstr ""
+"Něco se pokazilo. Affiliate partnera nelze smazat. Prosím zkuste to znovu."
+
+#: includes/admin/commissions/functions-actions-commissions.php:229
+msgid ""
+"Something went wrong. Could not delete the commission. Please try again."
+msgstr ""
+"Něco se pokazilo. Provizi se nepodařilo smazat. Prosím zkuste to znovu."
+
+#: includes/admin/creatives/functions-actions-creatives.php:311
+msgid "Something went wrong. Could not delete the creative. Please try again."
+msgstr "Něco se pokazilo. Kampaň se nepodařilo smazat. Prosím zkuste to znovu."
+
+#: includes/admin/payouts/functions-actions-payments.php:226
+msgid "Something went wrong. Could not delete the payment. Please try again."
+msgstr "Něco se pokazilo. Platbu se nepodařilo smazat. Prosím zkuste to znovu."
+
+#: includes/admin/payouts/functions-actions-payouts.php:503
+msgid "Something went wrong. Could not delete the payout. Please try again."
+msgstr ""
+"Něco se pokazilo. Výplatu se nepodařilo smazat. Prosím zkuste to znovu."
+
+#: includes/admin/visits/functions-actions-visits.php:33
+msgid "Something went wrong. Could not delete the visit. Please try again."
+msgstr ""
+"Něco se pokazilo. Návštěvu se nepodařilo smazat. Prosím zkuste to znovu."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:350
+msgid ""
+"Something went wrong. Could not Reject the affiliate application. Please try "
+"again."
+msgstr ""
+"Něco se pokazilo. Nelze odmítnout affiliate aplikaci. Prosím zkuste to znovu."
+
+#: includes/admin/settings/class-submenu-page-settings.php:39
+msgid "Something went wrong. Could not send test email. Please try again."
+msgstr ""
+"Něco se pokazilo. Testovací email se nepodařilo odeslat. Prosím zkuste to "
+"znovu."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:287
+#: includes/admin/affiliates/functions-actions-affiliates.php:300
+msgid ""
+"Something went wrong. Could not update the affiliate application. Please try "
+"again."
+msgstr ""
+"Něco se pokazilo. Nelze aktualizovat affiliate aplikaci. Prosím zkuste to "
+"znovu."
+
+#: includes/admin/affiliates/class-submenu-page-affiliates.php:36
+msgid "Something went wrong. Could not update the affiliate."
+msgstr "Něco se pokazilo. Affiliate partnera nelze aktualizovat."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:127
+#: includes/admin/affiliates/functions-actions-affiliates.php:160
+#: includes/admin/affiliates/functions-actions-affiliates.php:205
+msgid "Something went wrong. Could not update the affiliate. Please try again."
+msgstr ""
+"Něco se pokazilo. Affiliate partnera nelze aktualizovat. Prosím, zkuste to "
+"znovu."
+
+#: includes/admin/commissions/class-submenu-page-commissions.php:36
+msgid "Something went wrong. Could not update the commission."
+msgstr "Něco se pokazilo. Provizi se nepodařilo aktualizovat."
+
+#: includes/admin/commissions/functions-actions-commissions.php:128
+#: includes/admin/commissions/functions-actions-commissions.php:141
+#: includes/admin/commissions/functions-actions-commissions.php:188
+#: includes/admin/payouts/functions-actions-payments.php:181
+msgid ""
+"Something went wrong. Could not update the commission. Please try again."
+msgstr ""
+"Něco se pokazilo. Provizi se nepodařilo aktualizovat. Prosím, zkuste to "
+"znovu."
+
+#: includes/admin/creatives/class-submenu-page-creatives.php:36
+msgid "Something went wrong. Could not update the creative."
+msgstr "Něco se pokazilo. Kampaň se nepodařilo aktualizovat."
+
+#: includes/admin/creatives/functions-actions-creatives.php:148
+#: includes/admin/creatives/functions-actions-creatives.php:161
+#: includes/admin/creatives/functions-actions-creatives.php:270
+msgid "Something went wrong. Could not update the creative. Please try again."
+msgstr ""
+"Něco se pokazilo. Kampaň se nepodařilo aktualizovat. Prosím, zkuste to znovu."
+
+#: includes/admin/payouts/functions-actions-payments.php:70
+#: includes/admin/payouts/functions-actions-payments.php:98
+#: includes/admin/payouts/functions-actions-payments.php:111
+#: includes/admin/payouts/functions-actions-payments.php:155
+msgid "Something went wrong. Could not update the payment. Please try again."
+msgstr ""
+"Něco se pokazilo. Platbu se nepodařilo aktualizovat. Prosím, zkuste to znovu."
+
+#: includes/admin/payouts/functions-actions-payments.php:239
+#: includes/admin/payouts/functions-actions-payments.php:254
+msgid "Something went wrong. Could not update the payout. Please try again."
+msgstr ""
+"Něco se pokazilo. Výplatu se nepodařilo aktualizovat. Prosím, zkuste to "
+"znovu."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:442
+msgid "Something went wrong. Could not update the settings. Please try again."
+msgstr ""
+"Něco se pokazilo. Nastavení se nepodařilo aktualizovat. Prosím, zkuste to "
+"znovu."
+
+#: includes/base/functions-currency.php:267
+msgid "South African Rand"
+msgstr ""
+
+#: includes/base/functions-currency.php:275
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/admin/payouts/views/view-create-payout.php:41
+#: includes/admin/payouts/views/view-preview-payout.php:56
+msgid "Start Date"
+msgstr "Počáteční datum"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:75
+#: includes/admin/commissions/class-list-table-commissions.php:82
+#: includes/admin/creatives/class-list-table-creatives.php:75
+#: includes/admin/payouts/class-list-table-payment-commissions.php:95
+#: includes/admin/payouts/class-list-table-payout-payments.php:70
+#: includes/admin/payouts/class-list-table-payments.php:81
+#: includes/users/shortcodes/templates/template-affiliate-account.php:457
+#: includes/users/shortcodes/templates/template-affiliate-account.php:648
+#: includes/admin/affiliates/views/view-add-affiliate.php:71
+#: includes/admin/affiliates/views/view-edit-affiliate.php:130
+#: includes/admin/commissions/views/view-add-commission.php:126
+#: includes/admin/commissions/views/view-edit-commission.php:160
+#: includes/admin/creatives/views/view-edit-creative.php:149
+#: includes/admin/creatives/views/view-add-creative.php:127
+#: includes/admin/payouts/views/view-review-payment.php:112
+msgid "Status"
+msgstr "Stav"
+
+#: includes/admin/class-deactivation.php:92
+msgid "Submit & Deactivate"
+msgstr "Potvrzení & Deaktivace"
+
+#: includes/base/commission/functions.php:269
+msgid "Subscription"
+msgstr "Popis"
+
+#: includes/base/integrations/paid-member-subscriptions/functions-hooks-integration-paid-member-subscriptions.php:405
+#: includes/base/integrations/paid-memberships-pro/functions-hooks-integration-paid-memberships-pro.php:402
+#: includes/base/integrations/memberpress/functions-hooks-integration-memberpress.php:367
+msgid "Subscription Commission Settings"
+msgstr "Nastavení provize za předplatné"
+
+#: includes/admin/functions.php:197
+msgid "Support"
+msgstr "Podpora"
+
+#: includes/base/functions-currency.php:283
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/base/functions-currency.php:291
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1126
+msgid "System Status"
+msgstr "Stav systému"
+
+#: includes/base/functions-currency.php:299
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:62
+msgid "Technical issues"
+msgstr "Technické problémy"
+
+#: includes/admin/settings/views/view-settings.php:580
+msgid "Terms and Conditions Label"
+msgstr "Políčko podmínek služby"
+
+#: includes/admin/settings/views/view-settings.php:558
+msgid "Terms and Conditions Page"
+msgstr "Stránka podmínek služby"
+
+#: includes/admin/settings/class-submenu-page-settings.php:36
+msgid "Test email has been successfully sent."
+msgstr "Testovací email byl úspěšně odeslán."
+
+#: includes/admin/creatives/class-list-table-creatives.php:72
+#: includes/base/creative/functions.php:166
+#: includes/admin/creatives/views/view-edit-creative.php:124
+#: includes/admin/creatives/views/view-add-creative.php:102
+msgid "Text"
+msgstr ""
+
+#: includes/base/functions-currency.php:307
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/base/abstracts/abstract-class-migration.php:221
+msgid ""
+"Thank you for updating! We need to migrate some data as there has been "
+"changes that require that."
+msgstr ""
+"Děkujeme za aktualizaci! Potřebujeme migrovat některá data, protože došlo ke "
+"změnám, které to vyžadují."
+
+#: includes/base/migrations/class-migration-1-0-17.php:87
+msgid "Thank you, I understand"
+msgstr "Děkuji, rozumím"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:36
+#: includes/admin/affiliates/views/view-review-affiliate.php:40
+#, php-format
+msgid ""
+"The \"%s\" email notification is not complete. Please update it %shere%s."
+msgstr ""
+"E-mailové upozornění „% s“ není kompletní. Aktualizujte jej prosím % shere%s."
+
+#: includes/admin/settings/views/view-settings.php:850
+msgid "The Admin Email Notifications will be sent to these email addresses."
+msgstr "Na tyto emailové adresy budou zasílána emailová oznámení správce."
+
+#: includes/admin/settings/emails/email-notifications/admin-commission-registered/functions.php:19
+msgid "The administrator will receive an email when a commission is generated."
+msgstr "Po vygenerování provize obdrží administrátor email."
+
+#: includes/admin/settings/emails/email-notifications/admin-new-affiliate-registration/functions.php:19
+msgid ""
+"The administrator will receive an email when a new affiliate registers an "
+"account."
+msgstr "Správce obdrží e-mail, když nový affiliate partner zaregistruje účet."
+
+#: includes/admin/settings/class-submenu-page-settings.php:44
+#, php-format
+msgid "The Affiliate user role has been added to %d users."
+msgstr "Role affiliate partnera byla přidána k %d uživatelům."
+
+#: includes/admin/settings/class-submenu-page-settings.php:47
+#, php-format
+msgid "The Affiliate user role has been removed from %d users."
+msgstr "Role affiliate partnera byla odebrána od %d uživatelů."
+
+#: includes/admin/settings/emails/email-notifications/affiliate-account-registration/functions.php:19
+msgid ""
+"The affiliate will receive an email after the registration form is "
+"successfully submitted."
+msgstr "Po úspěšném odeslání registračního formuláře obdrží partner email."
+
+#: includes/admin/settings/emails/email-notifications/affiliate-account-approved/functions.php:19
+msgid ""
+"The affiliate will receive an email when an administrator accepts their "
+"registration pending request."
+msgstr ""
+"Affiliate partner obdrží email, když administrátor přijme jejich nevyřízenou "
+"žádost o registraci."
+
+#: includes/admin/settings/emails/email-notifications/affiliate-account-rejected/functions.php:19
+msgid ""
+"The affiliate will receive an email when an administrator rejects their "
+"registration pending request."
+msgstr ""
+"Affiliate partner obdrží email, když administrátor odmítne jejich žádost o "
+"registraci."
+
+#: includes/admin/settings/emails/email-notifications/affiliate-commission-approved/functions.php:19
+msgid ""
+"The affiliate will receive an email when an order that generated a "
+"commission is completed."
+msgstr ""
+"Po dokončení objednávky, která vygenerovala provizi, obdrží affiliate "
+"partner email."
+
+#: includes/admin/settings/functions-actions-settings.php:182
+msgid "The debug log could not be cleared. Please try again."
+msgstr "Protokol ladění se nepodařilo vymazat. Prosím zkuste to znovu."
+
+#: includes/admin/creatives/views/view-edit-creative.php:69
+#: includes/admin/creatives/views/view-add-creative.php:47
+msgid ""
+"The description will help your affiliates better understand the creative."
+msgstr "Popis pomůže tvým partnerům lépe porozumět tvé kampani."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:109
+#, php-format
+msgid "The email address <strong>%s</strong> is already registered."
+msgstr "Emailová adresa <strong>%s</strong> je už registrována."
+
+#: includes/admin/settings/views/view-settings.php:785
+msgid "The email address from which the emails will be sent."
+msgstr "Emailová adresa, z které budou odesílány emailové zprávy."
+
+#. Description of the plugin
+msgid ""
+"The fastest and easiest way to set up an affiliate program for your store or "
+"membership site"
+msgstr ""
+"Nejrychlejší a nejjednodušší způsob, jak nastavit přidružený program pro váš "
+"obchod nebo členský web"
+
+#: includes/base/migrations/class-migration-1-0-17.php:84
+#, php-format
+msgid ""
+"The functionality of the %sAffiliate User Role add-on%s has been added to "
+"SliceWP core, making the add-on obsolete."
+msgstr ""
+"Do jádra SliceWP byla přidána funkčnost doplňku %sAffiliate User Role% s."
+
+#: includes/admin/settings/views/view-settings.php:799
+msgid "The name of the email sender."
+msgstr "Jméno nebo email odesílatele."
+
+#: includes/admin/creatives/views/view-edit-creative.php:57
+#: includes/admin/creatives/views/view-add-creative.php:36
+msgid "The name will help you better identify the creative."
+msgstr "Název vám lépe pomůže identifikovat kampaň."
+
+#: includes/admin/settings/views/view-settings.php:203
+#: includes/admin/setup-wizard/views/view-step-setup.php:75
+msgid "The number of days a referral is valid."
+msgstr "Počet dní, kdy je sledován doporučující odkaz."
+
+#: includes/admin/settings/views/view-settings.php:217
+msgid ""
+"The payment will be generated only if its commissions sum is greater than "
+"this value. If is set to 0, the payments will be generated for all the "
+"commissions."
+msgstr ""
+"Platba bude vygenerována pouze v případě, že její součet provizí bude vyšší "
+"než tato hodnota. Pokud je nastavena na 0, budou platby generovány pro "
+"všechny provize."
+
+#: includes/admin/payouts/views/view-create-payout.php:64
+msgid ""
+"The payment will be generated only if its commissions sum is greater than "
+"this value. If is set to 0, the payments will be generated for all the "
+"commissions.\t"
+msgstr ""
+"Platba bude vygenerována pouze v případě, že její součet provizí bude vyšší "
+"než tato hodnota. Pokud je nastavena na 0, budou platby generovány pro "
+"všechny provize."
+
+#: includes/admin/payouts/functions-actions-payouts.php:459
+msgid "The payout was not deleted because it contains paid payments."
+msgstr "Výplata nebyla smazána, protože obsahuje zaplacené výplaty."
+
+#: includes/admin/settings/views/view-settings.php:475
+msgid ""
+"The position of the currency symbol in relation with the amount value, when "
+"displaying amounts."
+msgstr "Poloha symbolu měny při zobrazení částky."
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:571
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:460
+msgid ""
+"The product commission rate settings are not available because the "
+"commissions for this product category are disabled."
+msgstr ""
+"Nastavení sazby provize za produkt není k dispozici, protože provize pro "
+"tuto kategorii produktů jsou deaktivovány."
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:711
+msgid ""
+"The product variation commission rate settings are not available because the "
+"commissions for this product are disabled."
+msgstr ""
+"Nastavení sazby provize pro variace produktu není k dispozici, protože "
+"provize pro tento produkt jsou deaktivovány."
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:702
+msgid ""
+"The product variation commission rate settings are not available because the "
+"commissions for this product category are disabled."
+msgstr ""
+"Nastavení míry provize pro variace produktu není k dispozici, protože "
+"provize pro tuto kategorii produktů jsou deaktivovány."
+
+#: includes/base/functions-utils.php:264 includes/base/functions-utils.php:271
+msgid "The provided license key does not exist or is invalid."
+msgstr "Poskytnutý licenční klíč neexistuje nebo je neplatný."
+
+#: includes/base/functions-utils.php:266
+msgid "The provided license key is expired."
+msgstr "Platnost poskytnutého licenčního klíče vypršela."
+
+#: includes/base/functions-utils.php:265
+msgid "The provided license key is inactive."
+msgstr "Poskytnutý licenční klíč je neaktivní."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:778
+msgid "The provided link is not valid!"
+msgstr "Tento odkaz není platný!"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:215
+msgid ""
+"The Reject Reason will be replaced with the tag {{reject_reason}} in the "
+"Rejection email notification template."
+msgstr ""
+"Důvod odmítnutí bude v šabloně emailového oznámení o zamítnutí nahrazen "
+"značkou {{reject_reason}}."
+
+#: includes/admin/commissions/functions-actions-commissions.php:40
+msgid "The selected date and time for the commission are invalid."
+msgstr "Nesprávný datum a čas."
+
+#: includes/admin/affiliates/functions-actions-affiliates.php:74
+#: includes/admin/affiliates/functions-actions-affiliates.php:182
+#: includes/admin/commissions/functions-actions-commissions.php:72
+#: includes/admin/commissions/functions-actions-commissions.php:163
+#: includes/admin/creatives/functions-actions-creatives.php:91
+#: includes/admin/creatives/functions-actions-creatives.php:242
+#: includes/admin/payouts/functions-actions-payments.php:133
+msgid "The selected status in not allowed."
+msgstr "Vybraný stav není povolen."
+
+#: includes/admin/creatives/functions-actions-creatives.php:42
+#: includes/admin/creatives/functions-actions-creatives.php:193
+msgid "The selected type in not allowed."
+msgstr "Vybraný typ není povolen."
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:60
+msgid ""
+"The setup wizard covers only the few essential options you need to start. "
+"You can add more or refine the existing ones to cater to your needs."
+msgstr ""
+"Průvodce nastavením pokrývá pouze několik základních možností, kterými "
+"musíte začít. Můžete přidat další nebo vylepšit stávající, aby vyhovovaly "
+"vašim potřebám."
+
+#: includes/admin/settings/views/view-settings.php:508
+msgid ""
+"The symbol to separate decimal points. This is usually a , (comma) or a . "
+"(dot)."
+msgstr "Symbol oddělující desetinná místa. Je to obvykle čárka nebo tečka."
+
+#: includes/admin/settings/views/view-settings.php:494
+msgid ""
+"The symbol to separate thousands. This is usually a , (comma) or a . (dot)."
+msgstr "Symbol k oddělení tisíců. Je to obvykle čárka nebo tečka."
+
+#: includes/admin/settings/views/view-settings.php:813
+msgid "The template will be used to format the email."
+msgstr "Tato šablona bude použita pro vytvoření emailu."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:88
+msgid "The typed passwords do not match."
+msgstr "Heslo, které jste zadali, není správné."
+
+#: includes/admin/settings/views/view-settings.php:413
+#, php-format
+msgid "The URL keyword for affiliate identification: <b>%s/?%s=%s</b>"
+msgstr ""
+"Klíčové slovo k odkazu pro identifikaci affiliate partnera: <b>%s/?%s=%s</b>"
+
+#: index.php:318
+msgid ""
+"The user {{affiliate_username}} ({{affiliate_email}}) just signed up for the "
+"affiliate program."
+msgstr ""
+"Uživatel {{affiliate_username}} ({{affiliate_email}}) se právě přihlásil do "
+"affiliate programu."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:99
+#, php-format
+msgid "The username <strong>%s</strong> is already registered."
+msgstr "Uživatel se jménem <strong>%s</strong> je už zaregistrovaný."
+
+#: includes/base/notes/class-outputter-notes.php:75
+msgid "There are no notes here."
+msgstr "Nejsou zde žádné poznámky."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:575
+msgid "There aren't any creatives available."
+msgstr "Žádné kampaně nejsou k dispozici."
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:94
+#: includes/admin/affiliates/views/view-edit-affiliate.php:53
+#, php-format
+msgid ""
+"This is the display name of the user attached to this affiliate. You can "
+"change this value from the %suser edit page%s."
+msgstr ""
+"Toto je zobrazované jméno uživatele připojeného k affiliate programu. Tuto "
+"hodnotu můžete změnit na stránce úprav %sstránka uživatele% s."
+
+#: includes/admin/settings/views/view-settings.php:581
+msgid "This label will acompanion the Terms and Conditions checkbox."
+msgstr "Tento štítek bude zahrnovat zaškrtávací políčko Smluvních podmínek."
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:78
+msgid ""
+"This page will be your affiliates' personal dashboard, where they'll be able "
+"to generate referral links and view the visits and commissions they "
+"generated."
+msgstr ""
+"Tato stránka bude osobním řídicím panelem vašich affiliate partnerů kde "
+"budou moci generovat odkazující odkazy a zobrazit návštěvy a provize, které "
+"vygenerovaly."
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:58
+msgid ""
+"This page will contain a form where affiliates will be able to log into "
+"their affiliate account."
+msgstr ""
+"Tato stránka bude obsahovat formulář, kde se partneři budou moci přihlásit "
+"ke svému affiliate účtu."
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:38
+msgid ""
+"This page will contain a form where users will have the ability to register "
+"as affiliates."
+msgstr ""
+"Tato stránka bude obsahovat formulář, kde se uživatelé budou moci "
+"zaregistrovat jako affiliate partneři."
+
+#: includes/admin/creatives/views/view-edit-creative.php:125
+#: includes/admin/creatives/views/view-add-creative.php:103
+msgid "This text will be your creative"
+msgstr "Tento text bude vaše kampaň"
+
+#: includes/base/functions-utils.php:272
+msgid "This website is not registered on our system."
+msgstr "Tato webová stránka není v našem systému zaregistrována."
+
+#: includes/base/payout/payout-methods/manual/functions.php:24
+msgid ""
+"This will mark all unpaid and failed payments for this payout as paid. All "
+"commissions associated with these payments will also be marked as paid. Are "
+"you sure you want to continue?"
+msgstr ""
+"To označí všechny nezaplacené a neúspěšné platby pro tuto výplatu jako "
+"zaplacené. Všechny provize spojené s těmito platbami budou také označeny "
+"jako vyplacené. Jste si jistý, že chcete pokračovat?"
+
+#: includes/admin/settings/views/view-settings.php:493
+msgid "Thousands Separator"
+msgstr "Oddělovač tisíců"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:21
+msgid "Tips, news and product updates, straight to your inbox."
+msgstr "Tipy, novinky a aktualizace produktů přímo do vaší doručené pošty."
+
+#: includes/admin/commissions/class-list-table-commissions.php:385
+#: includes/admin/visits/class-list-table-visits.php:323
+#: includes/admin/payouts/class-list-table-payments.php:366
+msgid "To"
+msgstr "Do"
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:16
+msgid ""
+"To offer your affiliates a welcoming experience and have them interact with "
+"the website, SliceWP can automatically create a few pages designed precisely "
+"for them."
+msgstr ""
+"Aby společnost SliceWP mohla nabídnout vašim affiliate partnerům skvělé "
+"služby a umožnit jim interakci s webem, může automaticky vytvořit několik "
+"stránek určených přesně pro ně."
+
+#: includes/admin/settings/views/view-settings.php:20
+msgid "Tools"
+msgstr "Nástroje"
+
+#: includes/admin/functions-promo.php:99
+msgid ""
+"Track the performance of your affiliate partners and monitor key metrics to "
+"help you improve your affiliate marketing program."
+msgstr ""
+"Sledujte výkon svých affiliate partnerů a sledujte klíčové metriky, které "
+"vám pomohou zlepšit váš program přidruženého marketingu."
+
+#: includes/base/functions-currency.php:315
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/admin/commissions/class-list-table-commissions.php:80
+#: includes/admin/creatives/class-list-table-creatives.php:71
+#: includes/users/shortcodes/templates/template-affiliate-account.php:455
+#: includes/admin/commissions/views/view-add-commission.php:107
+#: includes/admin/commissions/views/view-edit-commission.php:141
+#: includes/admin/creatives/views/view-edit-creative.php:80
+#: includes/admin/creatives/views/view-add-creative.php:58
+msgid "Type"
+msgstr "Typ"
+
+#: includes/base/notes/class-outputter-notes.php:100
+msgid "Type a note here..."
+msgstr "Napište svoji poznámku sem...."
+
+#: includes/admin/commissions/views/view-add-commission.php:38
+msgid "Type the affiliate's email or name..."
+msgstr "Napište email nebo jméno affiliate partnera..."
+
+#: includes/admin/class-deactivation.php:64
+msgid "Type the issues here..."
+msgstr "Popište problém zde..."
+
+#: includes/admin/class-deactivation.php:73
+msgid "Type the missing features here..."
+msgstr "Napište co chybí zde..."
+
+#: includes/admin/affiliates/views/view-add-affiliate.php:38
+msgid "Type the user's email or name..."
+msgstr "Napiš uživatelské jméno nebo email..."
+
+#: includes/admin/class-deactivation.php:82
+msgid "Type your feedback here..."
+msgstr "Napište vaši zpětnou vazbu zde..."
+
+#: includes/base/functions-currency.php:323
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:323
+#: includes/users/shortcodes/functions-actions-shortcodes.php:334
+#: includes/users/shortcodes/functions-actions-shortcodes.php:353
+msgid "Unable to login. Please try again."
+msgstr "Není možné se přihlásit. Prosím zkuste to později."
+
+#: index.php:336
+msgid "Unfortunately, your application for an affiliate account was rejected."
+msgstr "Bohužel, vaše žádost o affiliate partnerství nebyla schválena."
+
+#: includes/base/payment/functions.php:213
+#: includes/base/commission/functions.php:237
+msgid "Unpaid"
+msgstr "Neproplaceno"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:74
+#: includes/users/shortcodes/templates/template-affiliate-account.php:193
+#: includes/users/shortcodes/templates/template-affiliate-account.php:231
+msgid "Unpaid Commissions"
+msgstr "Neproplacené provize"
+
+#: includes/admin/affiliates/class-list-table-affiliates.php:72
+msgid "Unpaid Earnings"
+msgstr "Neproplacené výdělky"
+
+#: includes/admin/affiliates/views/view-edit-affiliate.php:203
+msgid "Update Affiliate"
+msgstr "Aktualizovat affiliate partnery"
+
+#: includes/admin/commissions/views/view-edit-commission.php:218
+msgid "Update Commission"
+msgstr "Aktualizovat provize"
+
+#: includes/admin/creatives/views/view-edit-creative.php:209
+msgid "Update Creative"
+msgstr "Aktualizuj kampaně"
+
+#: includes/admin/functions-promo.php:54
+msgid "Upgrade to Premium"
+msgstr "Upgrade na prémiovou verzi"
+
+#: includes/admin/add-ons/views/view-add-ons.php:23
+msgid ""
+"Upgrade to Pro and expand your affiliate program with these premium add-ons."
+msgstr ""
+"Udělejte upgrade na verzi Pro a rozšiřte svůj affiliate program o tyto "
+"doplňky."
+
+#: includes/base/functions-currency.php:331
+msgid "Uruguayan Peso"
+msgstr ""
+
+#: includes/base/functions-currency.php:19
+msgid "US Dollar"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1185
+msgid "Usage Tracking"
+msgstr "Sledování využití"
+
+#: includes/admin/functions-promo.php:156
+#, php-format
+msgid "Use this coupon code for a 20% discount."
+msgstr "Použijte tento kupónový kód pro 20% slevu."
+
+#: includes/admin/affiliates/views/view-add-affiliate.php:35
+msgid "User"
+msgstr "Uživatel"
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:127
+#: includes/admin/affiliates/views/view-edit-affiliate.php:86
+msgid "User ID"
+msgstr "Uživatelské ID"
+
+#: includes/base/commission/functions.php:273
+msgid "User Signup"
+msgstr "Přihlášení uživatele"
+
+#: includes/users/shortcodes/templates/template-register.php:19
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: includes/users/shortcodes/templates/template-login.php:17
+msgid "Username / Email"
+msgstr "Uživatelské jméno nebo email"
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:212
+msgid "Username could not be created! Please try again later!"
+msgstr "Prosím zkuste to později!"
+
+#: includes/admin/settings/views/view-settings.php:1055
+msgid "Users Affiliate User Role"
+msgstr "Role affiliate partnerů"
+
+#: includes/base/functions-currency.php:339
+msgid "Venezuelan bolívar"
+msgstr ""
+
+#: includes/admin/payouts/class-list-table-payout-payments.php:305
+#: includes/admin/payouts/class-list-table-payouts.php:251
+msgid "View"
+msgstr "Vidět"
+
+#: includes/base/notes/class-outputter-notes.php:91
+#, php-format
+msgid "View all %s notes"
+msgstr "Zobrazit všechny %s poznámky"
+
+#: includes/admin/add-ons/views/view-add-ons.php:24
+msgid "View Pricing"
+msgstr "Zobrazit ceny"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:75
+msgid "Visit Dashboard"
+msgstr "Podívat se na nástěnku"
+
+#: includes/admin/visits/functions.php:44
+#: includes/admin/visits/functions.php:45
+#: includes/users/shortcodes/templates/template-affiliate-account.php:20
+#: includes/users/shortcodes/templates/template-affiliate-account.php:349
+#: includes/users/shortcodes/templates/template-affiliate-account.php:382
+#: includes/admin/visits/views/view-visits.php:13
+msgid "Visits"
+msgstr "Návštěvy"
+
+#: includes/admin/class-deactivation.php:81
+msgid ""
+"We are continuously improving SliceWP and your feedback is extremely "
+"important to us. Please let us know how we can improve the plugin."
+msgstr ""
+"SliceWP neustále vylepšujeme a vaše zpětná vazba je pro nás nesmírně "
+"důležitá. Dejte nám prosím vědět, jak můžeme plugin vylepšit."
+
+#: includes/base/migrations/class-migration-1-0-17.php:85
+#, php-format
+msgid ""
+"We recommend deactivating and deleting the add-on from the %sPlugins%s page "
+"as it will no longer be maintained."
+msgstr ""
+"Doporučujeme deaktivovat a odstranit doplněk ze stránky %sPlugins%s, protože "
+"již nebude udržován."
+
+#: includes/admin/class-deactivation.php:54
+msgid "We're sorry to see you go"
+msgstr "Je nám líto, že odcházíte"
+
+#: index.php:328
+msgid ""
+"We've received your affiliate registration request. Our team will review it "
+"shortly and we'll get back to you with details."
+msgstr ""
+"Obdrželi jsme váš požadavek na registraci affiliate partnera. Brzy vše "
+"zkontrolujeme a ozveme se s podrobnostmi."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:725
+#: includes/users/shortcodes/templates/template-register.php:98
+#: includes/admin/affiliates/views/view-add-affiliate.php:49
+#: includes/admin/affiliates/views/view-review-affiliate.php:149
+#: includes/admin/affiliates/views/view-edit-affiliate.php:108
+#: includes/admin/settings/views/view-settings.php:621
+msgid "Website"
+msgstr "Webová stránka"
+
+#: includes/admin/setup-wizard/views/view-step-integrations.php:14
+msgid ""
+"Welcome to the setup wizard! Ready to get your affiliate program up and "
+"running?"
+msgstr ""
+"Vítejte v průvodci nastavením! Jste připraveni na spuštění vašeho affiliate "
+"programu?"
+
+#: index.php:332
+msgid "Welcome to the team!"
+msgstr "Vítejte v týmu!"
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:14
+msgid "Welcome your affiliates"
+msgstr "Uvítejte svoje partnery"
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:817
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:857
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:566
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:606
+msgid ""
+"When checked, commissions will not be generated for this product category."
+msgstr ""
+"Je-li toto políčko zaškrtnuto, provize se pro tuto kategorii produktů "
+"generovat nebudou."
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:586
+msgid "When checked, commissions will not be generated for this product."
+msgstr ""
+"Je-li toto políčko zaškrtnuto, nebudou pro tento produkt generovány provize."
+
+#: includes/admin/affiliates/views/view-review-affiliate.php:197
+msgid ""
+"When enabled, an approval/rejection email notification will be sent to the "
+"affiliate."
+msgstr ""
+"Pokud je tato možnost povolena, bude affiliate partnerovi zasláno emailové "
+"oznámení o schválení či odmítnutí."
+
+#: includes/admin/functions-promo.php:134
+msgid ""
+"Whenever you need help, we're here for you. Our support response times are "
+"between 6 and 24 hours, so you can rest assured any issues will be resolved "
+"quickly."
+msgstr ""
+"Kdykoli potřebujete pomoc, jsme tu pro vás. Doba odpovědi je mezi 6 a 24 "
+"hodinami, takže si můžete být jisti, že jakékoli problémy budou rychle "
+"vyřešeny."
+
+#: includes/admin/visits/class-list-table-visits.php:275
+msgid "yes"
+msgstr "ano"
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:36
+msgid "Yes, please!"
+msgstr "Ano, prosím!"
+
+#: includes/users/shortcodes/functions-shortcodes.php:129
+msgid "You are already logged in!"
+msgstr "Již jste přihlášený uživatel!"
+
+#: includes/users/shortcodes/functions-shortcodes.php:86
+msgid "You are already registered!"
+msgstr "Již jste zaregistrovaný uživatel!"
+
+#: includes/admin/payouts/functions-actions-payouts.php:446
+msgid ""
+"You are not allowed to delete this payout because it was generated by "
+"another administrator."
+msgstr "Tuto platbu nesmíte mazat, protože byla vygenerována jiným správcem."
+
+#: includes/users/shortcodes/functions-shortcodes.php:185
+msgid "You are not logged in!"
+msgstr "Nejprve se musíte přihlásit!"
+
+#: includes/users/shortcodes/functions-shortcodes.php:120
+msgid "You are now logged in!"
+msgstr "Jste úspěšně přihlášený!"
+
+#: includes/admin/setup-wizard/views/view-step-pages.php:18
+msgid "You can select just one or all of them below."
+msgstr "Níže můžete vybrat pouze jeden nebo všechny z nich."
+
+#: includes/admin/settings/views/view-settings.php:995
+msgid ""
+"You can use the following tags in the email subject and email content to "
+"personalise your emails:"
+msgstr ""
+"K přizpůsobení svých emailů můžete použít následující značky v předmětu "
+"emailu a v obsahu emailu:"
+
+#: includes/admin/payouts/class-list-table-payouts.php:265
+msgid "You cannot delete this payout because it contains paid payments."
+msgstr "Tuto výplatu nemůžete smazat, protože obsahuje provedené výplaty."
+
+#: includes/admin/payouts/class-list-table-payouts.php:265
+msgid ""
+"You cannot delete this payout because you are not the one that created it."
+msgstr "Tuto výplatu nemůžete smazat, protože nejste ten, kdo ji vytvořil."
+
+#: index.php:341
+msgid "You have been rewarded a new commission of {{commission_amount}}."
+msgstr "Byla Vám připsána nová provize ve výši {{commission_amount}}."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:462
+msgid "You have no commissions."
+msgstr "Zatím nemáte žádné provize."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:654
+msgid "You have no payouts."
+msgstr "Zatím není nic k zaplacení."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:523
+msgid "You have no visits."
+msgstr "Zatím nemáte žádné návštěvy."
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:174
+msgid "You must agree with our Terms and Conditions."
+msgstr "Musíte souhlasit s podmínkami služby."
+
+#: includes/users/shortcodes/functions-shortcodes.php:31
+msgid ""
+"You see this message because you're an administrator of this website. The "
+"affiliate registrations are disabled! "
+msgstr ""
+"Tato zpráva se zobrazuje, protože jste správcem tohoto webu. Registrace "
+"affiliate partnerů jsou zakázány!"
+
+#: includes/admin/setup-wizard/views/view-step-emails.php:16
+msgid ""
+"You'll be able to customize each email to your needs later on in the "
+"settings page of SliceWP."
+msgstr ""
+"Později budete moci přizpůsobit každý email svým potřebám na stránce "
+"nastavení SliceWP."
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:14
+msgid "You're all set up and good to go!"
+msgstr "Jste připraveni a můžete začít!"
+
+#: includes/admin/functions.php:127
+#, php-format
+msgid ""
+"Your %sSliceWP%s license key is missing. To receive automatic updates and "
+"technical support, please %sregister your website in SliceWP &rarr; Settings"
+"%s"
+msgstr ""
+"Váš %sSliceWP%s licenční kód chybí. Abyste dostali automatické aktualizace a "
+"technickou podporu, prosím %s zaregistrujte váš web na SliceWP &rarr; "
+"Settings%s"
+
+#: includes/users/shortcodes/functions-shortcodes.php:204
+msgid "Your account does not have affiliate privileges!"
+msgstr "Váš účet nemá oprávnění affiliate partnera!"
+
+#: includes/users/shortcodes/functions-shortcodes.php:215
+msgid ""
+"Your account is not enrolled in our affiliate program. Fill the form bellow "
+"if you want to apply."
+msgstr ""
+"Váš účet není zaregistrován v našem affiliate programu. Chcete-li se "
+"přihlásit, vyplňte níže uvedený formulář."
+
+#: includes/users/shortcodes/functions-shortcodes.php:52
+msgid "Your account was registered successfully!"
+msgstr "Váš účet byl úspěšně zaregistrovaný!"
+
+#: includes/base/functions-utils.php:267
+msgid ""
+"Your activation limit for this license key has been reached. Please upgrade "
+"your account if you'd like to register more websites."
+msgstr ""
+"Bylo dosaženo aktivačního limitu pro tento licenční klíč. Chcete-li "
+"zaregistrovat více webů, upgradujte svůj účet."
+
+#: includes/users/shortcodes/functions-shortcodes.php:226
+msgid "Your affiliate account is currently being reviewed."
+msgstr "Váš affiliate účet se právě schvaluje."
+
+#: includes/users/shortcodes/functions-shortcodes.php:240
+msgid "Your affiliate account is not active."
+msgstr "Váš účet partnera není aktivní."
+
+#: includes/users/shortcodes/functions-shortcodes.php:233
+msgid "Your affiliate application has been rejected."
+msgstr "Vaše žádost o affiliate partnerství byla zamítnuta."
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:758
+msgid "Your Affiliate Link"
+msgstr "Váš affiliate odkaz"
+
+#: index.php:332
+msgid "Your application for our affiliate account has been approved."
+msgstr "Vaše žádost o affiliate partnerství byla schválena."
+
+#: includes/admin/creatives/views/view-edit-creative.php:138
+#: includes/admin/creatives/views/view-add-creative.php:116
+msgid ""
+"Your creative will lead to this URL. If empty your domain URL will be used."
+msgstr ""
+"Vaše kampaň bude odkazovat na tuto URL. Když pole necháte prázdné, použije "
+"se tento odkaz."
+
+#: includes/admin/setup-wizard/views/view-step-finished.php:26
+msgid "Your Email"
+msgstr "Váš email"
+
+#: includes/base/functions-actions-ajax.php:203
+msgid "Your website has been successfully deregistered."
+msgstr "Vaše webové stránky byly úspěšně odregistrovány."
+
+#: includes/base/functions-actions-ajax.php:143
+msgid "Your website has been successfully registered."
+msgstr "Vaše webové stránky byly úspěšně zaregistrovány."
+
+#: includes/admin/settings/views/view-settings.php:357
+msgid "Zero Amount Commissions"
+msgstr "Žádné provize"
