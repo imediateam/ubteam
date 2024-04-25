@@ -3,18 +3,18 @@ Contributors: iova.mihai
 Donate link: https://slicewp.com/
 Tags: affiliate, affiliates, affiliate program, woocommerce affiliates, affiliates plugin, affiliates manager program, affiliates manager plugin
 Requires at least: 4.6
-Tested up to: 5.5.1
-Stable tag: 11.0.21
+Tested up to: 5.6.0
+Stable tag: 1.0.27
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-SliceWP is the quickest and easiest WordPress affiliate plugin for building your affiliate program. Track affiliate commissions, easily pay your affiliates and connect to WooCommerce in seconds.
+SliceWP is the quickest and easiest WordPress affiliates plugin for building your affiliate program. Track affiliate commissions, easily pay your affiliates and connect to WooCommerce in seconds.
 
 == Description ==
-**SliceWP slice by slice — What makes SliceWP such an easy to use affiliate plugin?**
+**SliceWP slice by slice — What makes SliceWP such an easy to use affiliates plugin?**
 
-We’re powered by personal experience, having worked on numerous affiliate projects every time we found the current solutions lacking. So we built SliceWP to be easy to use, quick to setup and have a beautiful interface out of the box.
+We’re powered by personal experience, having worked on numerous affiliate projects every time we found the current solutions lacking. So we built SliceWP to be easy to use, quick to setup and have a beautiful interface.
 
 = SliceWP Affiliate Plugin Features — In a nutshell =
 
@@ -26,11 +26,11 @@ We’re powered by personal experience, having worked on numerous affiliate proj
 
 **Never miss a thing** — Keep everyone up to date with email notifications about generated commissions that get sent automatically. Making you and your affiliates happy. 
 
-**Affiliate pages out of the box** — Custom pages where you affiliates can log in and manage their account while being kept up to date on how their affiliate account is going. 
+**Affiliate pages out of the box** — Custom pages where your affiliates can log in and manage their affiliate account while being kept up to date on how their affiliate marketing is working. 
 
-**Percentages or fixed commissions? You decide** — Full support for affiliate percentages or fixed commissions giving you more flexibility than ever before. 
+**Percentages or fixed commissions? You decide** — Full support for affiliate percentages or fixed affiliate commissions giving you more flexibility than ever before. 
 
-And these features are just the tip of the iceberg… And don’t even mention things like the ability to approve or review affiliate applications, creating payouts in a few clicks and much more. Intrigued? Find out more.
+And these features are just the tip of the iceberg... And don’t even mention things like the ability to approve or review affiliate applications, creating affiliate payouts in a few clicks and much more. Intrigued? Find out more.
 
 = An all in one WordPress Affiliates Plugin =
 
@@ -44,17 +44,21 @@ But what makes SliceWP so easy to use for your WordPress affiliate needs?
 
 Simple. SliceWP was built from the ground-up to work seamlessly with your WordPress site. From a stunning user interface that makes it a pleasure to use and built in integrations with your favorite WordPress eCommerce solutions it couldn’t be easier to get your affiliate program up and running. Remember when we said it's probably the best WooCommerce affiliates plugin out there? We mean it.
 
+= Affiliate plugin for WooCommerce =
+
+When building a WooCommerce affiliate program, few plugins can do for you what SliceWP does. From accurate affiliate and commission tracking, to affiliate coupon codes. Set product affiliate commission rates per product, disable commissions per product, connect affiliates to coupon codes, pay affiliates through PayPal. All done from your WordPress dashboard. An affiliate plugin for WooCommerce that integrates seamlessly.
+
 = Want an extra slice? Check out SliceWP Premium. =
 
 [SliceWP premium](https://slicewp.com/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) is a paid-upgrade to SliceWP which makes your mouth water with [these delicious add-ons](https://slicewp.com/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) (no pineapple was used in the making of these add-ons). 
 
-* [Reports](https://slicewp.com/products/reports/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Generate and monitor various metrics to improve your referral program.
+* [Reports](https://slicewp.com/products/reports/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Generate and monitor various metrics to improve your affiliates program.
 * [PayPal Payouts](https://slicewp.com/products/paypal-payouts/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Pay your affiliates directly through the SliceWP interface with just a few clicks.
-* [Product Commission Rates](https://slicewp.com/products/product-commission-rates/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Set custom commission rates individual products or subscriptions.
+* [Product Commission Rates](https://slicewp.com/products/product-commission-rates/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Set custom affiliate commission rates for individual products or subscriptions.
 * [Affiliate Coupons](https://slicewp.com/products/affiliate-coupons/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Associate affiliates to coupon codes and track them to generate commissions for your affiliate partners.
 * [Affiliate Commission Rates](https://slicewp.com/products/affiliate-commission-rates/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Reward individually your affiliates a custom commission, either percentage or fixed amount.
 * [Custom Conversion](https://slicewp.com/products/custom-conversion/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Generate commissions for your affiliates even if you're not using one of the available integrations.
-* [Affiliate User Role](https://slicewp.com/products/affiliate-user-role/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Adds the "Affiliate" user role to users when you manually add them as affiliates or when they register for an affiliate account.
+* [Affiliate Social Share](https://slicewp.com/products/affiliate-social-share/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree) - Add social media buttons to the affiliate account so your affiliates can share their affiliate promo link directly from their account.
 
 Interested? [Find out more about SliceWP Premium](https://slicewp.com/?utm_source=wp.org&utm_medium=plugin-description-page&utm_campaign=SliceWPFree)
 
@@ -87,18 +91,19 @@ Anyway you want! You can pay via wire transfer, PayPal or any other payment meth
 
 It sure does! SliceWP integrates with Paid Membership Pro, MemberPress and Paid Member Subscriptions making it the perfect side dish to power your WordPress membership affiliates program.
 
+Besides being the best WooCommerce affiliates plugin, it's also the best Paid Memberships Pro affiliates plugin.
+
 = Do you offer support? =
 
 Of course! We offer support in the forums here on WordPress.org and if you have a paid subscription we offer priority email support.
 
 = Is SliceWP GDPR compatible? =
 
-SliceWP is a fully GDPR compatible WordPress affiliates plugin. We don’t track or store any data ourselves. You can opt-in to share usage data but this is for us to improve the plugin we don’t store or ever have your affiliate campaigns or details come across our servers.
+SliceWP is a fully GDPR compatible WordPress affiliates plugin. We don’t track or store any data ourselves. You can opt-in to share usage data but this is for us to improve the plugin. We don’t store affiliates data, affiliate campaigns or other details across our servers.
 
 = Can I set a custom cookie duration for my affiliates? =
 
-Yes! You can set a custom cookie lifespan for your affiliates from within the SliceWP interface.
-
+Yes! You can set a custom cookie lifespan for your affiliates.
 
 == Screenshots ==
 1. Affiliates table with all affiliates. List can be filtered by affiliate status.
@@ -113,6 +118,25 @@ Yes! You can set a custom cookie lifespan for your affiliates from within the Sl
 
 
 == Changelog ==
+
+= 1.0.27 =
+* New: Added "slicewp_register_currency" filter.
+* Misc: Deprecated "slicewp_currencies" filter.
+
+= 1.0.26 =
+* Misc: Added review request admin notice.
+
+= 1.0.25 =
+* Misc: Fixed affiliate program setup wizard for latest WP release.
+
+= 1.0.24 =
+* Misc: Added two new hooks in affiliate account.
+
+= 1.0.23 =
+* Fixed: Typo in affiliate notice.
+
+= 1.0.22 =
+* New: Added Pakistani Rupee currency.
 
 = 1.0.21 =
 * New: Added Czech and Spanish translation files.
@@ -138,13 +162,12 @@ Yes! You can set a custom cookie lifespan for your affiliates from within the Sl
 * Misc: Added support for tax exclussion with Paid Member Subscriptions.
 
 = 1.0.15 =
-* New: Added 12 new languages: Icelandic Króna, Indonesian Rupiah, Romanian Leu, Ukrainian Hryvnia, Bulgarian Lev, Uruguayan Peso, Venezuelan bolívar, Moldovan Leu, Nigerian Naira, Croatian Kuna, Argentine Peso, Serbian Dinar.
+* New: Added 12 new currencies: Icelandic Króna, Indonesian Rupiah, Romanian Leu, Ukrainian Hryvnia, Bulgarian Lev, Uruguayan Peso, Venezuelan bolívar, Moldovan Leu, Nigerian Naira, Croatian Kuna, Argentine Peso, Serbian Dinar.
 * Misc: Added links to documentation articles in tooltips.
 
 = 1.0.14 =
-* New: Added South African Rand currency.
-* New: Added South Korean Won currency.
-* Enhancement: Load front end scripts only when needed to improve performance.
+* New: Added South African Rand and South Korean Won currencies.
+* Enhancement: Load front end scripts only on affiliates pages.
 * Misc: Added deactivation feedback form.
 
 = 1.0.13 =
@@ -192,7 +215,7 @@ Yes! You can set a custom cookie lifespan for your affiliates from within the Sl
 
 = 1.0.5 =
 * Enhancement: Improved the affiliates preview payouts list table, by including amount and commissions count sorting.
-* Enhancement: Improved referral program setup wizard.
+* Enhancement: Improved affiliates program setup wizard.
 * Enhancement: Added CSS classes to affiliate creatives for easier styling.
 * Fixed: Affiliate messages from shortcodes are now returned, not printed.
 

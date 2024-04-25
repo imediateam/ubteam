@@ -3,8 +3,9 @@
  * Plugin Name: SliceWP
  * Plugin URI: https://slicewp.com/
  * Description: The fastest and easiest way to set up an affiliate program for your store or membership site
- * Version: 11.0.21
+ * Version: 1.0.27
  * Author: SliceWP
+ * Author URI: https://slicewp.com/
  * Text Domain: slicewp
  * License: GPL2
  *
@@ -87,7 +88,7 @@ Class SliceWP {
 	public function __construct() {
 
 		// Defining constants
-		define( 'SLICEWP_VERSION', 		   '1.0.21' );
+		define( 'SLICEWP_VERSION', 		   '1.0.27' );
 		define( 'SLICEWP_BASENAME',  	   plugin_basename( __FILE__ ) );
 		define( 'SLICEWP_PLUGIN_DIR', 	   plugin_dir_path( __FILE__ ) );
 		define( 'SLICEWP_PLUGIN_DIR_URL',  plugin_dir_url( __FILE__ ) );
@@ -613,9 +614,9 @@ Class SliceWP {
 	public function enqueue_front_end_scripts() {
 
 		// Register and enqueue plugin styles
-		
-		//wp_register_style( 'slicewp-style', SLICEWP_PLUGIN_DIR_URL . 'assets/css/style-front-end.css', array( 'dashicons' ), SLICEWP_VERSION );
-		//wp_enqueue_style( 'slicewp-style' ); 
+		wp_register_style( 'slicewp-style', SLICEWP_PLUGIN_DIR_URL . 'assets/css/style-front-end.css', array( 'dashicons' ), SLICEWP_VERSION );
+		wp_enqueue_style( 'slicewp-style' );
+
 		// Register plugin scripts. Enqueing is done in the shortcodes callbacks for performance.
 		wp_register_script( 'slicewp-script', SLICEWP_PLUGIN_DIR_URL . 'assets/js/script-front-end.js', array( 'jquery' ), SLICEWP_VERSION, true );
 

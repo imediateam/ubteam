@@ -35,7 +35,8 @@ body.slicewp-pagestyles .wp-header-end { clear: both; }
 #slicewp-header { padding: 10px 20px; margin-left: -20px; text-align: right; background: #fff; height: 36px; margin-bottom: 20px; box-shadow: 0 1px 1px #c8d7e1; }
 #slicewp-header > a:first-of-type { float: left; display: inline-block; text-decoration: none; vertical-align: middle; }
 #slicewp-header > a:first-of-type img { max-height: 30px; margin-top: 3px; }
-#slicewp-header .slicewp-button-secondary { padding: 6px 12px; margin-left: 5px; }
+#slicewp-header .slicewp-button-secondary,
+#slicewp-header .slicewp-button-upgrade { padding: 6px 12px; margin-left: 5px; }
 
 
 /******************************************************************************************/
@@ -198,8 +199,15 @@ body.slicewp-pagestyles .ui-autocomplete li:hover { border: 0; background-color:
 .slicewp-button-secondary:disabled,
 .slicewp-button-secondary.slicewp-disabled { color: #e9eff3; background: #fff; border-color: #e9eff3; cursor: not-allowed; }
 
+.slicewp-button-upgrade { display: inline-block; background: #e74c3c; border-color: #c0392b; border-style: solid; border-width: 1px 1px 2px; color: #fff; cursor: pointer; margin: 0; outline: 0; overflow: hidden; font-size: 13px; font-weight: 500; text-overflow: ellipsis; text-decoration: none; vertical-align: middle; box-sizing: border-box; line-height: 21px; border-radius: 4px; padding: 5px 11px; -webkit-appearance: none; -moz-appearance: none; appearance: none; box-shadow: none !important; }
+.slicewp-button-upgrade:hover { color: #fff; }
+.slicewp-button-upgrade:focus { color: #fff; }
+.slicewp-button-upgrade.slicewp-active,
+.slicewp-button-upgrade:active { border-width: 2px 1px 1px; }
+
 .slicewp-button-primary .dashicons,
-.slicewp-button-secondary .dashicons { font-size: 16px; height: 16px; width: 16px; margin: 2px 5px 0 -5px; }
+.slicewp-button-secondary .dashicons,
+.slicewp-button-upgrade .dashicons { font-size: 16px; height: 16px; width: 16px; margin: 2px 5px 0 -5px; }
 
 /* Plug icon needs to be adjusted */
 .slicewp-button-primary .dashicons-plus,
@@ -561,26 +569,26 @@ body.slicewp-pagestyles .tablenav-pages .tablenav-paging-text { vertical-align: 
 /*******************************************************************************************/
 body.slicewp-setup .slicewp-wrap { margin: 50px auto; padding: 0; max-width: 750px; }
 
-.slicewp-setup-logo { text-align: center; margin-bottom: 50px; }
+.slicewp-setup-logo { text-align: center; margin-bottom: 60px; }
 .slicewp-setup-logo a { outline: 0; box-shadow: none; }
-.slicewp-setup-logo img { max-width: 150px; height: auto; }
+.slicewp-setup-logo img { max-width: 180px; height: auto; }
 
 .slicewp-setup .slicewp-setup-steps { list-style: none; padding: 0; margin: 0; display: inline-flex; width: 100%; }
 .slicewp-setup .slicewp-setup-steps li { position: relative; float: left; width: 100%; text-align: center; }
 .slicewp-setup .slicewp-setup-steps li:after { content: ''; display: block; position: absolute; bottom: 14px; left: calc( 50% + 17px ); width: calc( 100% - 34px ); height: 2px; background-color: #c1d1dc; border-radius: 3px; opacity: 0.65; }
 .slicewp-setup .slicewp-setup-steps li:last-of-type:after { display: none; }
 
-.slicewp-setup .slicewp-setup-steps li.slicewp-done:after{ background-color: #00aeef; }
+.slicewp-setup .slicewp-setup-steps li.slicewp-done:after{ background-color: #2d3f50; opacity: 1; }
 
 .slicewp-setup .slicewp-setup-steps li .slicewp-setup-step-name { display: block; margin-bottom: 10px; color: #a8bece; }
-.slicewp-setup .slicewp-setup-steps li.slicewp-done .slicewp-setup-step-name { color: #00aeef; }
-.slicewp-setup .slicewp-setup-steps li.slicewp-current .slicewp-setup-step-name { color: #00aeef; font-weight: bold; }
+.slicewp-setup .slicewp-setup-steps li.slicewp-done .slicewp-setup-step-name { color: #2d3f50; }
+.slicewp-setup .slicewp-setup-steps li.slicewp-current .slicewp-setup-step-name { color: #2d3f50; font-weight: bold; }
 
 .slicewp-setup .slicewp-setup-steps li .slicewp-setup-step-index { display: inline-block; width: 26px; height: 26px; line-height: 26px; text-align: center; font-weight: bold; font-size: 12px; vertical-align: middle; border-radius: 50%; border: 2px solid #c1d1dc; color: #a8bece; box-sizing: content-box; }
-.slicewp-setup .slicewp-setup-steps li.slicewp-done .slicewp-setup-step-index { background-color: #00aeef; color: #fff; border-color: #00aeef; }
-.slicewp-setup .slicewp-setup-steps li.slicewp-current .slicewp-setup-step-index { color: #00aeef; border-color: #00aeef; }
+.slicewp-setup .slicewp-setup-steps li.slicewp-done .slicewp-setup-step-index { background-color: #2d3f50; color: #fff; border-color: #2d3f50; }
+.slicewp-setup .slicewp-setup-steps li.slicewp-current .slicewp-setup-step-index { color: #2d3f50; border-color: #2d3f50; }
 
-.slicewp-setup .slicewp-setup-steps li a { color: #00aeef; text-decoration: none; }
+.slicewp-setup .slicewp-setup-steps li a { color: #2d3f50; text-decoration: none; }
 .slicewp-setup .slicewp-setup-steps li a:hover { text-decoration: underline; }
 
 .slicewp-setup .slicewp-card { max-width: 100%; }
@@ -689,9 +697,6 @@ body.post-type-product .slicewp-product-variation-commissions-disabled { backgro
 .slicewp-wrap-upgrade-to-premium #slicewp-upgrade-to-premium-main-cta a { display: block; position: relative; top: 0; padding: 20px; width: 100%; color: #fff; font-size: 18px; font-weight: bold; text-align: center; text-decoration: none; border-radius: 4px; background: #2c3e50; box-shadow: 0 5px 15px 0 rgba( 0, 0, 0, 0.15 ); box-sizing: border-box; transition: all 0.15s ease-in-out; }
 .slicewp-wrap-upgrade-to-premium #slicewp-upgrade-to-premium-main-cta a:hover { top: -4px; box-shadow: 0 6px 18px 0 rgba( 0, 0, 0, 0.2 ); transform: scale(1.015); }
 .slicewp-wrap-upgrade-to-premium #slicewp-upgrade-to-premium-main-cta span { display: block; width: 100%; margin-top: 5px; text-align: center; color: #fff; }
-
-.slicewp-wrap-upgrade-to-premium #slicewp-upgrade-to-premium-discount-code h3 { margin-top: 0; }
-.slicewp-wrap-upgrade-to-premium #slicewp-upgrade-to-premium-discount-code span { display: block; width: 100%; padding: 10px; background: #f1f1f1; border-radius: 4px; text-align: center; font-weight: bold; font-size: 14px; box-sizing: border-box; }
 
 .slicewp-card-promo .slicewp-field-wrapper { opacity: 0.65; }
 

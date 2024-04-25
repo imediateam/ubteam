@@ -151,13 +151,6 @@ function slicewp_promo_subpage_upgrade_to_premium( $subpage ) {
 					</div>
 				</div>
 
-				<div id="slicewp-upgrade-to-premium-discount-code" class="slicewp-card">
-					<div class="slicewp-card-inner">
-						<h3><?php echo __( 'Use this coupon code for a 20% discount.', 'slicewp' ); ?></h3>
-						<span>FREE-VERSION-UPGRADE</span>
-					</div>
-				</div>
-
 			</div>
 
 		</div>
@@ -261,3 +254,82 @@ function slicewp_promo_view_affiliates_add_affiliate_bottom_affiliate_commission
 }
 add_action( 'slicewp_view_affiliates_add_affiliate_bottom', 'slicewp_promo_view_affiliates_add_affiliate_bottom_affiliate_commission_rates' );
 add_action( 'slicewp_view_affiliates_edit_affiliate_bottom', 'slicewp_promo_view_affiliates_add_affiliate_bottom_affiliate_commission_rates' );
+
+
+/**
+ * Registers a notice to review SliceWP
+ *
+ */
+function slicewp_admin_notice_review_request() {
+
+	if( empty( $_GET['page'] ) )
+		return;
+
+	if( false === strpos( $_GET['page'], 'slicewp' ) )
+		return;
+
+	if( $_GET['page'] == 'slicewp-setup' )
+		return;
+
+	if( ( (int)slicewp_get_option( 'first_activation' ) + 7 * DAY_IN_SECONDS ) > time() )
+		return;
+
+	// Check to have active affiliates
+	$affiliates_count = slicewp_get_affiliates( array( 'status' => 'active' ), true );
+
+	if( $affiliates_count < 1 )
+		return;
+
+	// Check if the user dismissed the notice, show it only once every two weeks
+	$review_request = slicewp_get_option( 'review_request', array() );
+
+	if( isset( $review_request['dismissed_temp'] ) && empty( $review_request['dismissed_temp'] ) )
+		return;
+
+	if( isset( $review_request['dismissed_temp'] ) && isset( $review_request['dismissed_time'] ) && ( $review_request['dismissed_time'] + 7 * DAY_IN_SECONDS ) > time() )
+		return;
+
+	?>
+
+		<div class="notice notice-info">
+			<p><?php esc_html_e( 'Hey, I noticed you onboarded your first affiliate with SliceWP - that’s awesome! Could you please do me a BIG favor and give the plugin a 5-star rating on WordPress to help us spread the word and boost our motivation?', 'slicewp' ); ?></p>
+			<p><strong><?php esc_html_e( '~ Iova Mihai, SliceWP co-founder', 'slicewp' ); ?></strong></p>
+			<p>
+				<a href="https://wordpress.org/support/plugin/slicewp/reviews/?filter=5#new-post" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-bottom: 3px;"><?php esc_html_e( 'Ok, you deserve it', 'slicewp' ); ?></a><br />
+				<a href="<?php echo wp_nonce_url( add_query_arg( array( 'slicewp_action' => 'dismiss_notice_review_request', 'temp' => 1 ) ), 'slicewp_dismiss_notice_review_request', 'slicewp_token' ); ?>" rel="noopener noreferrer" style="display: inline-block; margin-bottom: 5px;"><?php esc_html_e( 'Nope, maybe later', 'slicewp' ); ?></a><br />
+				<a href="<?php echo wp_nonce_url( add_query_arg( array( 'slicewp_action' => 'dismiss_notice_review_request', 'temp' => 0 ) ), 'slicewp_dismiss_notice_review_request', 'slicewp_token' ); ?>" rel="noopener noreferrer" style="display: inline-block; margin-bottom: 5px;"><?php esc_html_e( 'I already did', 'slicewp' ); ?></a>
+			</p>
+		</div>
+
+	<?php
+
+}
+add_action( 'admin_notices', 'slicewp_admin_notice_review_request' );
+
+
+/**
+ * Handles the dismissal of the review request admin notice
+ *
+ */
+function slicewp_admin_action_dismiss_notice_review_request() {
+
+	// Verify for nonce
+	if( empty( $_GET['slicewp_token'] ) || ! wp_verify_nonce( $_GET['slicewp_token'], 'slicewp_dismiss_notice_review_request' ) )
+		return;
+
+	if( ! isset( $_GET['temp'] ) )
+		return;
+
+	$review_request = array(
+		'dismissed_temp' => absint( $_GET['temp'] ),
+		'dismissed_time' => time()
+	);
+
+	update_option( 'slicewp_review_request', $review_request );
+
+	// Redirect to the current page
+	wp_redirect( remove_query_arg( array( 'slicewp_action', 'slicewp_token', 'temp' ) ) );
+	exit;
+
+}
+add_action( 'slicewp_admin_action_dismiss_notice_review_request', 'slicewp_admin_action_dismiss_notice_review_request' );

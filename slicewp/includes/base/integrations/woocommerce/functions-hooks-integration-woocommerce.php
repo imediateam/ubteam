@@ -71,12 +71,8 @@ function slicewp_list_table_commissions_add_reference_edit_link_woo( $row_data )
 
 	// Create link to order only if the order exists
     if ( ! empty( $order ) && $order->get_status() != 'trash' )
-    
-		foreach ($order->get_items() as $item_id => $item_obj) {
-		$pname = $item_obj['name'].'<br>';
-}
-		$row_data['reference'] = '<a href="' . add_query_arg( array( 'post' => $row_data['reference'], 'action' => 'edit' ), admin_url( 'post.php' ) ) . '">' . $row_data['reference'] . '</a><br>' .$pname;
-	
+		$row_data['reference'] = '<a href="' . add_query_arg( array( 'post' => $row_data['reference'], 'action' => 'edit' ), admin_url( 'post.php' ) ) . '">' . $row_data['reference'] . '</a>';
+
 	return $row_data;
 
 }
@@ -384,7 +380,7 @@ function slicewp_reject_commission_on_refund_woo( $order_id, $status_from, $stat
  */
 function slicewp_reject_commission_on_order_fail_woo( $order_id, $status_from, $status_to ) {
 
-	if ( $status_to != 'failed' && $status_to != 'cancelled' && $status_to != 'cbx' )
+	if ( $status_to != 'failed' && $status_to != 'cancelled' )
 		return;
 
 	// Check to see if a commission for this order has been registered

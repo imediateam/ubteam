@@ -101,7 +101,6 @@ $date_max->setTime( 23, 59, 59 );
 
 ?>
 
-<h1>Affiliate Area</h1>
 
 <div id="slicewp-affiliate-account" data-affiliate-id="<?php echo absint( $affiliate_id ); ?>" data-affiliate-keyword="<?php echo esc_attr( $affiliate_keyword ); ?>">
 
@@ -191,24 +190,32 @@ $date_max->setTime( 23, 59, 59 );
 				<div class="slicewp-card slicewp-card-affiliate-dashboard">
 
 					<div class="slicewp-card-header">
-						<?php echo __( 'Total Unpaid Commissions', 'slicewp' ); ?>
+						<?php echo __( 'Unpaid Commissions', 'slicewp' ); ?>
 					</div>
 
 					<div class="slicewp-card-inner">
 						<?php 
-				$ub_commission_args = array(
-				'affiliate_id'	=> $affiliate_id,
-				'status'        => 'unpaid'
-			);
+						
+							$args_unpaid_commissions = array(
+								'affiliate_id'	=> $affiliate_id,
+								'date_min'		=> get_gmt_from_date( $date_min->format( 'Y-m-d H:i:s' ) ),
+								'date_max'		=> get_gmt_from_date( $date_max->format( 'Y-m-d H:i:s' ) ),
+								'status'        => 'unpaid'
+							);
 
-			$unp_count = slicewp_get_commissions( $ub_commission_args, true );
-			$unp_tot = $unp_count * 10;
-			echo $unp_count .' x $10 = $' .$unp_tot;
+							$unpaid_commissions = slicewp_get_commissions( $args_unpaid_commissions, false );
+							$total_commissions_amount = 0;
+
+							foreach( $unpaid_commissions as $commission )
+								$total_commissions_amount += $commission->get('amount');
+
+							echo slicewp_format_amount( $total_commissions_amount, slicewp_get_setting( 'active_currency', 'USD' ) );							
+
 						?>
 					</div>
 
 					<div class="slicewp-card-footer">
-						<?php echo __( 'Total unpaid comissions', 'slicewp' ); ?>
+						<?php echo __( 'Last 30 Days', 'slicewp' ); ?>
 					</div>
 					
 				</div><!-- / Unpaid Commissions Last 30 Days -->
@@ -226,14 +233,20 @@ $date_max->setTime( 23, 59, 59 );
 
 					<div class="slicewp-card-inner">
 						<?php
-			$ub_commission_args = array(
-				'affiliate_id'	=> $affiliate_id,
-				'status'        => 'unpaid'
-			);
 
-			$unp_count = slicewp_get_commissions( $ub_commission_args, true );
-			$unp_tot = $unp_count * 10;
-			echo $unp_count .' x $10 = $' .$unp_tot;
+							$args_unpaid_commissions = array(
+								'affiliate_id'	=> $affiliate_id,
+								'status'        => 'unpaid'
+							);
+
+							$unpaid_commissions = slicewp_get_commissions( $args_unpaid_commissions, false );
+							$total_commissions_amount = 0;
+
+							foreach( $unpaid_commissions as $commission )
+								$total_commissions_amount += $commission->get('amount');
+
+							echo slicewp_format_amount( $total_commissions_amount, slicewp_get_setting( 'active_currency', 'USD' ) );							
+						
 						?>
 					</div>
 
@@ -260,16 +273,27 @@ $date_max->setTime( 23, 59, 59 );
 
 					<div class="slicewp-card-inner">
 						<?php
-				$ubp_commission_args = array(
-				'affiliate_id'	=> $affiliate_id,
-				'status'        => 'paid'
-			);
-			echo slicewp_get_commissions( $ubp_commission_args, true );
+
+							$args_paid_commissions = array(
+								'affiliate_id'	=> $affiliate_id,
+								'date_min'		=> get_gmt_from_date( $date_min->format( 'Y-m-d H:i:s' ) ),
+								'date_max'		=> get_gmt_from_date( $date_max->format( 'Y-m-d H:i:s' ) ),
+								'status'        => 'paid'
+							);
+
+							$paid_commissions = slicewp_get_commissions( $args_paid_commissions, false );
+							$total_commissions_amount = 0;
+
+							foreach( $paid_commissions as $commission )
+								$total_commissions_amount += $commission->get('amount');
+
+							echo slicewp_format_amount( $total_commissions_amount, slicewp_get_setting( 'active_currency', 'USD' ) );							
+
 						?>
 					</div>
 
 					<div class="slicewp-card-footer">
-						<?php echo __( 'Since Last Payout', 'slicewp' ); ?>
+						<?php echo __( 'Last 30 Days', 'slicewp' ); ?>
 					</div>
 					
 				</div><!-- / Paid Commissions Last 30 Days -->
@@ -287,11 +311,20 @@ $date_max->setTime( 23, 59, 59 );
 
 					<div class="slicewp-card-inner">
 						<?php
-				$ubp_commission_args = array(
-				'affiliate_id'	=> $affiliate_id,
-				'status'        => 'paid'
-			);
-			echo slicewp_get_commissions( $ubp_commission_args, true );							
+
+							$args_paid_commissions = array(
+								'affiliate_id'	=> $affiliate_id,
+								'status'        => 'paid'
+							);
+
+							$paid_commissions = slicewp_get_commissions( $args_paid_commissions, false );
+							$total_commissions_amount = 0;
+
+							foreach( $paid_commissions as $commission )
+								$total_commissions_amount += $commission->get('amount');
+
+							echo slicewp_format_amount( $total_commissions_amount, slicewp_get_setting( 'active_currency', 'USD' ) );							
+
 						?>
 					</div>
 
@@ -376,6 +409,7 @@ $date_max->setTime( 23, 59, 59 );
 
 	<!-- Tab: Commissions -->
 	<div class="slicewp-tab <?php echo ( $active_tab == 'commissions' ? 'slicewp-active' : '' ); ?>" data-slicewp-tab="commissions">
+
 		<?php
 
 			//Verify if a Payment ID is provided
@@ -402,16 +436,16 @@ $date_max->setTime( 23, 59, 59 );
 
 			//Prepare the commission args
 			$commission_args = array(
-				'number'		=> 30,
-				'offset'		=> ( $page_commissions - 1 ) * 30,
+				'number'		=> 10,
+				'offset'		=> ( $page_commissions - 1 ) * 10,
 				'include'		=> ( ! empty ( $commission_ids ) ? $commission_ids : '' ),
-				'affiliate_id'	=> $affiliate_id,
-				'status'        => 'unpaid'
+				'affiliate_id'	=> $affiliate_id
 			);
 
 			//Read the commissions and show them to the user
 			$commission_count = slicewp_get_commissions( $commission_args, true );
 			$commissions = slicewp_get_commissions( $commission_args );
+		
 		?>
 
 		<table>
@@ -447,9 +481,9 @@ $date_max->setTime( 23, 59, 59 );
 
 			//Prepare the pagination of the table
 			$commissions_paginate_args = array(
-				'base'		=> '?affiliate-account-tab=commissions%_%',
+				'base'		=> '?tab=commissions%_%',
 				'format'	=> '&page_commissions=%#%',
-				'total'		=> ceil( $commission_count / 30 ),
+				'total'		=> ceil( $commission_count / 10 ),
 				'current'	=> $page_commissions,
 				'prev_next'	=> false
 			);
@@ -466,8 +500,8 @@ $date_max->setTime( 23, 59, 59 );
 		<?php
 	
 			$visit_args = array(
-				'number'		=> 30,
-				'offset'		=> ( $page_visits - 1 ) * 30,
+				'number'		=> 10,
+				'offset'		=> ( $page_visits - 1 ) * 10,
 				'affiliate_id'	=> $affiliate_id
 			);
 
@@ -507,9 +541,9 @@ $date_max->setTime( 23, 59, 59 );
 
 			//Prepare the pagination of the table
 			$visits_paginate_args = array(
-				'base'		=> '?affiliate-account-tab=visits%_%',
+				'base'		=> '?tab=visits%_%',
 				'format'	=> '&page_visits=%#%',
-				'total'		=> ceil( $visits_count / 30 ),
+				'total'		=> ceil( $visits_count / 10 ),
 				'current'	=> $page_visits,
 				'prev_next'	=> false
 			);
@@ -577,7 +611,7 @@ $date_max->setTime( 23, 59, 59 );
 		<?php
 
 			$creatives_paginate_args = array(
-				'base'		=> '?affiliate-account-tab=creatives%_%',
+				'base'		=> '?tab=creatives%_%',
 				'format'	=> '&page_creatives=%#%',
 				'total'		=> ceil( $creatives_count / 10 ),
 				'current'	=> $page_creatives,
@@ -728,6 +762,16 @@ $date_max->setTime( 23, 59, 59 );
 
 				<input type="submit" class="slicewp-input-copy" value="<?php echo __( 'Copy', 'slicewp' ); ?>" />
 
+				<?php
+
+					/**
+					 * Hook after the copy affiliate link button
+					 *
+					 */
+					do_action( 'slicewp_affiliate_account_affiliate_link_actions' );
+
+				?>
+				
 			</div>
 
 		</div>
@@ -760,6 +804,16 @@ $date_max->setTime( 23, 59, 59 );
 
 					<input type="submit" class="slicewp-input-copy" value="<?php echo __( 'Copy', 'slicewp' ); ?>" />
 				
+					<?php
+
+						/**
+						 * Hook after the generate custom link button
+						 *
+						 */
+						do_action( 'slicewp_affiliate_account_custom_affiliate_link_actions' );
+
+					?>
+
 				</div>
 
 			</div>

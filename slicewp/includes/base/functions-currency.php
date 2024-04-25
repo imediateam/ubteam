@@ -231,6 +231,14 @@ function slicewp_get_currencies( $dataset = 'name' ) {
             'thousands_separator' => ' ',
             'decimal_separator'   => ','
         ),
+        'PKR' => array(
+            'name'                => __( 'Pakistani Rupee', 'slicewp' ),
+            'symbol'              => '&#8360;',
+            'symbol_position'     => 'before',
+            'decimal_places'      => 2,
+            'thousands_separator' => ',',
+            'decimal_separator'   => '.'
+        ),
         'RON' => array(
             'name'                => __( 'Romanian Leu', 'slicewp' ),
             'symbol'              => '&#76;',
@@ -345,6 +353,16 @@ function slicewp_get_currencies( $dataset = 'name' ) {
         ),
     );
 
+
+    /**
+     * Filter to register additional currencies
+     *
+     * @param array $currencies
+     *
+     */
+    $currencies = apply_filters( 'slicewp_register_currency', $currencies );
+
+
     // If a certain dataset is requested, remov
     if( $dataset != 'all' ) {
 
@@ -354,6 +372,10 @@ function slicewp_get_currencies( $dataset = 'name' ) {
 
     /**
      * Filter the currencies before returning
+     *
+     * @deprecated 1.0.27 - No longer used in core and not recommended for external usage.
+     *                      Replaced by "slicewp_register_currency" filter.
+     *                      Slated for removal in version 2.0.0
      *
      * @param array  $currencies
      * @param string $dataset
@@ -491,7 +513,7 @@ function slicewp_sanitize_amount( $amount ) {
     $amount = preg_replace( '/\.(?![^.]+$)|[^0-9.-]/', '', $amount );
 
     /**
-     * Filter the number of decimals to be sed when sanitizing the amount
+     * Filter the number of decimals to be set when sanitizing the amount
      *
      * @param int
      *

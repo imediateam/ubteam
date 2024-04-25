@@ -35,8 +35,8 @@ class SliceWP_Tracking {
 	 */
 	public function enqueue_scripts() {
 
-	//	wp_register_script( 'slicewp-script-tracking', SLICEWP_PLUGIN_DIR_URL . 'assets/js/script-trk.js', array( 'jquery' ), SLICEWP_VERSION, true );
-	//	wp_enqueue_script( 'slicewp-script-tracking');
+		wp_register_script( 'slicewp-script-tracking', SLICEWP_PLUGIN_DIR_URL . 'assets/js/script-trk.js', array( 'jquery' ), SLICEWP_VERSION );
+		wp_enqueue_script( 'slicewp-script-tracking' );
 
 	}
 

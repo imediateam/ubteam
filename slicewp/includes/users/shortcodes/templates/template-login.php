@@ -5,8 +5,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 ?>
 
-<h1>Affiliate Login</h1>
-
 <form id="slicewp-affiliate-login-form" action="" method="POST">
 
 	<!-- Notices -->

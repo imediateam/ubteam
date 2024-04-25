@@ -43,9 +43,18 @@ add_filter( 'plugins_loaded', 'slicewp_register_dashboard_page_setup_wizard', 20
  */
 function slicewp_activated_redirect_to_setup_wizard() {
 
-	if( false === get_transient( '_slicewp_activated' ) )
+	if( empty( $_GET['page'] ) )
 		return;
 
+	// Bail if we're already on the setup page
+	if( $_GET['page'] == 'slicewp-setup' )
+		return;
+
+	// Make sure we only redirect from our pages
+	if( false === strpos( $_GET['page'], 'slicewp' ) )
+		return;
+
+	// Bail if the setup wizard was already visited
 	if( false !== get_option( 'slicewp_setup_wizard_visited' ) )
 		return;
 
@@ -54,12 +63,6 @@ function slicewp_activated_redirect_to_setup_wizard() {
 
 	if( is_network_admin() )
 		return;
-
-	if( isset( $_GET['activate-multi'] ) )
-		return;
-
-	// Remove the just activated transient
-	delete_transient( '_slicewp_activated' );
 
 	// Redirect to setup wizard
 	wp_redirect( add_query_arg( array( 'page' => 'slicewp-setup' ), admin_url( 'index.php' ) ) );

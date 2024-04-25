@@ -41,7 +41,7 @@ Class SliceWP_WP_List_Table_Commissions extends SliceWP_WP_List_Table {
 			'ajax' 		=> false
 		));
 
-		$this->items_per_page = 100;
+		$this->items_per_page = 10;
 		$this->paged 		  = ( ! empty( $_GET['paged'] ) ? (int)$_GET['paged'] : 1 );
 
 
@@ -258,7 +258,7 @@ Class SliceWP_WP_List_Table_Commissions extends SliceWP_WP_List_Table {
 	public function column_amount( $item ) {
 
 		$output = slicewp_format_amount( $item['amount'], slicewp_get_setting( 'active_currency', 'USD' ) );
-					
+
 		return $output;
 
 	}

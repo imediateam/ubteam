@@ -181,11 +181,11 @@ function slicewp_shortcode_affiliate_account() {
     
     // Verify if the user is logged in
     if( ! is_user_logged_in() ) {
-    
-    echo '<div class="affareax"><h1>Affiliate Area</h1><p class="affban" style="float: right;margin-left: 30px;"><img alt="phone unlock affiliate" height="263" width="254" src="https://store.unlockboot.com/wp-content/uploads/2020/11/affiliates.png.webp"></p><h3>Make money with UnlockBoot</h3><p>The remote phone unlocking is one of the fastest-growing businesses in the world. With more than 5 billion smartphones in circulation, it\'s one of the top markets with huge potential.</p><p>If you own a website, Online store, Youtube channel, Instagram profile, Facebook page, Twitter, or any other way to promote our services, you can start making money today.</p><p>With 5+ years in the unlocking business, UnlockBot is one of the best unlocking websites on the internet.</p><p>By becoming an affiliate of UnlockBoot you will get:</p><div class="product-short-description"><ul><li>$10 of every order which is made through your affiliate link.</li><li>Daily, weekly, or monthly payouts via Paypal (minimum $50).</li><li>30-day cookie tracking duration.</li><li>Realtime visitor clicks and conversion tracking.</li><li>24/7 Access to your affiliate dashboard.</li><li>Direct product links - higher conversion rate.</li></ul><p>If you have any additional questions contact us on the live chat or email us on support@unlockboot.com</p></div><a href="/affiliates/register/" class="bapply button"><span class="material-icons">monetization_on</span> Apply Now</a></div>';
-    
-        slicewp_user_notices()->register_notice( 'user_not_logged_in', '<p>' . __( 'Already registered? <a href="/my-account/">Click here to login</a>', 'slicewp' ) . '</p>', 'warningrr' );
+
+        slicewp_user_notices()->register_notice( 'user_not_logged_in', '<p>' . __( 'You are not logged in!', 'slicewp' ) . '</p>', 'warning' );
+        
         return slicewp_user_notices()->output_notice( 'user_not_logged_in', true );
+
     }
 
     // Verify if the user is affiliate
@@ -212,7 +212,7 @@ function slicewp_shortcode_affiliate_account() {
     //Show the registration form if the user is registered but it's not affiliate
     if( empty( $affiliate ) ) {
 
-        slicewp_user_notices()->register_notice( 'user_not_affiliate_warning', '<p>' . __( 'Your account is not enrolled in our affiliate program. Fill the form bellow if you want to apply.', 'slicewp' ) . '</p>', 'warning' );
+        slicewp_user_notices()->register_notice( 'user_not_affiliate_warning', '<p>' . __( 'Your account is not enrolled in our affiliate program. Fill the form below if you want to apply.', 'slicewp' ) . '</p>', 'warning' );
         slicewp_user_notices()->display_notice( 'user_not_affiliate_warning' );
 
         if( file_exists( $dir_path . 'templates/template-register.php' ) )

@@ -196,6 +196,11 @@ function slicewp_admin_header() {
 
 		<a href="https://slicewp.com/contact/?utm_source=header-contact&amp;utm_medium=plugin-admin&amp;utm_campaign=SliceWPFree" target="_blank" class="slicewp-button-secondary"><span class="dashicons dashicons-email-alt"></span><?php echo __( 'Support', 'slicewp' ); ?></a>
 		<a href="https://slicewp.com/docs/?utm_source=header-docs&amp;utm_medium=plugin-admin&amp;utm_campaign=SliceWPFree" target="_blank" class="slicewp-button-secondary"><span class="dashicons dashicons-book"></span><?php echo __( 'Documentation', 'slicewp' ); ?></a>
+
+		<?php if( ! slicewp_is_website_registered() ): ?>
+			<a href="https://slicewp.com/?utm_source=header-upgrade&amp;utm_medium=plugin-admin&amp;utm_campaign=SliceWPFree" target="_blank" class="slicewp-button-upgrade"><span class="dashicons dashicons-upload"></span><?php echo __( 'Upgrade to PRO', 'slicewp' ); ?></a>
+		<?php endif; ?>
+
 	</div>
 
 	<?php

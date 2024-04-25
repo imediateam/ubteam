@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-03-29 12:59+0300\n"
-"PO-Revision-Date: 2020-03-29 13:04+0300\n"
+"POT-Creation-Date: 2020-11-25 10:38+0200\n"
+"PO-Revision-Date: 2020-11-25 10:39+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -49,9 +49,9 @@ msgstr ""
 #: includes/admin/payouts/class-list-table-payout-payments.php:67
 #: includes/admin/payouts/class-list-table-payouts.php:69
 #: includes/admin/visits/class-list-table-visits.php:76
-#: includes/users/shortcodes/templates/template-affiliate-account.php:152
-#: includes/users/shortcodes/templates/template-affiliate-account.php:214
-#: includes/users/shortcodes/templates/template-affiliate-account.php:337
+#: includes/users/shortcodes/templates/template-affiliate-account.php:453
+#: includes/users/shortcodes/templates/template-affiliate-account.php:515
+#: includes/users/shortcodes/templates/template-affiliate-account.php:645
 msgid "ID"
 msgstr ""
 
@@ -71,10 +71,14 @@ msgid "Unpaid Earnings"
 msgstr ""
 
 #: includes/admin/affiliates/class-list-table-affiliates.php:73
+#: includes/users/shortcodes/templates/template-affiliate-account.php:271
+#: includes/users/shortcodes/templates/template-affiliate-account.php:309
 msgid "Paid Commissions"
 msgstr ""
 
 #: includes/admin/affiliates/class-list-table-affiliates.php:74
+#: includes/users/shortcodes/templates/template-affiliate-account.php:193
+#: includes/users/shortcodes/templates/template-affiliate-account.php:231
 msgid "Unpaid Commissions"
 msgstr ""
 
@@ -85,14 +89,14 @@ msgstr ""
 #: includes/admin/commissions/views/view-add-commission.php:126
 #: includes/admin/commissions/views/view-edit-commission.php:160
 #: includes/admin/creatives/class-list-table-creatives.php:75
-#: includes/admin/creatives/views/view-add-creative.php:126
-#: includes/admin/creatives/views/view-edit-creative.php:148
+#: includes/admin/creatives/views/view-add-creative.php:127
+#: includes/admin/creatives/views/view-edit-creative.php:149
 #: includes/admin/payouts/class-list-table-payment-commissions.php:95
 #: includes/admin/payouts/class-list-table-payments.php:81
 #: includes/admin/payouts/class-list-table-payout-payments.php:70
 #: includes/admin/payouts/views/view-review-payment.php:112
-#: includes/users/shortcodes/templates/template-affiliate-account.php:156
-#: includes/users/shortcodes/templates/template-affiliate-account.php:340
+#: includes/users/shortcodes/templates/template-affiliate-account.php:457
+#: includes/users/shortcodes/templates/template-affiliate-account.php:648
 msgid "Status"
 msgstr ""
 
@@ -117,8 +121,8 @@ msgid "(inexistent affiliate)"
 msgstr ""
 
 #: includes/admin/affiliates/class-list-table-affiliates.php:336
-#: includes/admin/commissions/class-list-table-commissions.php:334
-#: includes/admin/creatives/class-list-table-creatives.php:315
+#: includes/admin/commissions/class-list-table-commissions.php:336
+#: includes/admin/creatives/class-list-table-creatives.php:303
 #: includes/admin/payouts/class-list-table-payment-commissions.php:265
 msgid "Edit"
 msgstr ""
@@ -129,12 +133,13 @@ msgid "Review"
 msgstr ""
 
 #: includes/admin/affiliates/class-list-table-affiliates.php:340
+#: includes/admin/affiliates/views/view-edit-affiliate.php:205
 msgid "Are you sure you want to delete this affiliate?"
 msgstr ""
 
 #: includes/admin/affiliates/class-list-table-affiliates.php:340
-#: includes/admin/commissions/class-list-table-commissions.php:335
-#: includes/admin/creatives/class-list-table-creatives.php:316
+#: includes/admin/commissions/class-list-table-commissions.php:337
+#: includes/admin/creatives/class-list-table-creatives.php:304
 #: includes/admin/payouts/class-list-table-payments.php:318
 #: includes/admin/payouts/class-list-table-payout-payments.php:306
 #: includes/admin/payouts/class-list-table-payouts.php:267
@@ -186,7 +191,7 @@ msgstr ""
 #: includes/admin/affiliates/functions-actions-affiliates.php:52
 #: includes/admin/affiliates/functions-actions-affiliates.php:147
 #: includes/users/shortcodes/functions-actions-shortcodes.php:130
-#: includes/users/shortcodes/functions-actions-shortcodes.php:377
+#: includes/users/shortcodes/functions-actions-shortcodes.php:398
 msgid "Please fill in a valid Payment Email."
 msgstr ""
 
@@ -248,6 +253,23 @@ msgstr ""
 msgid "Affiliates"
 msgstr ""
 
+#: includes/admin/affiliates/functions.php:80
+msgid "Register User as Affiliate"
+msgstr ""
+
+#: includes/admin/affiliates/functions.php:83
+msgid "Registers the new user as a new affiliate into SliceWP."
+msgstr ""
+
+#: includes/admin/affiliates/functions.php:87
+msgid "Send Affiliate Welcome Email"
+msgstr ""
+
+#: includes/admin/affiliates/functions.php:90
+#: includes/admin/affiliates/views/view-add-affiliate.php:100
+msgid "Send a welcome email to your new affiliate after registration."
+msgstr ""
+
 #: includes/admin/affiliates/views/view-add-affiliate.php:13
 msgid "Add a New Affiliate"
 msgstr ""
@@ -268,25 +290,23 @@ msgstr ""
 #: includes/admin/affiliates/views/view-add-affiliate.php:49
 #: includes/admin/affiliates/views/view-edit-affiliate.php:108
 #: includes/admin/affiliates/views/view-review-affiliate.php:149
-#: includes/users/shortcodes/templates/template-affiliate-account.php:417
-#: includes/users/shortcodes/templates/template-register.php:104
+#: includes/admin/settings/views/view-settings.php:621
+#: includes/users/shortcodes/templates/template-affiliate-account.php:725
+#: includes/users/shortcodes/templates/template-register.php:98
 msgid "Website"
 msgstr ""
 
 #: includes/admin/affiliates/views/view-add-affiliate.php:60
 #: includes/admin/affiliates/views/view-edit-affiliate.php:119
 #: includes/admin/affiliates/views/view-review-affiliate.php:160
-#: includes/users/shortcodes/templates/template-affiliate-account.php:406
-#: includes/users/shortcodes/templates/template-register.php:93
+#: includes/admin/settings/views/view-settings.php:608
+#: includes/users/shortcodes/templates/template-affiliate-account.php:714
+#: includes/users/shortcodes/templates/template-register.php:87
 msgid "Payment Email"
 msgstr ""
 
 #: includes/admin/affiliates/views/view-add-affiliate.php:90
 msgid "Send Welcome Email"
-msgstr ""
-
-#: includes/admin/affiliates/views/view-add-affiliate.php:100
-msgid "Send a welcome email to your new affiliate after registration."
 msgstr ""
 
 #: includes/admin/affiliates/views/view-add-affiliate.php:142
@@ -321,7 +341,7 @@ msgid ""
 msgstr ""
 
 #: includes/admin/affiliates/views/view-edit-affiliate.php:64
-#: includes/users/shortcodes/templates/template-register.php:58
+#: includes/users/shortcodes/templates/template-register.php:52
 msgid "Email"
 msgstr ""
 
@@ -345,8 +365,12 @@ msgstr ""
 msgid "Reject Reason"
 msgstr ""
 
-#: includes/admin/affiliates/views/view-edit-affiliate.php:201
+#: includes/admin/affiliates/views/view-edit-affiliate.php:203
 msgid "Update Affiliate"
+msgstr ""
+
+#: includes/admin/affiliates/views/view-edit-affiliate.php:205
+msgid "Delete affiliate"
 msgstr ""
 
 #: includes/admin/affiliates/views/view-review-affiliate.php:29
@@ -391,7 +415,7 @@ msgid "Rejected"
 msgstr ""
 
 #: includes/admin/affiliates/views/view-review-affiliate.php:196
-#: includes/admin/settings/views/view-settings.php:674
+#: includes/admin/settings/views/view-settings.php:879
 msgid "Email Notification"
 msgstr ""
 
@@ -428,6 +452,66 @@ msgstr ""
 msgid "Are you sure you want to Reject the affiliate submission?"
 msgstr ""
 
+#: includes/admin/class-deactivation.php:54
+msgid "We're sorry to see you go"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:55
+msgid "Could you share with us the reason you are deactivating SliceWP?"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:62
+msgid "Technical issues"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:63
+#, php-format
+msgid ""
+"Please describe the issues below or %scontact us directly here%s. This will "
+"help us test and solve these problems in a timely manner."
+msgstr ""
+
+#: includes/admin/class-deactivation.php:64
+msgid "Type the issues here..."
+msgstr ""
+
+#: includes/admin/class-deactivation.php:71
+msgid "Missing features I need"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:72
+#, php-format
+msgid ""
+"Please describe the feature you need or %scontact us directly here%s. This "
+"will help us prioritize our tasks and work on the most requested features."
+msgstr ""
+
+#: includes/admin/class-deactivation.php:73
+msgid "Type the missing features here..."
+msgstr ""
+
+#: includes/admin/class-deactivation.php:80
+msgid "Other reason"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:81
+msgid ""
+"We are continuously improving SliceWP and your feedback is extremely "
+"important to us. Please let us know how we can improve the plugin."
+msgstr ""
+
+#: includes/admin/class-deactivation.php:82
+msgid "Type your feedback here..."
+msgstr ""
+
+#: includes/admin/class-deactivation.php:92
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/admin/class-deactivation.php:93
+msgid "Do not deactivate"
+msgstr ""
+
 #: includes/admin/commissions/class-list-table-commissions.php:77
 #: includes/admin/commissions/views/view-add-commission.php:35
 #: includes/admin/commissions/views/view-edit-commission.php:56
@@ -435,8 +519,9 @@ msgstr ""
 #: includes/admin/payouts/class-list-table-payout-payments-preview.php:67
 #: includes/admin/payouts/class-list-table-payout-payments.php:68
 #: includes/admin/payouts/views/view-review-payment.php:60
-#: includes/admin/settings/views/view-settings.php:697
+#: includes/admin/settings/views/view-settings.php:902
 #: includes/admin/visits/class-list-table-visits.php:77
+#: includes/base/affiliate/functions.php:564
 msgid "Affiliate"
 msgstr ""
 
@@ -450,8 +535,8 @@ msgstr ""
 #: includes/admin/payouts/class-list-table-payouts.php:70
 #: includes/admin/payouts/views/view-payout.php:78
 #: includes/admin/payouts/views/view-review-payment.php:78
-#: includes/users/shortcodes/templates/template-affiliate-account.php:155
-#: includes/users/shortcodes/templates/template-affiliate-account.php:339
+#: includes/users/shortcodes/templates/template-affiliate-account.php:456
+#: includes/users/shortcodes/templates/template-affiliate-account.php:647
 msgid "Amount"
 msgstr ""
 
@@ -468,7 +553,7 @@ msgstr ""
 #: includes/admin/creatives/class-list-table-creatives.php:71
 #: includes/admin/creatives/views/view-add-creative.php:58
 #: includes/admin/creatives/views/view-edit-creative.php:80
-#: includes/users/shortcodes/templates/template-affiliate-account.php:154
+#: includes/users/shortcodes/templates/template-affiliate-account.php:455
 msgid "Type"
 msgstr ""
 
@@ -479,48 +564,49 @@ msgstr ""
 #: includes/admin/payouts/class-list-table-payments.php:80
 #: includes/admin/payouts/class-list-table-payouts.php:72
 #: includes/admin/visits/class-list-table-visits.php:78
-#: includes/users/shortcodes/templates/template-affiliate-account.php:153
-#: includes/users/shortcodes/templates/template-affiliate-account.php:215
-#: includes/users/shortcodes/templates/template-affiliate-account.php:338
+#: includes/users/shortcodes/templates/template-affiliate-account.php:454
+#: includes/users/shortcodes/templates/template-affiliate-account.php:516
+#: includes/users/shortcodes/templates/template-affiliate-account.php:646
 msgid "Date"
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:335
+#: includes/admin/commissions/class-list-table-commissions.php:337
+#: includes/admin/commissions/views/view-edit-commission.php:220
 msgid "Are you sure you want to delete this commission?"
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:348
+#: includes/admin/commissions/class-list-table-commissions.php:350
 #: includes/admin/payouts/class-list-table-payment-commissions.php:283
 #: includes/admin/payouts/functions-actions-payouts.php:63
 #: includes/admin/payouts/functions-actions-payouts.php:174
 msgid "No commissions found."
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:366
+#: includes/admin/commissions/class-list-table-commissions.php:368
 #: includes/admin/payouts/class-list-table-payments.php:349
 #: includes/admin/visits/class-list-table-visits.php:306
 msgid "Affiliate name"
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:376
+#: includes/admin/commissions/class-list-table-commissions.php:378
 #: includes/admin/payouts/class-list-table-payments.php:359
 #: includes/admin/visits/class-list-table-visits.php:316
 msgid "From"
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:383
+#: includes/admin/commissions/class-list-table-commissions.php:385
 #: includes/admin/payouts/class-list-table-payments.php:366
 #: includes/admin/visits/class-list-table-visits.php:323
 msgid "To"
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:391
+#: includes/admin/commissions/class-list-table-commissions.php:393
 #: includes/admin/payouts/class-list-table-payments.php:374
 #: includes/admin/visits/class-list-table-visits.php:336
 msgid "Filter"
 msgstr ""
 
-#: includes/admin/commissions/class-list-table-commissions.php:394
+#: includes/admin/commissions/class-list-table-commissions.php:396
 #: includes/admin/payouts/class-list-table-payments.php:386
 #: includes/admin/visits/class-list-table-visits.php:339
 msgid "Clear"
@@ -587,7 +673,7 @@ msgstr ""
 #: includes/admin/commissions/functions.php:45
 #: includes/admin/commissions/views/view-commissions.php:13
 #: includes/admin/payouts/class-list-table-payout-payments-preview.php:69
-#: includes/users/shortcodes/templates/template-affiliate-account.php:12
+#: includes/users/shortcodes/templates/template-affiliate-account.php:16
 msgid "Commissions"
 msgstr ""
 
@@ -629,8 +715,12 @@ msgstr ""
 msgid "Commission ID"
 msgstr ""
 
-#: includes/admin/commissions/views/view-edit-commission.php:216
+#: includes/admin/commissions/views/view-edit-commission.php:218
 msgid "Update Commission"
+msgstr ""
+
+#: includes/admin/commissions/views/view-edit-commission.php:220
+msgid "Delete commission"
 msgstr ""
 
 #: includes/admin/creatives/class-list-table-creatives.php:72
@@ -645,18 +735,19 @@ msgid "Image Preview"
 msgstr ""
 
 #: includes/admin/creatives/class-list-table-creatives.php:74
-#: includes/admin/creatives/views/view-add-creative.php:114
-#: includes/admin/creatives/views/view-edit-creative.php:136
+#: includes/admin/creatives/views/view-add-creative.php:115
+#: includes/admin/creatives/views/view-edit-creative.php:137
 #: includes/admin/visits/class-list-table-visits.php:80
-#: includes/users/shortcodes/templates/template-affiliate-account.php:216
+#: includes/users/shortcodes/templates/template-affiliate-account.php:517
 msgid "Landing URL"
 msgstr ""
 
-#: includes/admin/creatives/class-list-table-creatives.php:316
+#: includes/admin/creatives/class-list-table-creatives.php:304
+#: includes/admin/creatives/views/view-edit-creative.php:211
 msgid "Are you sure you want to delete this creative?"
 msgstr ""
 
-#: includes/admin/creatives/class-list-table-creatives.php:330
+#: includes/admin/creatives/class-list-table-creatives.php:318
 msgid "No creatives found."
 msgstr ""
 
@@ -737,7 +828,7 @@ msgstr ""
 #: includes/admin/creatives/functions.php:44
 #: includes/admin/creatives/functions.php:45
 #: includes/admin/creatives/views/view-creatives.php:13
-#: includes/users/shortcodes/templates/template-affiliate-account.php:20
+#: includes/users/shortcodes/templates/template-affiliate-account.php:24
 msgid "Creatives"
 msgstr ""
 
@@ -778,7 +869,7 @@ msgstr ""
 
 #: includes/admin/creatives/views/view-add-creative.php:82
 #: includes/admin/creatives/views/view-edit-creative.php:104
-#: includes/admin/settings/views/view-settings.php:634
+#: includes/admin/settings/views/view-settings.php:839
 msgid "Browse"
 msgstr ""
 
@@ -799,19 +890,19 @@ msgstr ""
 msgid "This text will be your creative"
 msgstr ""
 
-#: includes/admin/creatives/views/view-add-creative.php:115
-#: includes/admin/creatives/views/view-edit-creative.php:137
+#: includes/admin/creatives/views/view-add-creative.php:116
+#: includes/admin/creatives/views/view-edit-creative.php:138
 msgid ""
 "Your creative will lead to this URL. If empty your domain URL will be used."
 msgstr ""
 
-#: includes/admin/creatives/views/view-add-creative.php:127
-#: includes/admin/creatives/views/view-edit-creative.php:149
+#: includes/admin/creatives/views/view-add-creative.php:128
+#: includes/admin/creatives/views/view-edit-creative.php:150
 msgid ""
 "If set to 'Active', your affiliates will see the creative in their account."
 msgstr ""
 
-#: includes/admin/creatives/views/view-add-creative.php:170
+#: includes/admin/creatives/views/view-add-creative.php:171
 msgid "Add Creative"
 msgstr ""
 
@@ -831,20 +922,168 @@ msgstr ""
 msgid "Creative ID"
 msgstr ""
 
-#: includes/admin/creatives/views/view-edit-creative.php:168
+#: includes/admin/creatives/views/view-edit-creative.php:169
 msgid "Creative Shortcode"
 msgstr ""
 
-#: includes/admin/creatives/views/view-edit-creative.php:206
+#: includes/admin/creatives/views/view-edit-creative.php:209
 msgid "Update Creative"
 msgstr ""
 
-#: includes/admin/functions.php:119
+#: includes/admin/creatives/views/view-edit-creative.php:211
+msgid "Delete creative"
+msgstr ""
+
+#: includes/admin/functions-promo.php:22
+msgid ""
+"Missing anything? Discover more powerful features in the premium version now!"
+msgstr ""
+
+#: includes/admin/functions-promo.php:23
+msgid "I'm interested"
+msgstr ""
+
+#: includes/admin/functions-promo.php:54
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/admin/functions-promo.php:67
+msgid "Set custom commission rates per affiliate"
+msgstr ""
+
+#: includes/admin/functions-promo.php:68
+msgid ""
+"Set custom percentage or fixed amount commission rates for each individual "
+"affiliate, to overwrite the default ones from general settings."
+msgstr ""
+
+#: includes/admin/functions-promo.php:76
+msgid "Reward commissions with affiliate coupons"
+msgstr ""
+
+#: includes/admin/functions-promo.php:77
+msgid ""
+"Associate coupon codes to affiliates and reward commissions to your "
+"affiliate partners whenever customers use the codes when purchasing."
+msgstr ""
+
+#: includes/admin/functions-promo.php:89
+msgid "Set custom commission rates per individual product"
+msgstr ""
+
+#: includes/admin/functions-promo.php:90
+msgid ""
+"Overwrite global commission rates with custom rates for each individual "
+"product or subscription."
+msgstr ""
+
+#: includes/admin/functions-promo.php:98
+msgid "Analyze extensive reports"
+msgstr ""
+
+#: includes/admin/functions-promo.php:99
+msgid ""
+"Track the performance of your affiliate partners and monitor key metrics to "
+"help you improve your affiliate marketing program."
+msgstr ""
+
+#: includes/admin/functions-promo.php:111
+msgid "Pay your affiliates with PayPal Payouts"
+msgstr ""
+
+#: includes/admin/functions-promo.php:112
+msgid ""
+"Pay affiliates in bulk directly from your WordPress administrator interface "
+"through PayPal's Payouts feature."
+msgstr ""
+
+#: includes/admin/functions-promo.php:120
+msgid "Set recurring commission rates for subscriptions"
+msgstr ""
+
+#: includes/admin/functions-promo.php:121
+msgid ""
+"Set custom commission rates for recurring payments and reward your "
+"affiliates for any new subscription payments."
+msgstr ""
+
+#: includes/admin/functions-promo.php:133
+msgid "Get immediate assistance"
+msgstr ""
+
+#: includes/admin/functions-promo.php:134
+msgid ""
+"Whenever you need help, we're here for you. Our support response times are "
+"between 6 and 24 hours, so you can rest assured any issues will be resolved "
+"quickly."
+msgstr ""
+
+#: includes/admin/functions-promo.php:148
+msgid "Ready to take full advantage of the premium version?"
+msgstr ""
+
+#: includes/admin/functions-promo.php:149
+msgid "Get started"
+msgstr ""
+
+#: includes/admin/functions-promo.php:150
+msgid "Prices starting from $79"
+msgstr ""
+
+#: includes/admin/functions-promo.php:185
+msgid "Affiliate Commission Rates"
+msgstr ""
+
+#: includes/admin/functions-promo.php:186
+msgid "Pro Feature"
+msgstr ""
+
+#: includes/admin/functions-promo.php:195
+#: includes/users/shortcodes/templates/template-affiliate-account.php:142
+msgid "Commission Rates"
+msgstr ""
+
+#: includes/admin/functions-promo.php:205
+msgid "Enable custom commission rates for this affiliate."
+msgstr ""
+
+#: includes/admin/functions-promo.php:229
+#, php-format
+msgid "%s rate"
+msgstr ""
+
+#: includes/admin/functions-promo.php:237
+#: includes/admin/settings/views/view-settings.php:266
+#: includes/admin/setup-wizard/views/view-step-setup.php:42
+#: includes/base/commission/functions.php:306
+msgid "Percentage (%)"
+msgstr ""
+
+#: includes/admin/functions-promo.php:237
+#: includes/admin/settings/views/view-settings.php:266
+#: includes/admin/setup-wizard/views/view-step-setup.php:42
+msgid "Fixed Amount"
+msgstr ""
+
+#: includes/admin/functions.php:127
 #, php-format
 msgid ""
 "Your %sSliceWP%s license key is missing. To receive automatic updates and "
 "technical support, please %sregister your website in SliceWP &rarr; Settings"
 "%s"
+msgstr ""
+
+#: includes/admin/functions.php:197
+msgid "Support"
+msgstr ""
+
+#: includes/admin/functions.php:198
+#: includes/admin/setup-wizard/views/view-step-finished.php:51
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/functions.php:201
+msgid "Upgrade to PRO"
 msgstr ""
 
 #: includes/admin/payouts/class-list-table-payment-commissions.php:268
@@ -1001,7 +1240,7 @@ msgstr ""
 #: includes/admin/payouts/functions.php:64
 #: includes/admin/payouts/functions.php:65
 #: includes/admin/payouts/views/view-payouts.php:13
-#: includes/users/shortcodes/templates/template-affiliate-account.php:24
+#: includes/users/shortcodes/templates/template-affiliate-account.php:28
 msgid "Payouts"
 msgstr ""
 
@@ -1033,7 +1272,7 @@ msgid "End Date"
 msgstr ""
 
 #: includes/admin/payouts/views/view-create-payout.php:63
-#: includes/admin/settings/views/view-settings.php:195
+#: includes/admin/settings/views/view-settings.php:216
 msgid "Payments Minimum Amount"
 msgstr ""
 
@@ -1155,6 +1394,16 @@ msgstr ""
 msgid "Something went wrong. Could not send test email. Please try again."
 msgstr ""
 
+#: includes/admin/settings/class-submenu-page-settings.php:44
+#, php-format
+msgid "The Affiliate user role has been added to %d users."
+msgstr ""
+
+#: includes/admin/settings/class-submenu-page-settings.php:47
+#, php-format
+msgid "The Affiliate user role has been removed from %d users."
+msgstr ""
+
 #: includes/admin/settings/emails/email-notifications/admin-commission-registered/functions.php:18
 msgid "Commission Registered"
 msgstr ""
@@ -1164,7 +1413,7 @@ msgid "The administrator will receive an email when a commission is generated."
 msgstr ""
 
 #: includes/admin/settings/emails/email-notifications/admin-new-affiliate-registration/functions.php:18
-#: index.php:312
+#: index.php:318
 msgid "New Affiliate Registration"
 msgstr ""
 
@@ -1205,7 +1454,7 @@ msgid ""
 msgstr ""
 
 #: includes/admin/settings/emails/email-notifications/affiliate-commission-approved/functions.php:18
-#: index.php:335
+#: index.php:341
 msgid "Commission Approved"
 msgstr ""
 
@@ -1268,8 +1517,8 @@ msgstr ""
 #: includes/admin/settings/functions.php:40
 #: includes/admin/settings/functions.php:41
 #: includes/admin/settings/views/view-settings.php:62
-#: includes/users/shortcodes/templates/template-affiliate-account.php:28
-#: index.php:657
+#: includes/users/shortcodes/templates/template-affiliate-account.php:32
+#: index.php:672
 msgid "Settings"
 msgstr ""
 
@@ -1287,7 +1536,7 @@ msgid "Integrations"
 msgstr ""
 
 #: includes/admin/settings/views/view-settings.php:16
-#: includes/admin/settings/views/view-settings.php:661
+#: includes/admin/settings/views/view-settings.php:866
 msgid "Email Notifications"
 msgstr ""
 
@@ -1304,7 +1553,7 @@ msgid "License Key"
 msgstr ""
 
 #: includes/admin/settings/views/view-settings.php:109
-#: includes/users/shortcodes/templates/template-register.php:150
+#: includes/users/shortcodes/templates/template-register.php:156
 msgid "Register"
 msgstr ""
 
@@ -1313,7 +1562,7 @@ msgid "Deregister"
 msgstr ""
 
 #: includes/admin/settings/views/view-settings.php:131
-#: includes/admin/settings/views/view-settings.php:569
+#: includes/admin/settings/views/view-settings.php:774
 msgid "General Settings"
 msgstr ""
 
@@ -1336,310 +1585,430 @@ msgid "New affiliate accounts will be created with Active status."
 msgstr ""
 
 #: includes/admin/settings/views/view-settings.php:181
+msgid "Auto Register Affiliates"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:192
+msgid "Automatically register new user accounts as affiliates."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:202
 #: includes/admin/setup-wizard/views/view-step-setup.php:74
+#: includes/users/shortcodes/templates/template-affiliate-account.php:172
 msgid "Cookie Duration"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:182
+#: includes/admin/settings/views/view-settings.php:203
 #: includes/admin/setup-wizard/views/view-step-setup.php:75
 msgid "The number of days a referral is valid."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:196
+#: includes/admin/settings/views/view-settings.php:203
+#: includes/admin/settings/views/view-settings.php:413
+#: includes/admin/settings/views/view-settings.php:536
+msgid "Click here to learn more"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:217
 msgid ""
 "The payment will be generated only if its commissions sum is greater than "
 "this value. If is set to 0, the payments will be generated for all the "
 "commissions."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:213
+#: includes/admin/settings/views/view-settings.php:234
 msgid "Commissions Settings"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:234
+#: includes/admin/settings/views/view-settings.php:257
 #, php-format
 msgid "%s Rate"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:243
-#: includes/admin/setup-wizard/views/view-step-setup.php:42
-msgid "Percentage (%)"
-msgstr ""
-
-#: includes/admin/settings/views/view-settings.php:243
-#: includes/admin/setup-wizard/views/view-step-setup.php:42
-msgid "Fixed Amount"
-msgstr ""
-
-#: includes/admin/settings/views/view-settings.php:257
+#: includes/admin/settings/views/view-settings.php:280
 msgid "Sale Commission Basis"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:262
+#: includes/admin/settings/views/view-settings.php:285
 msgid "Fixed amount per product"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:263
+#: includes/admin/settings/views/view-settings.php:286
 msgid "Fixed amount per order"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:274
+#: includes/admin/settings/views/view-settings.php:297
 msgid "Exclude Shipping"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:285
+#: includes/admin/settings/views/view-settings.php:308
 msgid "Exclude shipping costs from commission calculations."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:294
+#: includes/admin/settings/views/view-settings.php:317
 msgid "Exclude Taxes"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:305
+#: includes/admin/settings/views/view-settings.php:328
 msgid "Exclude taxes from commission calculations."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:314
+#: includes/admin/settings/views/view-settings.php:337
 msgid "Reject Commissions on Refund"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:325
+#: includes/admin/settings/views/view-settings.php:348
 msgid ""
 "Mark unpaid commissions as rejected if the originating purchase is refunded."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:334
+#: includes/admin/settings/views/view-settings.php:357
+msgid "Zero Amount Commissions"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:358
+msgid ""
+"Enable the registration of commisions that have the total amount equal to "
+"zero. This is useful if you want to track conversions for fully discounted "
+"products."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:369
+msgid "Enable the registration of zero sum commisions."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:378
 msgid "Affiliate Own Commissions"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:345
+#: includes/admin/settings/views/view-settings.php:389
 msgid "Allow affiliates to earn commissions for their own orders."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:357
+#: includes/admin/settings/views/view-settings.php:402
+msgid "Affiliate URL Settings"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:412
+msgid "Affiliate Keyword"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:413
+#, php-format
+msgid "The URL keyword for affiliate identification: <b>%s/?%s=%s</b>"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:426
+msgid "Credit First/Last Affiliate"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:431
+msgid "First Affiliate"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:432
+msgid "Last Affiliate"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:446
 msgid "Currency Settings"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:367
+#: includes/admin/settings/views/view-settings.php:456
 #: includes/admin/setup-wizard/views/view-step-setup.php:56
 msgid "Currency"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:385
+#: includes/admin/settings/views/view-settings.php:474
 msgid "Currency Symbol Position"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:386
+#: includes/admin/settings/views/view-settings.php:475
 msgid ""
 "The position of the currency symbol in relation with the amount value, when "
 "displaying amounts."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:391
+#: includes/admin/settings/views/view-settings.php:480
 msgid "Before amount"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:392
+#: includes/admin/settings/views/view-settings.php:481
 msgid "After amount"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:406
-msgid "Affiliate URL Settings"
+#: includes/admin/settings/views/view-settings.php:482
+msgid "Before amount with space"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:416
-msgid "Affiliate Keyword"
+#: includes/admin/settings/views/view-settings.php:483
+msgid "After amount with space"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:417
-#, php-format
-msgid "The URL keyword for affiliate identification: <b>%s/?%s=%s</b>"
+#: includes/admin/settings/views/view-settings.php:493
+msgid "Thousands Separator"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:430
-msgid "Credit First/Last Affiliate"
+#: includes/admin/settings/views/view-settings.php:494
+msgid ""
+"The symbol to separate thousands. This is usually a , (comma) or a . (dot)."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:435
-msgid "First Affiliate"
+#: includes/admin/settings/views/view-settings.php:507
+msgid "Decimal Separator"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:436
-msgid "Last Affiliate"
+#: includes/admin/settings/views/view-settings.php:508
+msgid ""
+"The symbol to separate decimal points. This is usually a , (comma) or a . "
+"(dot)."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:450
+#: includes/admin/settings/views/view-settings.php:525
 msgid "Pages Settings"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:460
+#: includes/admin/settings/views/view-settings.php:535
 #: includes/admin/setup-wizard/views/view-step-pages.php:67
 msgid "Affiliate Account Page"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:465
-#: includes/admin/settings/views/view-settings.php:487
+#: includes/admin/settings/views/view-settings.php:536
+msgid "Select the page you wish to be your affiliates' private area."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:541
+#: includes/admin/settings/views/view-settings.php:563
 msgid "Select..."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:482
+#: includes/admin/settings/views/view-settings.php:558
 msgid "Terms and Conditions Page"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:504
+#: includes/admin/settings/views/view-settings.php:580
 msgid "Terms and Conditions Label"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:505
+#: includes/admin/settings/views/view-settings.php:581
 msgid "This label will acompanion the Terms and Conditions checkbox."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:520
-#: includes/admin/settings/views/view-settings.php:557
-#: includes/admin/settings/views/view-settings.php:828
-#: includes/admin/settings/views/view-settings.php:1001
+#: includes/admin/settings/views/view-settings.php:594
+msgid "Required Affiliate Fields"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:595
+msgid ""
+"Set which fields should be required for the affiliate to complete on the "
+"registration and affiliate account pages."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:634
+#: includes/users/shortcodes/templates/template-register.php:109
+msgid "How will you promote us?"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:649
+msgid "reCAPTCHA"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:659
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:670
+msgid "Enable Google reCAPTCHA on the affiliate registration form."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:679
+msgid "Site Key"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:692
+msgid "Secret Key"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:725
+#: includes/admin/settings/views/view-settings.php:762
+#: includes/admin/settings/views/view-settings.php:1033
+#: includes/admin/settings/views/view-settings.php:1227
 msgid "Save Settings"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:579
+#: includes/admin/settings/views/view-settings.php:784
 msgid "From Email"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:580
+#: includes/admin/settings/views/view-settings.php:785
 msgid "The email address from which the emails will be sent."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:593
+#: includes/admin/settings/views/view-settings.php:798
 msgid "From Name"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:594
+#: includes/admin/settings/views/view-settings.php:799
 msgid "The name of the email sender."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:607
+#: includes/admin/settings/views/view-settings.php:812
 msgid "Email Template"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:608
+#: includes/admin/settings/views/view-settings.php:813
 msgid "The template will be used to format the email."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:613
+#: includes/admin/settings/views/view-settings.php:818
 msgid "Plain Text"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:629
+#: includes/admin/settings/views/view-settings.php:834
 msgid "Logo"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:630
+#: includes/admin/settings/views/view-settings.php:835
 msgid ""
 "Select an image logo if you'd like to place it in the header of your email "
 "notifications."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:644
+#: includes/admin/settings/views/view-settings.php:849
 msgid "Admin Emails"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:645
+#: includes/admin/settings/views/view-settings.php:850
 msgid "The Admin Email Notifications will be sent to these email addresses."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:675
+#: includes/admin/settings/views/view-settings.php:880
 msgid "Select the email notification you want to modify"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:684
+#: includes/admin/settings/views/view-settings.php:889
 msgid "Admin"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:741
+#: includes/admin/settings/views/view-settings.php:946
 msgid "Send the email?"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:759
+#: includes/admin/settings/views/view-settings.php:964
 msgid "Email Subject"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:772
+#: includes/admin/settings/views/view-settings.php:977
 msgid "Email Content"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:790
+#: includes/admin/settings/views/view-settings.php:995
 msgid ""
 "You can use the following tags in the email subject and email content to "
 "personalise your emails:"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:814
+#: includes/admin/settings/views/view-settings.php:1019
 msgid "Preview Email"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:815
+#: includes/admin/settings/views/view-settings.php:1020
 msgid "Send Test Email"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:850
+#: includes/admin/settings/views/view-settings.php:1055
+msgid "Users Affiliate User Role"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1060
+msgid ""
+"If you want to add or remove the Affiliate user role in bulk, to or from all "
+"affiliates, please click the corresponding button below."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1062
+msgid ""
+"Are you sure you want to add the user role Affiliate to all users that are "
+"also affiliates in SliceWP?"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1062
+msgid "Bulk Add Affiliate User Role"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1063
+msgid "Are you sure you want to remove the user role Affiliate from all users?"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1063
+msgid "Bulk Remove Affiliate User Role"
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1074
 msgid "Debug Log"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:860
+#: includes/admin/settings/views/view-settings.php:1084
 msgid "Enable Logging"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:871
+#: includes/admin/settings/views/view-settings.php:1095
 msgid "Enable system logging for debugging purposes."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:890
+#: includes/admin/settings/views/view-settings.php:1114
 msgid "Download Debug Log"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:891
+#: includes/admin/settings/views/view-settings.php:1115
 msgid "Are you sure you want to clear the debug log?"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:891
+#: includes/admin/settings/views/view-settings.php:1115
 msgid "Clear Debug Log"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:902
+#: includes/admin/settings/views/view-settings.php:1126
 msgid "System Status"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:912
+#: includes/admin/settings/views/view-settings.php:1136
 msgid "Enable System Status"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:923
+#: includes/admin/settings/views/view-settings.php:1147
 msgid "Click to enable the System Status Report."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:944
-#: includes/admin/settings/views/view-settings.php:951
+#: includes/admin/settings/views/view-settings.php:1168
+#: includes/admin/settings/views/view-settings.php:1175
 msgid "Setup Wizard"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:949
+#: includes/admin/settings/views/view-settings.php:1173
 msgid ""
 "If you need to run the setup wizard again, please click the button below."
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:961
+#: includes/admin/settings/views/view-settings.php:1185
 msgid "Usage Tracking"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:971
+#: includes/admin/settings/views/view-settings.php:1195
 msgid "Allow Tracking"
 msgstr ""
 
-#: includes/admin/settings/views/view-settings.php:982
+#: includes/admin/settings/views/view-settings.php:1206
+#: includes/base/class-plugin-usage-tracker.php:272
 msgid ""
-"Allow SliceWP to anonymously track the plugin's usage. Data provided by this "
-"tracking can help us improve the plugin and provide better features. "
-"Sensitive data is excluded from tracking."
+"Allow SliceWP to anonymously track the plugin's usage. The collected data "
+"can help us improve the plugin and provide better features. Sensitive data "
+"will not be tracked."
+msgstr ""
+
+#: includes/admin/settings/views/view-settings.php:1208
+#: includes/base/class-plugin-usage-tracker.php:272
+msgid "Learn more about what we track and what we don't."
 msgstr ""
 
 #: includes/admin/setup-wizard/class-dashboard-page-setup-wizard.php:63
@@ -1658,15 +2027,15 @@ msgstr ""
 msgid "Ready!"
 msgstr ""
 
-#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:105
+#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:118
 msgid "Affiliate Account"
 msgstr ""
 
-#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:109
+#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:122
 msgid "Affiliate Registration"
 msgstr ""
 
-#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:113
+#: includes/admin/setup-wizard/functions-actions-setup-wizard.php:126
 msgid "Affiliate Login"
 msgstr ""
 
@@ -1700,72 +2069,68 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:18
+#: includes/admin/setup-wizard/views/view-step-finished.php:14
 msgid "You're all set up and good to go!"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:20
+#: includes/admin/setup-wizard/views/view-step-finished.php:16
 msgid ""
 "SliceWP is ready to run your affiliate program. Remember that you can always "
 "go to the plugin's settings page to modify the settings covered by the setup "
 "wizard."
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:25
+#: includes/admin/setup-wizard/views/view-step-finished.php:21
 msgid "Tips, news and product updates, straight to your inbox."
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:30
+#: includes/admin/setup-wizard/views/view-step-finished.php:26
 msgid "Your Email"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:40
+#: includes/admin/setup-wizard/views/view-step-finished.php:36
 msgid "Yes, please!"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:47
+#: includes/admin/setup-wizard/views/view-step-finished.php:43
 msgid "Next steps"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:51
-msgid "Add your first affiliate"
+#: includes/admin/setup-wizard/views/view-step-finished.php:47
+msgid "Learn how to use SliceWP"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:52
+#: includes/admin/setup-wizard/views/view-step-finished.php:48
 msgid ""
-"Affiliates are the backbone of any affiliate program. Already have an "
-"affiliate partner in the waiting list? You can add them manually here."
+"Learn the ins and outs of SliceWP to set up your affiliate program exactly "
+"how you want it."
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:55
-msgid "Add an Affiliate"
-msgstr ""
-
-#: includes/admin/setup-wizard/views/view-step-finished.php:63
+#: includes/admin/setup-wizard/views/view-step-finished.php:59
 msgid "Continue setting up SliceWP"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:64
+#: includes/admin/setup-wizard/views/view-step-finished.php:60
 msgid ""
 "The setup wizard covers only the few essential options you need to start. "
 "You can add more or refine the existing ones to cater to your needs."
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:67
+#: includes/admin/setup-wizard/views/view-step-finished.php:63
 msgid "Review Settings"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:75
+#: includes/admin/setup-wizard/views/view-step-finished.php:71
 msgid "Continue to your admin dashboard"
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:76
+#: includes/admin/setup-wizard/views/view-step-finished.php:72
 msgid ""
 "If all looks good here, head over to your admin dashboard to continue "
 "managing your website."
 msgstr ""
 
-#: includes/admin/setup-wizard/views/view-step-finished.php:79
+#: includes/admin/setup-wizard/views/view-step-finished.php:75
 msgid "Visit Dashboard"
 msgstr ""
 
@@ -1850,7 +2215,7 @@ msgid "IP Address"
 msgstr ""
 
 #: includes/admin/visits/class-list-table-visits.php:81
-#: includes/users/shortcodes/templates/template-affiliate-account.php:217
+#: includes/users/shortcodes/templates/template-affiliate-account.php:518
 msgid "Referrer URL"
 msgstr ""
 
@@ -1882,7 +2247,9 @@ msgstr ""
 #: includes/admin/visits/functions.php:44
 #: includes/admin/visits/functions.php:45
 #: includes/admin/visits/views/view-visits.php:13
-#: includes/users/shortcodes/templates/template-affiliate-account.php:16
+#: includes/users/shortcodes/templates/template-affiliate-account.php:20
+#: includes/users/shortcodes/templates/template-affiliate-account.php:349
+#: includes/users/shortcodes/templates/template-affiliate-account.php:382
 msgid "Visits"
 msgstr ""
 
@@ -1959,6 +2326,20 @@ msgstr ""
 msgid "Select All"
 msgstr ""
 
+#: includes/base/abstracts/abstract-class-migration.php:197
+msgid "Migrate"
+msgstr ""
+
+#: includes/base/abstracts/abstract-class-migration.php:200
+msgid "No, thank you"
+msgstr ""
+
+#: includes/base/abstracts/abstract-class-migration.php:221
+msgid ""
+"Thank you for updating! We need to migrate some data as there has been "
+"changes that require that."
+msgstr ""
+
 #: includes/base/affiliate/functions.php:319
 #: includes/base/creative/functions.php:140
 msgid "Active"
@@ -1999,40 +2380,38 @@ msgid "Replaces the tag with the affiliate's website"
 msgstr ""
 
 #: includes/base/class-merge-tags.php:95
-msgid "Replaces the tag with the affiliate application reject reason"
+msgid "Replaces the tag with the affiliate's status"
 msgstr ""
 
 #: includes/base/class-merge-tags.php:99
-msgid "Replaces the tag with the commission amount"
+msgid "Replaces the tag with the affiliate application promotional methods"
 msgstr ""
 
 #: includes/base/class-merge-tags.php:103
-msgid "Replaces the tag with your site name"
+msgid "Replaces the tag with the affiliate application reject reason"
 msgstr ""
 
 #: includes/base/class-merge-tags.php:107
+msgid "Replaces the tag with the commission amount"
+msgstr ""
+
+#: includes/base/class-merge-tags.php:111
+msgid "Replaces the tag with your site name"
+msgstr ""
+
+#: includes/base/class-merge-tags.php:115
 msgid "Replaces the tag with the link to the Affiliate Account Page"
 msgstr ""
 
-#: includes/base/class-plugin-usage-tracker.php:260
+#: includes/base/class-plugin-usage-tracker.php:272
 msgid "Help us improve SliceWP"
 msgstr ""
 
-#: includes/base/class-plugin-usage-tracker.php:260
-msgid ""
-" Allow SliceWP to anonymously track the plugin's usage. Data provided by "
-"this tracking can help us improve the plugin and provide better features."
-msgstr ""
-
-#: includes/base/class-plugin-usage-tracker.php:260
-msgid "Sensitive data will not be tracked."
-msgstr ""
-
-#: includes/base/class-plugin-usage-tracker.php:260
+#: includes/base/class-plugin-usage-tracker.php:272
 msgid "Allow tracking"
 msgstr ""
 
-#: includes/base/class-plugin-usage-tracker.php:260
+#: includes/base/class-plugin-usage-tracker.php:272
 msgid "Don't allow"
 msgstr ""
 
@@ -2062,13 +2441,21 @@ msgstr ""
 msgid "Email Subscribe"
 msgstr ""
 
+#: includes/base/commission/functions.php:307
+msgid "Fixed amount"
+msgstr ""
+
 #: includes/base/creative/functions.php:165
 msgid "Image"
 msgstr ""
 
+#: includes/base/creative/functions.php:167
+msgid "Long Text"
+msgstr ""
+
 #: includes/base/functions-actions-ajax.php:113
 #: includes/base/functions-actions-ajax.php:173
-#: includes/base/functions-utils.php:557 includes/base/functions-utils.php:562
+#: includes/base/functions-utils.php:268 includes/base/functions-utils.php:273
 msgid "Something went wrong. Could not activate the website. Please try again."
 msgstr ""
 
@@ -2080,126 +2467,306 @@ msgstr ""
 msgid "Your website has been successfully deregistered."
 msgstr ""
 
-#: includes/base/functions-utils.php:220
+#: includes/base/functions-currency.php:19
 msgid "US Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:221
+#: includes/base/functions-currency.php:27
 msgid "Euro"
 msgstr ""
 
-#: includes/base/functions-utils.php:222
+#: includes/base/functions-currency.php:35
 msgid "Pound Sterling"
 msgstr ""
 
-#: includes/base/functions-utils.php:223
+#: includes/base/functions-currency.php:43
 msgid "Canadian Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:224
+#: includes/base/functions-currency.php:51
 msgid "Australian Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:225
+#: includes/base/functions-currency.php:59
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/base/functions-currency.php:67
 msgid "Brazilian Real"
 msgstr ""
 
-#: includes/base/functions-utils.php:226
+#: includes/base/functions-currency.php:75
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/base/functions-currency.php:83
+msgid "Croatian Kuna"
+msgstr ""
+
+#: includes/base/functions-currency.php:91
 msgid "Czech Koruna"
 msgstr ""
 
-#: includes/base/functions-utils.php:227
+#: includes/base/functions-currency.php:99
 msgid "Danish Krone"
 msgstr ""
 
-#: includes/base/functions-utils.php:228
+#: includes/base/functions-currency.php:107
+msgid "Egyptian Pound"
+msgstr ""
+
+#: includes/base/functions-currency.php:115
 msgid "Hong Kong Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:229
+#: includes/base/functions-currency.php:123
 msgid "Hungarian Forint"
 msgstr ""
 
-#: includes/base/functions-utils.php:230
+#: includes/base/functions-currency.php:131
+msgid "Icelandic Króna"
+msgstr ""
+
+#: includes/base/functions-currency.php:139
 msgid "Israeli New Sheqel"
 msgstr ""
 
-#: includes/base/functions-utils.php:231
+#: includes/base/functions-currency.php:147
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/base/functions-currency.php:155
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/base/functions-currency.php:163
 msgid "Japanese Yen"
 msgstr ""
 
-#: includes/base/functions-utils.php:232
+#: includes/base/functions-currency.php:171
 msgid "Malaysian Ringgit"
 msgstr ""
 
-#: includes/base/functions-utils.php:233
+#: includes/base/functions-currency.php:179
 msgid "Mexican Peso"
 msgstr ""
 
-#: includes/base/functions-utils.php:234
-msgid "Norwegian Krone"
+#: includes/base/functions-currency.php:187
+msgid "Moldovan Leu"
 msgstr ""
 
-#: includes/base/functions-utils.php:235
+#: includes/base/functions-currency.php:195
+msgid "Nigerian Naira"
+msgstr ""
+
+#: includes/base/functions-currency.php:203
 msgid "New Zealand Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:236
+#: includes/base/functions-currency.php:211
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/base/functions-currency.php:219
 msgid "Philippine Peso"
 msgstr ""
 
-#: includes/base/functions-utils.php:237
+#: includes/base/functions-currency.php:227
 msgid "Polish Zloty"
 msgstr ""
 
-#: includes/base/functions-utils.php:238
+#: includes/base/functions-currency.php:235
+msgid "Pakistani Rupee"
+msgstr ""
+
+#: includes/base/functions-currency.php:243
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/base/functions-currency.php:251
 msgid "Russian Ruble"
 msgstr ""
 
-#: includes/base/functions-utils.php:239
+#: includes/base/functions-currency.php:259
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/base/functions-currency.php:267
 msgid "Singapore Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:240
+#: includes/base/functions-currency.php:275
+msgid "South African Rand"
+msgstr ""
+
+#: includes/base/functions-currency.php:283
+msgid "South Korean Won"
+msgstr ""
+
+#: includes/base/functions-currency.php:291
 msgid "Swedish Krona"
 msgstr ""
 
-#: includes/base/functions-utils.php:241
+#: includes/base/functions-currency.php:299
 msgid "Swiss Franc"
 msgstr ""
 
-#: includes/base/functions-utils.php:242
+#: includes/base/functions-currency.php:307
 msgid "Taiwan New Dollar"
 msgstr ""
 
-#: includes/base/functions-utils.php:243
+#: includes/base/functions-currency.php:315
 msgid "Thai Baht"
 msgstr ""
 
-#: includes/base/functions-utils.php:244
+#: includes/base/functions-currency.php:323
 msgid "Turkish Lira"
 msgstr ""
 
-#: includes/base/functions-utils.php:553 includes/base/functions-utils.php:560
+#: includes/base/functions-currency.php:331
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: includes/base/functions-currency.php:339
+msgid "Uruguayan Peso"
+msgstr ""
+
+#: includes/base/functions-currency.php:347
+msgid "Venezuelan bolívar"
+msgstr ""
+
+#: includes/base/functions-utils.php:264 includes/base/functions-utils.php:271
 msgid "The provided license key does not exist or is invalid."
 msgstr ""
 
-#: includes/base/functions-utils.php:554
+#: includes/base/functions-utils.php:265
 msgid "The provided license key is inactive."
 msgstr ""
 
-#: includes/base/functions-utils.php:555
+#: includes/base/functions-utils.php:266
 msgid "The provided license key is expired."
 msgstr ""
 
-#: includes/base/functions-utils.php:556
+#: includes/base/functions-utils.php:267
 msgid ""
 "Your activation limit for this license key has been reached. Please upgrade "
 "your account if you'd like to register more websites."
 msgstr ""
 
-#: includes/base/functions-utils.php:561
+#: includes/base/functions-utils.php:272
 msgid "This website is not registered on our system."
+msgstr ""
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:419
+#, php-format
+msgid "%1$s Commission Settings"
+msgstr ""
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:460
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:571
+msgid ""
+"The product commission rate settings are not available because the "
+"commissions for this product category are disabled."
+msgstr ""
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:477
+#, php-format
+msgid "Disable commissions for this %s"
+msgstr ""
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:564
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:602
+#: includes/base/integrations/paid-member-subscriptions/functions-hooks-integration-paid-member-subscriptions.php:448
+#: includes/base/integrations/paid-memberships-pro/functions-hooks-integration-paid-memberships-pro.php:431
+msgid "Disable Commissions"
+msgstr ""
+
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:566
+#: includes/base/integrations/easy-digital-downloads/functions-hooks-integration-easy-digital-downloads.php:606
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:817
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:857
+msgid ""
+"When checked, commissions will not be generated for this product category."
+msgstr ""
+
+#: includes/base/integrations/memberpress/functions-hooks-integration-memberpress.php:367
+#: includes/base/integrations/paid-member-subscriptions/functions-hooks-integration-paid-member-subscriptions.php:405
+#: includes/base/integrations/paid-memberships-pro/functions-hooks-integration-paid-memberships-pro.php:402
+msgid "Subscription Commission Settings"
+msgstr ""
+
+#: includes/base/integrations/memberpress/functions-hooks-integration-memberpress.php:413
+msgid "Disable commissions for this subscription"
+msgstr ""
+
+#: includes/base/integrations/paid-member-subscriptions/functions-hooks-integration-paid-member-subscriptions.php:451
+msgid "Disable all commissions for this subscription plan."
+msgstr ""
+
+#: includes/base/integrations/paid-memberships-pro/functions-hooks-integration-paid-memberships-pro.php:435
+msgid "Disable commissions for this subscription."
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:525
+msgid "SliceWP"
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:560
+msgid ""
+"Here you can make commission customizations for this product. These settings "
+"will be used to calculate the commissions for this product."
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:585
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:815
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:853
+msgid "Disable commissions"
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:586
+msgid "When checked, commissions will not be generated for this product."
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:685
+msgid "SliceWP Commission Settings"
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:702
+msgid ""
+"The product variation commission rate settings are not available because the "
+"commissions for this product category are disabled."
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:711
+msgid ""
+"The product variation commission rate settings are not available because the "
+"commissions for this product are disabled."
+msgstr ""
+
+#: includes/base/integrations/woocommerce/functions-hooks-integration-woocommerce.php:729
+msgid "Disable commissions for this product variation"
+msgstr ""
+
+#: includes/base/migrations/class-migration-1-0-17.php:83
+msgid "SliceWP Important Notice"
+msgstr ""
+
+#: includes/base/migrations/class-migration-1-0-17.php:84
+#, php-format
+msgid ""
+"The functionality of the %sAffiliate User Role add-on%s has been added to "
+"SliceWP core, making the add-on obsolete."
+msgstr ""
+
+#: includes/base/migrations/class-migration-1-0-17.php:85
+#, php-format
+msgid ""
+"We recommend deactivating and deleting the add-on from the %sPlugins%s page "
+"as it will no longer be maintained."
+msgstr ""
+
+#: includes/base/migrations/class-migration-1-0-17.php:87
+msgid "Thank you, I understand"
 msgstr ""
 
 #: includes/base/notes/class-outputter-notes.php:70
@@ -2289,17 +2856,17 @@ msgid "The email address <strong>%s</strong> is already registered."
 msgstr ""
 
 #: includes/users/shortcodes/functions-actions-shortcodes.php:120
-#: includes/users/shortcodes/functions-actions-shortcodes.php:367
+#: includes/users/shortcodes/functions-actions-shortcodes.php:388
 msgid "Please fill in your Payment Email."
 msgstr ""
 
 #: includes/users/shortcodes/functions-actions-shortcodes.php:140
-#: includes/users/shortcodes/functions-actions-shortcodes.php:387
+#: includes/users/shortcodes/functions-actions-shortcodes.php:408
 msgid "Please fill in your Website."
 msgstr ""
 
 #: includes/users/shortcodes/functions-actions-shortcodes.php:150
-#: includes/users/shortcodes/functions-actions-shortcodes.php:397
+#: includes/users/shortcodes/functions-actions-shortcodes.php:418
 msgid "Please provide a valid Website URL."
 msgstr ""
 
@@ -2307,256 +2874,290 @@ msgstr ""
 msgid "Please fill how you will promote us."
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:173
+#: includes/users/shortcodes/functions-actions-shortcodes.php:174
 msgid "You must agree with our Terms and Conditions."
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:199
+#: includes/users/shortcodes/functions-actions-shortcodes.php:188
+msgid "Please complete the reCAPTCHA."
+msgstr ""
+
+#: includes/users/shortcodes/functions-actions-shortcodes.php:212
 msgid "Username could not be created! Please try again later!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:244
+#: includes/users/shortcodes/functions-actions-shortcodes.php:253
 msgid "Affiliate account could not be created!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:280
+#: includes/users/shortcodes/functions-actions-shortcodes.php:301
 msgid "Please fill in your Username / Email address."
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:290
+#: includes/users/shortcodes/functions-actions-shortcodes.php:311
 msgid "Please fill in your Password."
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:302
-#: includes/users/shortcodes/functions-actions-shortcodes.php:313
-#: includes/users/shortcodes/functions-actions-shortcodes.php:332
+#: includes/users/shortcodes/functions-actions-shortcodes.php:323
+#: includes/users/shortcodes/functions-actions-shortcodes.php:334
+#: includes/users/shortcodes/functions-actions-shortcodes.php:353
 msgid "Unable to login. Please try again."
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:423
+#: includes/users/shortcodes/functions-actions-shortcodes.php:442
 msgid "Something went wrong. Could not update the settings. Please try again."
 msgstr ""
 
-#: includes/users/shortcodes/functions-actions-shortcodes.php:431
+#: includes/users/shortcodes/functions-actions-shortcodes.php:450
 msgid "Settings saved!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:27
+#: includes/users/shortcodes/functions-shortcodes.php:31
 msgid ""
 "You see this message because you're an administrator of this website. The "
 "affiliate registrations are disabled! "
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:48
+#: includes/users/shortcodes/functions-shortcodes.php:52
 msgid "Your account was registered successfully!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:82
+#: includes/users/shortcodes/functions-shortcodes.php:86
 msgid "You are already registered!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:113
+#: includes/users/shortcodes/functions-shortcodes.php:120
 msgid "You are now logged in!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:122
+#: includes/users/shortcodes/functions-shortcodes.php:129
 msgid "You are already logged in!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:175
+#: includes/users/shortcodes/functions-shortcodes.php:129
+#, php-format
+msgid "%1$sClick here if you wish to logout.%2$s"
+msgstr ""
+
+#: includes/users/shortcodes/functions-shortcodes.php:185
 msgid "You are not logged in!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:194
+#: includes/users/shortcodes/functions-shortcodes.php:204
 msgid "Your account does not have affiliate privileges!"
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:205
+#: includes/users/shortcodes/functions-shortcodes.php:215
 msgid ""
-"Your account is not enrolled in our affiliate program. Fill the form bellow "
+"Your account is not enrolled in our affiliate program. Fill the form below "
 "if you want to apply."
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:216
+#: includes/users/shortcodes/functions-shortcodes.php:226
 msgid "Your affiliate account is currently being reviewed."
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:223
+#: includes/users/shortcodes/functions-shortcodes.php:233
 msgid "Your affiliate application has been rejected."
 msgstr ""
 
-#: includes/users/shortcodes/functions-shortcodes.php:230
+#: includes/users/shortcodes/functions-shortcodes.php:240
 msgid "Your affiliate account is not active."
 msgstr ""
 
 #: includes/users/shortcodes/templates/template-affiliate-account.php:8
+msgid "Dashboard"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:12
 msgid "Affiliate Links"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-affiliate-account.php:130
+#: includes/users/shortcodes/templates/template-affiliate-account.php:144
+msgid "Commission Rate"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:154
+#, php-format
+msgid "%s rate: %s"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:176
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:218
+#: includes/users/shortcodes/templates/template-affiliate-account.php:296
+#: includes/users/shortcodes/templates/template-affiliate-account.php:369
+msgid "Last 30 Days"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:254
+#: includes/users/shortcodes/templates/template-affiliate-account.php:332
+#: includes/users/shortcodes/templates/template-affiliate-account.php:400
+msgid "All Time"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:431
 #, php-format
 msgid ""
 "Showing all the commissions from Payout #%d.<br><a href=\"%s\">View all "
 "commissions.</a><br><br>"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-affiliate-account.php:161
+#: includes/users/shortcodes/templates/template-affiliate-account.php:462
 msgid "You have no commissions."
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-affiliate-account.php:222
+#: includes/users/shortcodes/templates/template-affiliate-account.php:523
 msgid "You have no visits."
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-affiliate-account.php:274
+#: includes/users/shortcodes/templates/template-affiliate-account.php:575
 msgid "There aren't any creatives available."
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-affiliate-account.php:281
+#: includes/users/shortcodes/templates/template-affiliate-account.php:603
+#: includes/users/shortcodes/templates/template-affiliate-account.php:763
+#: includes/users/shortcodes/templates/template-affiliate-account.php:795
+#: includes/users/shortcodes/templates/template-creative.php:25
+msgid "Copy"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:649
+msgid "Action"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:654
+msgid "You have no payouts."
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:670
+#, php-format
+msgid "<a href=\"%s\">view</a>"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:741
+msgid "Save"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:758
+msgid "Your Affiliate Link"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:777
+msgid "Please provide a link!"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:778
+msgid "The provided link is not valid!"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:781
+msgid "Generate Affiliate Link"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:784
+msgid "Paste the link here"
+msgstr ""
+
+#: includes/users/shortcodes/templates/template-affiliate-account.php:786
+msgid "Generate"
+msgstr ""
+
 #: includes/users/shortcodes/templates/template-creative.php:11
 #, php-format
 msgid "Creative: %s"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-affiliate-account.php:295
-#: includes/users/shortcodes/templates/template-affiliate-account.php:455
-#: includes/users/shortcodes/templates/template-affiliate-account.php:487
-#: includes/users/shortcodes/templates/template-creative.php:25
-msgid "Copy"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:341
-msgid "Action"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:346
-msgid "You have no payouts."
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:362
-#, php-format
-msgid "<a href=\"%s\">view</a>"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:433
-msgid "Save"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:450
-msgid "Your Affiliate Link"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:469
-msgid "Please provide a link!"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:470
-msgid "The provided link is not valid!"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:473
-msgid "Generate Affiliate Link"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:476
-msgid "Paste the link here"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-affiliate-account.php:478
-msgid "Generate"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-login.php:23
+#: includes/users/shortcodes/templates/template-login.php:17
 msgid "Username / Email"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-login.php:34
-#: includes/users/shortcodes/templates/template-register.php:69
+#: includes/users/shortcodes/templates/template-login.php:28
+#: includes/users/shortcodes/templates/template-register.php:63
 msgid "Password"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-login.php:52
+#: includes/users/shortcodes/templates/template-login.php:42
 msgid "Login"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-register.php:25
+#: includes/users/shortcodes/templates/template-register.php:19
 msgid "Username"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-register.php:36
+#: includes/users/shortcodes/templates/template-register.php:30
 msgid "First Name"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-register.php:47
+#: includes/users/shortcodes/templates/template-register.php:41
 msgid "Last Name"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-register.php:80
+#: includes/users/shortcodes/templates/template-register.php:74
 msgid "Password Confirmation"
 msgstr ""
 
-#: includes/users/shortcodes/templates/template-register.php:115
-msgid "How will you promote us?"
-msgstr ""
-
-#: includes/users/shortcodes/templates/template-register.php:130
+#: includes/users/shortcodes/templates/template-register.php:125
 msgid "Agree to Our Terms and Conditions"
 msgstr ""
 
-#: index.php:313
+#: index.php:319
 msgid ""
 "The user {{affiliate_username}} ({{affiliate_email}}) just signed up for the "
 "affiliate program."
 msgstr ""
 
-#: index.php:317
+#: index.php:323
 msgid "New Commission Registered"
 msgstr ""
 
-#: index.php:318
+#: index.php:324
 msgid ""
 "A new commission was generated for your affiliate partner "
 "{{affiliate_first_name}} {{affiliate_last_name}} ({{affiliate_email}})."
 msgstr ""
 
-#: index.php:322
+#: index.php:328
 msgid "Affiliate Account Registration"
 msgstr ""
 
-#: index.php:323 index.php:327 index.php:331 index.php:336
+#: index.php:329 index.php:333 index.php:337 index.php:342
 msgid "Hey {{affiliate_first_name}},"
 msgstr ""
 
-#: index.php:323
+#: index.php:329
 msgid ""
 "We've received your affiliate registration request. Our team will review it "
 "shortly and we'll get back to you with details."
 msgstr ""
 
-#: index.php:326
+#: index.php:332
 msgid "Affiliate Account Approved"
 msgstr ""
 
-#: index.php:327
+#: index.php:333
 msgid "Your application for our affiliate account has been approved."
 msgstr ""
 
-#: index.php:327
+#: index.php:333
 msgid "Welcome to the team!"
 msgstr ""
 
-#: index.php:330
+#: index.php:336
 msgid "Affiliate Account Rejected"
 msgstr ""
 
-#: index.php:331
+#: index.php:337
 msgid "Unfortunately, your application for an affiliate account was rejected."
 msgstr ""
 
-#: index.php:336
+#: index.php:342
 msgid "You have been rewarded a new commission of {{commission_amount}}."
 msgstr ""
 
-#: index.php:658
+#: index.php:673
 msgid "Docs"
 msgstr ""
