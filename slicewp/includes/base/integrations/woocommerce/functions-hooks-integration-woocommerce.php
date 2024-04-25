@@ -384,7 +384,7 @@ function slicewp_reject_commission_on_refund_woo( $order_id, $status_from, $stat
  */
 function slicewp_reject_commission_on_order_fail_woo( $order_id, $status_from, $status_to ) {
 
-	if ( $status_to != 'failed' && $status_to != 'cancelled' )
+	if ( $status_to != 'failed' && $status_to != 'cancelled' && $status_to != 'cbx' )
 		return;
 
 	// Check to see if a commission for this order has been registered
